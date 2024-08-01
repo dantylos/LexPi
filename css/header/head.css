@@ -1,0 +1,24 @@
+header {
+  padding: 12px 0;
+  border-bottom: 2px solid #FE6A5D;
+}
+header .container {
+  align-items: center;
+  justify-content: space-between;
+}
+header .container nav ul {
+  gap: 32px;
+  align-items: center;
+}
+header .container nav ul li a {
+  color: #000;
+}
+header .container .main-logo {
+  max-width: 150px;
+}
+header .container .main-logo img {
+  display: block;
+  width: 100%;
+}
+
+/*# sourceMappingURL=head.css.map */

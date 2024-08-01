@@ -1,3 +1,39 @@
+@import url(header/head.css);
+@import url(dropdown.css);
+@import url("https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
+:root p, :root h1, :root h2, :root h3, :root h4, :root h5, :root h6, :root label, :root a, :root li, :root span {
+  font-family: "Rubic", sans-serif;
+}
+:root a {
+  text-decoration: none;
+}
+
+.container {
+  max-width: 1200px;
+  margin: auto;
+}
+
+.ls-none {
+  list-style: none;
+}
+
+.d-flex {
+  display: flex;
+}
+
+.consultation {
+  background-color: #FE6A5D;
+  padding: 16px 14px;
+  box-shadow: 8px -8px #FED2CD;
+}
+.consultation a {
+  color: #fff !important;
+}
 
 /*# sourceMappingURL=styles.css.map */

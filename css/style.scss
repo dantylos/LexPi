@@ -1,0 +1,64 @@
+@import url(header/head.css);
+@import url(dropdown.css);
+
+// Font:
+
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+
+// Colors:
+
+$black: #000;
+$white: #fff;
+$blue: #3586FF;
+$blue2: #61A0FF;
+$blue3: #BDD7FF;
+$red: #FE6A5D;
+$red2: #FEACA4;
+$red3: #FED2CD;
+$purple: #F99AF9;
+$purple2: #FAD1FA;
+$purple3: #FCE9FC;
+$yello: #F7C005;
+$yello2: #FCDB6E;
+$yello3: #FCEAB0;
+
+
+// Initialisation
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root{
+  p,h1,h2,h3,h4,h5,h6,label,a,li,span{
+    font-family: 'Rubic', sans-serif;
+  }
+  a{
+    text-decoration: none;
+  }
+}
+
+.container{
+  max-width: 1200px;
+  margin: auto;
+}
+
+.ls-none{
+  list-style: none;
+}
+
+.d-flex{
+  display: flex;
+}
+
+.consultation{
+  background-color: $red;
+  padding: 16px 14px;
+  box-shadow: 8px -8px $red3;
+  a{
+    color: $white !important;
+  }
+}
