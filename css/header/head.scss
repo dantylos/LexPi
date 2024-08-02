@@ -11,6 +11,9 @@ header{
         li{
           a{
             color: #000;
+            &:hover{
+              color: gray;
+            }
           }
         }
       }

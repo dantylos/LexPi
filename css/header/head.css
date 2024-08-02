@@ -13,6 +13,9 @@ header .container nav ul {
 header .container nav ul li a {
   color: #000;
 }
+header .container nav ul li a:hover {
+  color: gray;
+}
 header .container .main-logo {
   max-width: 150px;
 }
