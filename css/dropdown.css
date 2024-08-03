@@ -17,10 +17,6 @@
   margin-top: 16px;
 }
 
-.dropdown-content ul li a{
-  color: #000;
-}
-
 .dropdown:hover .dropdown-content {
   display: block;
 }

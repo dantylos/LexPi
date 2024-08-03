@@ -1,4 +1,5 @@
 @import url(header/head.css);
+@import url(main/main.css);
 @import url(dropdown.css);
 
 // Font:
@@ -23,6 +24,19 @@ $yello: #F7C005;
 $yello2: #FCDB6E;
 $yello3: #FCEAB0;
 
+.coPrpl{
+  color: $purple !important
+}
+.coBlue{
+  color: $blue !important
+}
+.coRad{
+  color: $red !important
+}
+.coYello{
+  color: $yello !important
+}
+
 
 // Initialisation
 
@@ -34,15 +48,24 @@ $yello3: #FCEAB0;
 
 :root{
   p,h1,h2,h3,h4,h5,h6,label,a,li,span{
-    font-family: 'Rubic', sans-serif;
+    font-family: 'Rubik', sans-serif;
+    &::selection{
+      background-color: rgb(253, 125, 78);
+    }
   }
   a{
     text-decoration: none;
+    display: inline-block;
   }
 }
 
 .container{
   max-width: 1200px;
+  margin: auto;
+}
+
+.s-container{
+  max-width: 992px;
   margin: auto;
 }
 
@@ -52,6 +75,13 @@ $yello3: #FCEAB0;
 
 .d-flex{
   display: flex;
+}
+
+.linkHover{
+  transition: 0.2s;
+  &:hover{
+    transform: scale(1.15);
+  }
 }
 
 .consultation{

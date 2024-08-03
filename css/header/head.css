@@ -10,8 +10,18 @@ header .container nav ul {
   gap: 32px;
   align-items: center;
 }
+header .container nav ul li span {
+  color: #000;
+  font-size: 17px;
+  font-weight: 600;
+}
+header .container nav ul li span:hover {
+  color: gray;
+}
 header .container nav ul li a {
   color: #000;
+  font-size: 17px;
+  font-weight: 600;
 }
 header .container nav ul li a:hover {
   color: gray;

@@ -9,8 +9,18 @@ header{
         gap: 32px;
         align-items: center;
         li{
+          span{
+            color: #000;
+            font-size: 17px;
+            font-weight: 600;
+            &:hover{
+              color: gray;
+            }
+          }
           a{
             color: #000;
+            font-size: 17px;
+            font-weight: 600;
             &:hover{
               color: gray;
             }

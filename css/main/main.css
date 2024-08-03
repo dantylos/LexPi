@@ -1,0 +1,72 @@
+.main-banner .s-container article {
+  height: calc(100vh - 73px);
+  justify-content: space-around;
+  align-items: center;
+}
+.main-banner .s-container article .main-info {
+  max-width: 510px;
+  position: relative;
+}
+.main-banner .s-container article .main-info img {
+  position: absolute;
+  top: -22px;
+  left: -26px;
+}
+.main-banner .s-container article .main-info h1 {
+  font-size: 48px;
+  font-weight: 700;
+  position: relative;
+}
+.main-banner .s-container article .main-info .svgblock_main {
+  position: relative;
+}
+.main-banner .s-container article .main-info .svgblock_main img {
+  position: absolute;
+  left: 248px;
+  top: -2px;
+}
+.main-banner .s-container article .main-info p {
+  font-size: 20px;
+  font-weight: 400;
+  max-width: 320px;
+  margin-top: 8px;
+}
+.main-banner .s-container article .main-info a {
+  font-size: 24px;
+  font-weight: 700;
+  color: #fff;
+  background-color: #3586FF;
+  padding: 12px 18px;
+  box-shadow: 8px -8px #BDD7FF;
+  transition: 0.2s;
+  margin-top: 30px;
+}
+.main-banner .s-container article .main-info a:hover {
+  box-shadow: 4px -4px #61A0FF;
+  padding: 12px 22px;
+}
+.main-banner .s-container article .main-img {
+  max-width: 360px;
+  position: relative;
+  box-shadow: 18px -18px #FED2CD;
+  transition: 0.2s;
+}
+.main-banner .s-container article .main-img:hover {
+  box-shadow: 14px -14px #FEACA4;
+}
+.main-banner .s-container article .main-img img {
+  width: 100%;
+  display: block;
+}
+.main-banner .s-container article .absKent {
+  position: absolute;
+  max-width: 360px;
+  left: -194px;
+  bottom: -76px;
+}
+.main-banner .s-container article .absKent img {
+  display: block;
+  width: 100%;
+}
+
+/*# sourceMappingURL=main.css.map */
