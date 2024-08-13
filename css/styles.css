@@ -1,6 +1,7 @@
 @import url(header/head.css);
 @import url(main/main.css);
 @import url(dropdown.css);
+@import url(footer/foot.css);
 @import url("https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap");
 .coPrpl {
   color: #F99AF9 !important;
@@ -45,6 +46,11 @@
   margin: auto;
 }
 
+.S-container {
+  max-width: 795px;
+  margin: auto;
+}
+
 .ls-none {
   list-style: none;
 }
@@ -72,6 +78,11 @@
 }
 .consultation a {
   color: #fff !important;
+}
+
+.owl-stage {
+  display: flex;
+  align-items: center;
 }
 
 /*# sourceMappingURL=styles.css.map */

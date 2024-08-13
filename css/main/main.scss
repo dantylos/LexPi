@@ -15,38 +15,46 @@ $yello3: #FCEAB0;
 
 .main-banner {
   .s-container {
+
     article {
       height: calc(100vh - 73px);
       justify-content: space-around;
       align-items: center;
+
       .main-info {
         max-width: 510px;
         position: relative;
+
         img{
           position: absolute;
           top: -22px;
           left: -26px;
         }
-        h1 {
+
+        h1{
           font-size: 48px;
           font-weight: 700;
           position: relative;
         }
+
         .svgblock_main{
           position: relative;
+
           img{
             position: absolute;
             left: 248px;
             top: -2px;
           }
         }
-        p {
+
+        p{
           font-size: 20px;
           font-weight: 400;
           max-width: 320px;
           margin-top: 8px;
         }
-        a {
+
+        a{
           font-size: 24px;
           font-weight: 700;
           color: $white;
@@ -55,33 +63,221 @@ $yello3: #FCEAB0;
           box-shadow: 8px -8px $blue3;
           transition: 0.2s;
           margin-top: 30px;
+
           &:hover {
             box-shadow: 4px -4px $blue2;
             padding: 12px 22px;
           }
         }
       }
+
       .main-img{
         max-width: 360px;
         position: relative;
         box-shadow: 18px -18px $red3;
         transition: 0.2s;
+
         &:hover{
           box-shadow: 14px -14px $red2;
         }
+
         img{
           width: 100%;
           display: block;
         }
       }
+
       .absKent{
         position: absolute;
         max-width: 360px;
         left: -194px;
         bottom: -76px;
+
         img{
           display: block;
           width: 100%;
+        }
+      }
+    }
+  }
+}
+
+.cources{
+  padding-bottom: 120px;
+  
+  .container{
+    h2{
+      font-size: 40px;
+      font-weight: 700;
+      color: $black;
+      margin-bottom: 42px;
+    }
+
+    article{
+      width: 360px;
+
+      .cource-img{
+        position: relative;
+        top: 6px;
+        max-width: 360px;
+
+        img{
+          width: 100%;
+          display: block;
+        }
+      }
+
+      .cource-info{
+        padding: 0 24px;
+        border: 2px solid $purple;
+        border-top: none;
+        padding-bottom: 27px;
+
+        .age{
+          justify-content: end;
+
+          p{
+            color: $black;
+            font-size: 17px;
+            font-weight: 700;
+            padding: 6px 12px;
+            background-color: $purple2;
+          }
+        }
+
+        h3{
+          color: $black;
+          font-size: 32px;
+          font-weight: 700;
+        }
+
+        p{
+          color: $black;
+          font-size: 16px;
+          font-weight: 400;
+          margin-top: 14px;
+          letter-spacing: 1px;
+          margin: 14px 0 40px;
+        }
+
+        a{
+          color: $black;
+          font-size: 20px;
+
+          &::after{
+            content: url(../images/svgs/more.svg);
+            width: 20px;
+          }
+        }
+
+        .bold{
+          font-weight: 700;
+        }
+      }
+    }
+  }
+}
+
+.education{
+  .S-container{
+    h3{
+      color: $black;
+      font-size: 40px;
+      font-weight: 700;
+      text-align: center;
+      margin-bottom: 68px;
+    }
+
+    .education-item{
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 120px;
+
+      .education-info{
+        max-width: 442px;
+
+        h5{
+          color: $black;
+          font-size: 28px;
+          font-weight: 700;
+        }
+
+        p{
+          color: $black;
+          font-size: 16px;
+          font-weight: 400;
+          word-spacing: 5px;
+          letter-spacing: 0.5px;
+          margin-top: 10px;
+        }
+      }
+    }
+  }
+}
+
+.goals{
+  background-color: $yello3;
+  padding: 80px 0;
+
+  .container{
+    h3{
+      color: $black;
+      font-size: 40px;
+      font-weight: 700;
+      margin-bottom: 48px;
+    }
+
+    .goal-info{
+      justify-content: space-between;
+      align-items: center;
+
+      .goal-item{
+        max-width: 320px;
+
+        .goal-img{
+          justify-content: space-between;
+
+          .goal-img-1{
+            max-width: 106px;
+
+            img{
+              width: 100%;
+              display: block;
+            }
+          }
+
+          .goal-img-2{
+            max-width: 120px;
+
+            img{
+              width: 100%;
+              display: block;
+            }
+          }
+        }
+
+        .goal-text{
+          margin-top: 18px;
+          position: relative;
+
+          h6{
+            color: $black;
+            font-size: 28px;
+            font-weight: 600;
+          }
+
+          p{
+            color: $black;
+            font-size: 16px;
+            font-weight: 400;
+            word-spacing: 3px;
+            margin-top: 8px;
+          }
+
+          img{
+            position: absolute;
+            left: -118px;
+          }
         }
       }
     }

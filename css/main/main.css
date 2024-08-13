@@ -69,4 +69,150 @@
   width: 100%;
 }
 
+.cources {
+  padding-bottom: 120px;
+}
+.cources .container h2 {
+  font-size: 40px;
+  font-weight: 700;
+  color: #000;
+  margin-bottom: 42px;
+}
+.cources .container article {
+  width: 360px;
+}
+.cources .container article .cource-img {
+  position: relative;
+  top: 6px;
+  max-width: 360px;
+}
+.cources .container article .cource-img img {
+  width: 100%;
+  display: block;
+}
+.cources .container article .cource-info {
+  padding: 0 24px;
+  border: 2px solid #F99AF9;
+  border-top: none;
+  padding-bottom: 27px;
+}
+.cources .container article .cource-info .age {
+  justify-content: end;
+}
+.cources .container article .cource-info .age p {
+  color: #000;
+  font-size: 17px;
+  font-weight: 700;
+  padding: 6px 12px;
+  background-color: #FAD1FA;
+}
+.cources .container article .cource-info h3 {
+  color: #000;
+  font-size: 32px;
+  font-weight: 700;
+}
+.cources .container article .cource-info p {
+  color: #000;
+  font-size: 16px;
+  font-weight: 400;
+  margin-top: 14px;
+  letter-spacing: 1px;
+  margin: 14px 0 40px;
+}
+.cources .container article .cource-info a {
+  color: #000;
+  font-size: 20px;
+}
+.cources .container article .cource-info a::after {
+  content: url(../images/svgs/more.svg);
+  width: 20px;
+}
+.cources .container article .cource-info .bold {
+  font-weight: 700;
+}
+
+.education .S-container h3 {
+  color: #000;
+  font-size: 40px;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 68px;
+}
+.education .S-container .education-item {
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 120px;
+}
+.education .S-container .education-item .education-info {
+  max-width: 442px;
+}
+.education .S-container .education-item .education-info h5 {
+  color: #000;
+  font-size: 28px;
+  font-weight: 700;
+}
+.education .S-container .education-item .education-info p {
+  color: #000;
+  font-size: 16px;
+  font-weight: 400;
+  word-spacing: 5px;
+  letter-spacing: 0.5px;
+  margin-top: 10px;
+}
+
+.goals {
+  background-color: #FCEAB0;
+  padding: 80px 0;
+}
+.goals .container h3 {
+  color: #000;
+  font-size: 40px;
+  font-weight: 700;
+  margin-bottom: 48px;
+}
+.goals .container .goal-info {
+  justify-content: space-between;
+  align-items: center;
+}
+.goals .container .goal-info .goal-item {
+  max-width: 320px;
+}
+.goals .container .goal-info .goal-item .goal-img {
+  justify-content: space-between;
+}
+.goals .container .goal-info .goal-item .goal-img .goal-img-1 {
+  max-width: 106px;
+}
+.goals .container .goal-info .goal-item .goal-img .goal-img-1 img {
+  width: 100%;
+  display: block;
+}
+.goals .container .goal-info .goal-item .goal-img .goal-img-2 {
+  max-width: 120px;
+}
+.goals .container .goal-info .goal-item .goal-img .goal-img-2 img {
+  width: 100%;
+  display: block;
+}
+.goals .container .goal-info .goal-item .goal-text {
+  margin-top: 18px;
+  position: relative;
+}
+.goals .container .goal-info .goal-item .goal-text h6 {
+  color: #000;
+  font-size: 28px;
+  font-weight: 600;
+}
+.goals .container .goal-info .goal-item .goal-text p {
+  color: #000;
+  font-size: 16px;
+  font-weight: 400;
+  word-spacing: 3px;
+  margin-top: 8px;
+}
+.goals .container .goal-info .goal-item .goal-text img {
+  position: absolute;
+  left: -118px;
+}
+
 /*# sourceMappingURL=main.css.map */

@@ -27,7 +27,7 @@ header .container nav ul li a:hover {
   color: gray;
 }
 header .container .main-logo {
-  max-width: 150px;
+  max-width: 180px;
 }
 header .container .main-logo img {
   display: block;
