@@ -1,8 +1,24 @@
-@import url(header/head.css);
-@import url(main/main.css);
-@import url(dropdown.css);
-@import url(footer/foot.css);
+@import url(../header/head.css);
+@import url(../main/main.css);
+@import url(../dropdown.css);
+@import url(../footer/foot.css);
 @import url("https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap");
+.bg-colr-bl {
+  background-color: #3586FF !important;
+}
+
+.bg-colr-rd {
+  background-color: #FE6A5D !important;
+}
+
+.bg-colr-yl {
+  background-color: #F7C005 !important;
+}
+
+.bg-colr-pr {
+  background-color: #F99AF9 !important;
+}
+
 .coPrpl {
   color: #F99AF9 !important;
 }

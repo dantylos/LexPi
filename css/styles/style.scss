@@ -1,7 +1,7 @@
-@import url(header/head.css);
-@import url(main/main.css);
-@import url(dropdown.css);
-@import url(footer/foot.css);
+@import url(../header/head.css);
+@import url(../main/main.css);
+@import url(../dropdown.css);
+@import url(../footer/foot.css);
 
 // Font:
 
@@ -24,6 +24,21 @@ $purple3: #FCE9FC;
 $yello: #F7C005;
 $yello2: #FCDB6E;
 $yello3: #FCEAB0;
+
+
+.bg-colr-bl{
+  background-color: $blue !important
+}
+.bg-colr-rd{
+  background-color: $red !important
+}
+.bg-colr-yl{
+  background-color: $yello !important
+}
+.bg-colr-pr{
+  background-color: $purple !important
+}
+
 
 .coPrpl{
   color: $purple !important
