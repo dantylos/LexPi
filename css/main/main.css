@@ -349,14 +349,14 @@
   display: block;
   width: 100%;
 }
-.teachures .teachers-block article p {
-  text-align: center;
-}
-.teachures .teachers-block article p:nth-child(2) {
+.teachures .teachers-block article h5 {
   color: #000;
   font-size: 32px;
   font-weight: 700;
   margin-top: 20px;
+}
+.teachures .teachers-block article p {
+  text-align: center;
 }
 .teachures .teachers-block article p:nth-child(3) {
   color: #000;
