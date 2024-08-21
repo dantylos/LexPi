@@ -1,8 +1,8 @@
-@import url(../header/head.css);
-@import url(../main/main.css);
-@import url(../dropdown.css);
-@import url(../footer/foot.css);
+// Style imports:
 
+@import url(../css/header/head.css);
+@import url(../css/main/main.css);
+@import url(../css/dropdown.css);
 // Font:
 
 @import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
@@ -25,6 +25,22 @@ $yello: #F7C005;
 $yello2: #FCDB6E;
 $yello3: #FCEAB0;
 
+
+.border-prp{
+  border: 2px solid $purple;
+}
+
+.border-blu{
+  border: 2px solid $blue;
+}
+
+.border-red{
+  border: 2px solid $red;
+}
+
+.border-yel{
+  border: 2px solid $yello;
+}
 
 .bg-colr-bl{
   background-color: $blue !important
