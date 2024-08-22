@@ -98,6 +98,10 @@
   transform: scale(1.15);
 }
 
+.width-avaiable {
+  max-width: -webkit-fill-available !important;
+}
+
 .consultation {
   background-color: #FE6A5D;
   padding: 14px;

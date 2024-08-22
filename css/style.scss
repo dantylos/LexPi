@@ -128,6 +128,10 @@ $yello3: #FCEAB0;
   }
 }
 
+.width-avaiable{
+  max-width: -webkit-fill-available !important;
+}
+
 .consultation{
   background-color: $red;
   padding: 14px;
