@@ -1,0 +1,23 @@
+:root p, :root a, :root li {
+  color: #fff;
+}
+
+footer {
+  padding: 98px 0;
+}
+footer .container .left-foot .foot-logo {
+  max-width: 150px;
+  margin-bottom: 24px;
+}
+footer .container .left-foot .foot-logo img {
+  width: 100%;
+  display: block;
+}
+footer .container .left-foot ul li a {
+  font-size: 20px;
+  font-weight: 400;
+  letter-spacing: 0.5px;
+  margin-bottom: 16px;
+}
+
+/*# sourceMappingURL=foot.css.map */

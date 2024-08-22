@@ -1,0 +1,66 @@
+*,
+*::after,
+*::before {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  list-style: none;
+  list-style-type: none;
+  text-decoration: none;
+  text-rendering: optimizeLegibility;
+}
+
+main .accordion-item {
+  padding: 0 22px;
+  overflow: hidden;
+  border: none;
+  outline: none;
+  border-bottom: 3px solid #F7C005;
+  margin-top: 40px;
+}
+main .accordion-item .title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+}
+main .accordion-item .title::after {
+  content: ">";
+  transform: rotate(90deg);
+  font-size: 32px;
+  color: #000;
+  float: right;
+  margin-left: 5px;
+}
+main .accordion-item .title span {
+  color: #000;
+  font-size: 32px;
+  font-weight: 700;
+  margin: 20px 0 24px;
+}
+main .accordion-item .paragraph {
+  font-size: 16px;
+  font-weight: 400;
+  color: #000;
+  display: none;
+  padding: 1rem 0;
+}
+main .accordion-item.active {
+  background-color: #FCEAB0;
+}
+main .accordion-item.active .paragraph {
+  display: block;
+}
+main .accordion-item.active .title::after {
+  transform: translateX(-50%) rotate(270deg);
+}
+
+@media only screen and (max-width: 768px) {
+  main .accordion {
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto;
+  }
+}
+
+/*# sourceMappingURL=accordion.css.map */

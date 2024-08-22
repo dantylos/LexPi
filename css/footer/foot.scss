@@ -1,0 +1,44 @@
+:root{
+  p,a,li{
+    color: #fff;
+  }
+}
+
+
+footer{
+  padding: 98px 0;
+
+  .container{
+
+    .left-foot{
+
+      .foot-logo{
+        max-width: 150px;
+        margin-bottom: 24px;
+
+        img{
+          width: 100%;
+          display: block;
+        }
+      }
+      ul{
+        li{
+          a{
+            font-size: 20px;
+            font-weight: 400;
+            letter-spacing: 0.5px;
+            margin-bottom: 16px;
+          }
+        }
+      }
+    }
+
+    .middle-foot{
+
+    }
+
+    .right-foot{
+
+    }
+  }
+}

@@ -3,6 +3,10 @@
 @import url(../css/header/head.css);
 @import url(../css/main/main.css);
 @import url(../css/dropdown.css);
+@import url(../css/accordion.css);
+@import url(../css/footer/foot.css);
+
+
 // Font:
 
 @import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
@@ -80,7 +84,7 @@ $yello3: #FCEAB0;
 
 :root{
   p,h1,h2,h3,h4,h5,h6,label,a,li,span{
-    font-family: 'Rubik', sans-serif;
+    font-family: "Rubik", sans-serif;
 
     &::selection{
       background-color: rgb(253, 125, 78);
@@ -90,6 +94,10 @@ $yello3: #FCEAB0;
   a{
     text-decoration: none;
     display: inline-block;
+  }
+
+  ul,ol{
+    list-style: none;
   }
 }
 
@@ -106,10 +114,6 @@ $yello3: #FCEAB0;
 .S-container{
   max-width: 795px;
   margin: auto;
-}
-
-.ls-none{
-  list-style: none;
 }
 
 .d-flex{
@@ -137,6 +141,21 @@ $yello3: #FCEAB0;
 
   a{
     color: $white !important;
+  }
+}
+
+.cons-block{
+  max-width: 448px;
+  margin-top: 48px;
+
+  .cons-link{
+    padding: 19px 0;
+    color: $white;
+    font-size: 20px;
+    font-weight: 700;
+    text-align: center;
+    background-color: $red;
+    width: 100%;
   }
 }
 

@@ -1,6 +1,8 @@
 @import url(../css/header/head.css);
 @import url(../css/main/main.css);
 @import url(../css/dropdown.css);
+@import url(../css/accordion.css);
+@import url(../css/footer/foot.css);
 @import url("https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap");
 .border-prp {
   border: 2px solid #F99AF9;
@@ -66,6 +68,9 @@
   text-decoration: none;
   display: inline-block;
 }
+:root ul, :root ol {
+  list-style: none;
+}
 
 .container {
   max-width: 1200px;
@@ -80,10 +85,6 @@
 .S-container {
   max-width: 795px;
   margin: auto;
-}
-
-.ls-none {
-  list-style: none;
 }
 
 .d-flex {
@@ -109,6 +110,20 @@
 }
 .consultation a {
   color: #fff !important;
+}
+
+.cons-block {
+  max-width: 448px;
+  margin-top: 48px;
+}
+.cons-block .cons-link {
+  padding: 19px 0;
+  color: #fff;
+  font-size: 20px;
+  font-weight: 700;
+  text-align: center;
+  background-color: #FE6A5D;
+  width: 100%;
 }
 
 .owl-stage {
