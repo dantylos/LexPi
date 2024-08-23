@@ -289,8 +289,12 @@ $yello3: #FCEAB0;
 
     .advantages-item{
       align-items: center;
-      justify-content: space-between;
+      justify-content: center;
       gap: 30px;
+
+      &:first-of-type{
+        justify-content: space-around;
+      }
 
       .advantages-img-com{
         max-width: 456px;

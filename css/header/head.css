@@ -15,6 +15,15 @@ header .container nav ul li span {
   font-size: 17px;
   font-weight: 600;
 }
+header .container nav ul li span::after {
+  content: url(/images/svgs/Vector-down.svg);
+  display: inline-block;
+  width: 0;
+  border-bottom: none;
+  position: relative;
+  left: 8px;
+  top: 1px;
+}
 header .container nav ul li span:hover {
   color: gray;
 }

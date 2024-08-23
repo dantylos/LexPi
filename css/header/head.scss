@@ -19,6 +19,16 @@ header{
             font-size: 17px;
             font-weight: 600;
 
+            &::after{
+              content: url(/images/svgs/Vector-down.svg);
+              display: inline-block;
+              width: 0;
+              border-bottom: none;
+              position: relative;
+              left: 8px;
+              top: 1px;
+            }
+
             &:hover{
               color: gray;
             }

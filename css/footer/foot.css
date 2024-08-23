@@ -7,6 +7,7 @@ footer {
 }
 footer .container {
   gap: 136px;
+  justify-content: space-around;
 }
 footer .container p {
   font-size: 20px;
