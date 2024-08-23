@@ -9,6 +9,13 @@ footer{
   padding: 98px 0;
 
   .container{
+    gap: 136px;
+
+    p{
+      font-size: 20px;
+      font-weight: 700;
+      margin-bottom: 28px;
+    }
 
     .left-foot{
 
@@ -34,11 +41,28 @@ footer{
     }
 
     .middle-foot{
-
+      ul{
+        li{
+          font-size: 20px;
+          font-weight: 400;
+          margin-bottom: 16px;
+        }
+      }
     }
 
     .right-foot{
+      ul{
+        gap: 9px;
 
+        li{
+          max-width: 44.3px;
+
+          img{
+            width: 100%;
+            display: block;
+          }
+        }
+      }
     }
   }
 }

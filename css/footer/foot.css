@@ -5,6 +5,14 @@
 footer {
   padding: 98px 0;
 }
+footer .container {
+  gap: 136px;
+}
+footer .container p {
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 28px;
+}
 footer .container .left-foot .foot-logo {
   max-width: 150px;
   margin-bottom: 24px;
@@ -18,6 +26,21 @@ footer .container .left-foot ul li a {
   font-weight: 400;
   letter-spacing: 0.5px;
   margin-bottom: 16px;
+}
+footer .container .middle-foot ul li {
+  font-size: 20px;
+  font-weight: 400;
+  margin-bottom: 16px;
+}
+footer .container .right-foot ul {
+  gap: 9px;
+}
+footer .container .right-foot ul li {
+  max-width: 44.3px;
+}
+footer .container .right-foot ul li img {
+  width: 100%;
+  display: block;
 }
 
 /*# sourceMappingURL=foot.css.map */
