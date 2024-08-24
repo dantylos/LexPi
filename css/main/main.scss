@@ -154,6 +154,7 @@ $yello3: #FCEAB0;
           color: $black;
           font-size: 32px;
           font-weight: 700;
+          text-align: start;
         }
 
         p{
@@ -163,10 +164,12 @@ $yello3: #FCEAB0;
           margin-top: 14px;
           letter-spacing: 1px;
           margin: 14px 0 40px;
+          text-align: start;
         }
 
         .bold{
           font-weight: 700;
+          text-align: start;
         }
       }
     }

@@ -111,6 +111,7 @@
   color: #000;
   font-size: 32px;
   font-weight: 700;
+  text-align: start;
 }
 .cources .container article .cource-info p {
   color: #000;
@@ -119,9 +120,11 @@
   margin-top: 14px;
   letter-spacing: 1px;
   margin: 14px 0 40px;
+  text-align: start;
 }
 .cources .container article .cource-info .bold {
   font-weight: 700;
+  text-align: start;
 }
 
 .education .S-container h3 {

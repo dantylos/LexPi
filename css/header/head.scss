@@ -17,7 +17,7 @@ header{
           span{
             color: #000;
             font-size: 17px;
-            font-weight: 600;
+            font-weight: 500;
 
             &::after{
               content: url(/images/svgs/Vector-down.svg);
@@ -30,7 +30,7 @@ header{
             }
 
             &:hover{
-              color: gray;
+              color: rgb(145, 145, 145);
             }
           }
 
@@ -40,7 +40,7 @@ header{
             font-weight: 600;
 
             &:hover{
-              color: gray;
+              color: rgb(145, 145, 145);
             }
           }
         }
