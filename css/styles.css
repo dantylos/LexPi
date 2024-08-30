@@ -7,19 +7,28 @@
 @import url(.//owl.theme.default.css);
 @import url("https://fonts.googleapis.com/css2?family=Rubik:wght@300..900&display=swap");
 .border-prp {
-  border: 2px solid #F99AF9;
+  border: 2px solid #F99AF9 !important;
+  border-top: none !important;
 }
 
 .border-blu {
-  border: 2px solid #3586FF;
+  border: 2px solid #3586FF !important;
+  border-top: none !important;
 }
 
 .border-red {
-  border: 2px solid #FE6A5D;
+  border: 2px solid #FE6A5D !important;
+  border-top: none !important;
 }
 
 .border-yel {
-  border: 2px solid #F7C005;
+  border: 2px solid #F7C005 !important;
+  border-top: none !important;
+}
+
+.border-grn {
+  border: 2px solid #6efc86 !important;
+  border-top: none !important;
 }
 
 .bg-colr-bl {
@@ -108,14 +117,18 @@
 }
 .consultation:hover {
   box-shadow: 4px -4px #FEACA4;
-  padding: 14px 18px;
+  padding: 14px 20px;
+  letter-spacing: 1px;
 }
 .consultation a {
   color: #fff !important;
 }
+.consultation a::selection {
+  background-color: rgba(110, 252, 134, 0.7843137255);
+}
 
 .cons-block {
-  max-width: 448px;
+  max-width: -webkit-fill-available;
   margin-top: 48px;
 }
 .cons-block .cons-link {
@@ -126,6 +139,14 @@
   text-align: center;
   background-color: #FE6A5D;
   width: 100%;
+  transition: 0.2s;
+}
+.cons-block .cons-link:hover {
+  letter-spacing: 1px;
+  width: 95%;
+}
+.cons-block .cons-link::selection {
+  background-color: rgba(110, 252, 134, 0.7843137255);
 }
 
 .owl-stage {

@@ -37,14 +37,15 @@
   font-weight: 700;
   color: #fff;
   background-color: #3586FF;
-  padding: 12px 18px;
+  padding: 12px 20px;
   box-shadow: 8px -8px #BDD7FF;
   transition: 0.2s;
   margin-top: 32px;
 }
 .main-banner .s-container article .main-info a:hover {
   box-shadow: 4px -4px #61A0FF;
-  padding: 12px 22px;
+  padding: 12px 24px;
+  letter-spacing: 1px;
 }
 .main-banner .s-container article .main-img {
   max-width: 360px;
@@ -80,22 +81,18 @@
   margin-bottom: 42px;
 }
 .cources .container article {
-  width: 360px;
-}
-.cources .container article .cource-img {
-  position: relative;
-  top: 6px;
   max-width: 360px;
 }
-.cources .container article .cource-img img {
+.cources .container article .cource-img {
   width: 100%;
+}
+.cources .container article .cource-img img {
   display: block;
 }
 .cources .container article .cource-info {
   padding: 0 24px;
   border: 2px solid #F99AF9;
   border-top: none;
-  padding-bottom: 27px;
 }
 .cources .container article .cource-info .age {
   justify-content: end;
@@ -106,6 +103,7 @@
   font-weight: 700;
   padding: 6px 12px;
   background-color: #FAD1FA;
+  margin: 24px 0 4px;
 }
 .cources .container article .cource-info h3 {
   color: #000;
@@ -119,12 +117,14 @@
   font-weight: 400;
   margin-top: 14px;
   letter-spacing: 1px;
-  margin: 14px 0 40px;
+  margin: 24px 0 86px;
   text-align: start;
+  max-height: 120px;
 }
 .cources .container article .cource-info .bold {
   font-weight: 700;
   text-align: start;
+  margin: 24px 0;
 }
 
 .education .S-container h3 {
@@ -324,13 +324,6 @@
   width: 100%;
   border: none;
 }
-.consultation-form .container .form-container form .input-item .login button {
-  border: 0;
-  outline: none;
-  border-radius: 0;
-  padding: 16px 0;
-  color: #fff;
-}
 
 .teachures {
   padding: 112px 0 82px;
@@ -351,10 +344,6 @@
 }
 .teachures .teachers-block article .teacher-img {
   max-width: 264px;
-  transition: 0.2s;
-}
-.teachures .teachers-block article .teacher-img:hover {
-  border: 4px solid #FCDB6E;
 }
 .teachures .teachers-block article .teacher-img img {
   display: block;

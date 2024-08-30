@@ -17,6 +17,10 @@ footer{
       font-size: 20px;
       font-weight: 700;
       margin-bottom: 28px;
+
+      &::selection{
+        background-color: #6efc86c8;
+      }
     }
 
     .left-foot{
@@ -37,6 +41,15 @@ footer{
             font-weight: 400;
             letter-spacing: 0.5px;
             margin-bottom: 16px;
+            transition: 0.1s;
+
+            &:hover{
+              color: darkseagreen;
+            }
+
+            &::selection{
+              background-color: #6efc86c8;
+            }
           }
         }
       }
@@ -48,6 +61,15 @@ footer{
           font-size: 20px;
           font-weight: 400;
           margin-bottom: 16px;
+          transition: 0.1s;
+
+          &:hover{
+            color: darkseagreen;
+          }
+
+          &::selection{
+            background-color: #6efc86c8;
+          }
         }
       }
     }
@@ -62,6 +84,11 @@ footer{
           img{
             width: 100%;
             display: block;
+            transition: 0.2s;
+
+            &:hover{
+              width: 110%;
+            }
           }
         }
       }

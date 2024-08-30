@@ -35,20 +35,30 @@ $grey: rgb(145, 145, 145);
 
 
 .border-prp{
-  border: 2px solid $purple;
+  border: 2px solid $purple !important;
+  border-top: none !important;
 }
 
 .border-blu{
-  border: 2px solid $blue;
+  border: 2px solid $blue !important;
+  border-top: none !important;
 }
 
 .border-red{
-  border: 2px solid $red;
+  border: 2px solid $red !important;
+  border-top: none !important;
 }
 
 .border-yel{
-  border: 2px solid $yello;
+  border: 2px solid $yello !important;
+  border-top: none !important;
 }
+
+.border-grn{
+  border: 2px solid #6efc86 !important;
+  border-top: none !important;
+}
+
 
 .bg-colr-bl{
   background-color: $blue !important
@@ -140,16 +150,21 @@ $grey: rgb(145, 145, 145);
 
   &:hover{
     box-shadow: 4px -4px $red2;
-    padding: 14px 18px;
+    padding: 14px 20px;
+    letter-spacing: 1px;
   }
 
   a{
     color: $white !important;
+
+    &::selection{
+      background-color: #6efc86c8;
+    }
   }
 }
 
 .cons-block{
-  max-width: 448px;
+  max-width: -webkit-fill-available;
   margin-top: 48px;
 
   .cons-link{
@@ -160,6 +175,16 @@ $grey: rgb(145, 145, 145);
     text-align: center;
     background-color: $red;
     width: 100%;
+    transition: 0.2s;
+
+    &:hover{
+      letter-spacing: 1px;
+      width: 95%;
+    }
+
+    &::selection{
+      background-color: #6efc86c8;
+    }
   }
 }
 
