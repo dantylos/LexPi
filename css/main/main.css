@@ -1,3 +1,7 @@
+.main-banner .comment-img img {
+  width: 180px;
+  display: none;
+}
 .main-banner .s-container article {
   height: calc(100vh - 73px);
   justify-content: space-around;

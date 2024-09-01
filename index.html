@@ -17,29 +17,47 @@
         <div class="main-logo"><img src="images/svgs/logo.svg" alt="Logo" title="Home"></div>
       </a>
 
-      <nav>
+       <nav role="navigation">
 
-        <ul class="ls-none d-flex">
-
-          <li><a href="#">Контакты</a></li>
-
-          <li>
-            <div class="dropdown">
-              <span>Курсы</span>
-              <div class="dropdown-content">
-                <ul class="ls-none">
-                  <li><a class="linkHover coPrpl" href="#">Front-End</a></li>
-                  <li><a class="linkHover coBlue" href="#">Python</a></li>
-                  <li><a class="linkHover coRad" href="#">Design</a></li>
-                  <li><a class="linkHover coYello" href="#">Mathematics</a></li>
-                </ul>
-              </div>
+        <!-- <div class="navbar">
+          <div class="container nav-container">
+              <input class="checkbox" type="checkbox" name="" id="" />
+              <div class="hamburger-lines">
+                <span class="line line1"></span>
+                <span class="line line2"></span>
+                <span class="line line3"></span>
+              </div>  
+            <div class="menu-items">
+              <li><a href="#">Home</a></li>
+              <li><a href="#">about</a></li>
+              <li><a href="#">blogs</a></li>
+              <li><a href="#">portfolio</a></li>
+              <li><a href="#">contact</a></li>
             </div>
-          </li>
+          </div>
+        </div> -->
 
-          <li class="consultation"><a href="#">Бесплатная консультация</a></li>
+          <ul class="ls-none d-flex">
 
-        </ul>
+            <li><a href="#">Контакты</a></li>
+  
+            <li>
+              <div class="dropdown">
+                <span>Курсы</span>
+                <div class="dropdown-content">
+                  <ul class="ls-none">
+                    <li><a class="linkHover coPrpl" href="front.html">Front-End</a></li>
+                    <li><a class="linkHover coBlue" href="#">Python</a></li>
+                    <li><a class="linkHover coRad" href="#">Design</a></li>
+                    <li><a class="linkHover coYello" href="#">Mathematics</a></li>
+                  </ul>
+                </div>
+              </div>
+            </li>
+  
+            <li class="consultation"><a href="#">Бесплатная консультация</a></li>
+  
+          </ul>
 
       </nav>
 
@@ -49,6 +67,9 @@
   <main>
 
     <section class="main-banner">
+
+      <div class="comment-img"><img src="images/comment.png" alt="More"></div>
+
       <div class="s-container">
 
         <article class="d-flex">
@@ -59,7 +80,7 @@
 
             <div class="svgblock_main"><img src="images/mainBanner-svgs/Layer_2.svg" alt="l_2"></div>
 
-            <p>Делаем сложное и не понятное простым и увлекательным.</p>
+            <div class="main-text"><p>Делаем сложное и не понятное простым и увлекательным.</p></div>
 
             <a href="#">Записаться на курс</a>
           </div>
@@ -83,7 +104,7 @@
 
         <div class="cource-block owl-carousel d-flex">
 
-          <a href="#">
+          <a href="front.html">
             <article>
               <div class="cource-img"><img src="images/cources_img/frontend.jpg" alt="Front-End"></div>
 
@@ -167,28 +188,28 @@
             <p>Занятия проводятся один на один с репетитором онлайн с использованием презентаций и дополнительных материалов, которые предоставляются после каждого урока.</p>
           </div>
 
-          <div><img src="images/education/1L.png" alt="1"></div>
+          <div class="sub-img"><img src="images/education/1L.png" alt="1"></div>
 
         </div>
         <div class="education-item d-flex">
 
-          <div><img src="images/education/2X.png" alt="2"></div>
+          <div class="sub-img"><img src="images/education/2X.png" alt="2"></div>
 
           <div><img src="images/education/2.png" alt="2"></div>
 
           <div class="education-info">
             <h5>Домашние задания</h5>
-            <p>Занятия проводятся один на один с репетитором онлайн с использованием презентаций и дополнительных материалов, которые предоставляются после каждого урока.</p>
+            <p>После каждого урока  дети получают домашнее задание, которое помогает закрепить пройденный материал и применить новые знания на практике. Эти задания стимулируют самостоятельное мышление и углубляют понимание темы.</p>
           </div>
 
         </div>
         <div class="education-item d-flex">
 
-          <div><img src="images/education/3P.png" alt="3"></div>
+          <div class="sub-img"><img src="images/education/3P.png" alt="3P"></div>
 
           <div class="education-info">
             <h5>Коррекция ошибок</h5>
-            <p>Занятия проводятся один на один с репетитором онлайн с использованием презентаций и дополнительных материалов, которые предоставляются после каждого урока.</p>
+            <p>мы уделяем особое внимание работе над ошибками. После выполнения каждого задания преподаватели тщательно анализируют результаты и помогают ученикам разобраться с возникшими трудностями. Мы не просто указываем на ошибки, но и объясняем, как их избежать в будущем.</p>
           </div>
 
           <div><img src="images/education/3.png" alt="3"></div>
@@ -199,11 +220,11 @@
           
           <div><img src="images/education/4.png" alt="4"></div>
           
-          <div><img src="images/education/4i.png" alt="4"></div>
+          <div class="sub-img"><img src="images/education/4i.png" alt="4i"></div>
           
           <div class="education-info">
             <h5>Формирование портфолио</h5>
-            <p>Занятия проводятся один на один с репетитором онлайн с использованием презентаций и дополнительных материалов, которые предоставляются после каждого урока.</p>
+            <p>Каждый ученик в процессе обучения создаёт портфолио, которое станет ярким отражением их навыков и достижений. Мы направляем детей в процессе разработки и оформления проектов, от первых шагов до финального результата. Портфолио включает в себя лучшие работы, выполненные в ходе обучения, и демонстрирует их умения и креативность.</p>
           </div>
           
         </div>
@@ -214,7 +235,7 @@
     <section class="goals">
       <div class="container">
 
-        <h3>Цели курса</h3>
+        <h3>Цели нашей школы</h3>
 
         <div class="goal-info d-flex">
 
@@ -226,7 +247,7 @@
             </div>
 
             <div class="goal-text">
-              <h6>Развитие логического мышления</h6>
+              <h6>Освоение современных технологий</h6>
               <p>Мы помогаем детям развивать навыки логического и алгоритмического мышления, что является основой для решения сложных задач не только в программировании, но и в повседневной жизни.</p>
             </div>
           
@@ -253,7 +274,7 @@
 
             <div class="goal-text">
               <h6>Подготовка к будущему</h6>
-              <p>Курс ориентирован на подготовку детей к будущей профессиональной деятельности. Мы даем базовые знания и навыки, которые могут стать основой для дальнейшего углубленного изучения программирования и IT-технологий.</p>
+              <p>Все курсы ориентированы на подготовку детей к будущей профессиональной деятельности. Мы даём базовые знания и навыки, которые есть основой для дальнейшего углубленного изучения программирования и IT-технологий.</p>
               <img src="images/goals/vector2.svg" alt="img">
             </div>
           

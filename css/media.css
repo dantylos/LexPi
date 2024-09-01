@@ -1,0 +1,126 @@
+@media screen and (max-width: 1276px){
+  .main-banner .s-container article .main-img .absKent {
+    width: 230px;
+    left: -106px;
+  }
+
+  header{
+    padding-right: 12px;
+  }
+
+  .container{
+    padding: 0 12px;
+  }
+
+  .cources .container article .cource-info p {
+    margin: 24px 0 104px;
+  }
+}
+
+@media screen and (max-width: 1024px){
+  .main-banner{
+    padding: 0 24px;
+  }
+
+  .main-banner .s-container article .main-img img {
+    display: none;
+  }
+
+  .main-banner .s-container article .main-img .absKent img {
+    display: none;
+  }
+
+  .main-banner .s-container article .main-info {
+    margin: auto;
+    text-align: center;
+  }
+
+  .main-text{
+    text-align: -webkit-center;
+    margin-top: 36px;
+  }
+
+  .main-banner .s-container article .main-info img {
+    left: 24px;
+  }
+
+  .main-banner .s-container article .main-info .svgblock_main img {
+    left: 334px;
+    top: 2px;
+  }
+
+  .cources .container h2 {
+  text-align: center;
+  }
+
+  .owl-carousel .owl-nav .owl-prev {
+    display: none !important;
+  }
+
+  .owl-carousel .owl-nav .owl-next {
+    display: none !important;
+  }
+
+  .owl-stage{
+    gap: 8px;
+  }
+
+  .goals .container .goal-info .goal-item .goal-img .goal-img-2 img {
+    display: none;
+  }
+
+  .goals .container .goal-info .goal-item .goal-text img {
+    display: none;
+  }
+
+  .goals .container .goal-info .goal-item .goal-img {
+    justify-content: center;
+  }
+
+  .goals .container .goal-info .goal-item {
+    text-align: center;
+  }
+
+.goals .container .goal-info {
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 22px;
+  }
+
+  .goals .container h3{
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 820px){
+  .S-container{
+    padding: 0 12px;
+  }
+
+  .education .education-item .sub-img{
+    display: none;
+  }
+
+  
+.education .S-container .education-item {
+  justify-content: space-evenly;
+  gap: 12px;
+}
+}
+
+@media screen and (max-width: 767px){
+  .nav-container .hamburger-lines .line {
+    display: block;
+  }
+
+  .main-banner{
+    position: relative;
+  }
+
+  .main-banner .comment-img img {
+    display: block;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+  }
+}
