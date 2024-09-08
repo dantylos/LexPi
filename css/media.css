@@ -41,7 +41,7 @@
   }
 
   .main-banner .s-container article .main-info img {
-    left: 24px;
+    left: 30px;
   }
 
   .main-banner .s-container article .main-info .svgblock_main img {
@@ -81,7 +81,7 @@
     text-align: center;
   }
 
-.goals .container .goal-info {
+  .goals .container .goal-info {
     justify-content: space-around;
     flex-wrap: wrap;
     gap: 22px;
@@ -93,6 +93,8 @@
 
   .advantages .container .advantages-item {
     flex-wrap: wrap;
+    max-width: 618px;
+    margin: auto;
   }
 
   .advantages .container .advantages-item .advantages-img-com {
@@ -100,12 +102,40 @@
     width: 100%;
   }
 
+  .advantages .container .advantages-item .advantages-img-com img {
+    width: 100%;
+    display: block;
+  }
+
   .advantages .container .advantages-item .advantages-info_type {
+    max-width: inherit;
+  }
+
+  .advantages .container .advantages-item .advantages-img-com_type {
     max-width: inherit;
   }
 
   .advantages .container .advantages-item:nth-child(3) {
     flex-direction: column-reverse;
+  }
+
+  .advantages .container .advantages-item h3 {
+    font-size: 38px;
+    max-width: inherit;
+  }
+
+  .consultation-form .container {
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .consultation-form .consultation-svg img {
+    display: none;
+  }
+
+  .consultation-form .container .form-container form .input-item {
+    text-align: center;
   }
 }
 
@@ -188,8 +218,40 @@
     font-size: 34px;
   }
 
+  .advantages .container .advantages-item {
+    width: -webkit-fill-available;
+  }
+
+  .advantages .container .advantages-item .advantages-info {
+    max-width: inherit;
+    width: -webkit-fill-available;
+  }
+
+  .advantages .container .advantages-item .advantages-img-com {
+    max-width: inherit;
+    width: -webkit-fill-available;
+  }
+
   footer .container {
     justify-content: flex-start;
     flex-wrap: wrap;
+  }
+}
+
+@media screen and (max-width: 560px){
+  .consultation-form .container .form-container {
+    width: -webkit-fill-available;
+  }
+}
+
+@media screen and (max-width: 554px){
+  .main-banner .s-container article .main-info img {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 519px){
+  .main-banner .s-container article .main-info .svgblock_main img {
+    left: 218px;
   }
 }

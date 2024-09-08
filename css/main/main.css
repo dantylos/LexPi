@@ -26,7 +26,7 @@
 }
 .main-banner .s-container article .main-info .svgblock_main img {
   position: absolute;
-  left: 306px;
+  left: 270px;
   top: 6px;
 }
 .main-banner .s-container article .main-info p {
@@ -303,6 +303,7 @@
 .consultation-form .container {
   justify-content: space-between;
   align-items: center;
+  gap: 46px;
 }
 .consultation-form .container .form-info {
   max-width: 530px;

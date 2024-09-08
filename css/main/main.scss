@@ -54,7 +54,7 @@ $yello3: #FCEAB0;
 
           img{
             position: absolute;
-            left: 306px;
+            left: 270px;
             top: 6px;
           }
         }
@@ -397,6 +397,7 @@ $yello3: #FCEAB0;
   .container{
     justify-content: space-between;
     align-items: center;
+    gap: 46px;
 
     .form-info{
       max-width: 530px;
