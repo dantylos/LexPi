@@ -76,7 +76,7 @@
 }
 
 .cources {
-  padding-bottom: 120px;
+  padding: 24px 0 120px;
 }
 .cources .container h2 {
   font-size: 40px;
@@ -163,6 +163,10 @@
 .goals {
   background-color: #FCEAB0;
   padding: 80px 0;
+  position: relative;
+}
+.goals .kvadratan img {
+  display: none;
 }
 .goals .container h3 {
   color: #000;
@@ -271,7 +275,7 @@
   margin-top: 8px;
 }
 .advantages .container .advantages-item .advantages-info .advantages-info_chevron {
-  max-width: 48px;
+  width: 108px;
 }
 .advantages .container .advantages-item .advantages-info .advantages-info_chevron img {
   width: 100%;
@@ -408,6 +412,13 @@
   font-size: 24px;
   font-weight: 400;
   margin-top: 16px;
+}
+.interest .s-container .interest-img {
+  max-width: 330px;
+}
+.interest .s-container .interest-img img {
+  width: 100%;
+  display: block;
 }
 
 /*# sourceMappingURL=main.css.map */
