@@ -8,7 +8,7 @@
     padding-right: 12px;
   }
 
-  .container{
+  .container, .s-container, .S-container{
     padding: 0 12px;
   }
 
@@ -53,11 +53,11 @@
   text-align: center;
   }
 
-  .owl-carousel .owl-nav .owl-prev {
+  .owl-carousel .owl-nav {
     display: none !important;
   }
 
-  .owl-carousel .owl-nav .owl-next {
+  .owl-carousel .owl-dots {
     display: none !important;
   }
 
@@ -173,10 +173,26 @@
     max-width: inherit;
     width: 95%;
   }
+
+  .teachures .teachers-block {
+    flex-direction: column;
+    gap: 48px;
+  }
 }
 
 
 @media screen and (max-width: 767px){
+
+  header .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .menu-btn {
+    display: block !important;
+  }
+
   .nav-container .hamburger-lines .line {
     display: block;
   }
@@ -184,6 +200,14 @@
   .main-banner{
     position: relative;
     padding-bottom: 40px;
+  }
+
+  .main-banner .s-container{
+    padding: 132px 0;
+  }
+
+  .main-banner .s-container article {
+    height: inherit;
   }
 
   .main-banner .comment-img img {
@@ -232,6 +256,30 @@
     width: -webkit-fill-available;
   }
 
+  
+  main .accordion-item .title span {
+    color: #000;
+    font-size: 24px;
+    font-weight: 700;
+    margin: 20px 0 24px;
+  }
+
+  main .accordion-item .paragraph {
+    font-size: 18px;
+  }
+
+  .cons-block {
+    margin-top: 36px !important;
+  }
+
+  footer{
+    padding: 56px 0;
+  }
+
+  footer .container {
+    gap: 62px;
+  }
+
   footer .container {
     justify-content: flex-start;
     flex-wrap: wrap;
@@ -245,6 +293,10 @@
 }
 
 @media screen and (max-width: 554px){
+  .main-banner .s-container article .main-info h1 {
+    font-size: 32px;
+  }
+
   .main-banner .s-container article .main-info img {
     display: none;
   }
@@ -254,4 +306,94 @@
   .main-banner .s-container article .main-info .svgblock_main img {
     left: 218px;
   }
+}
+
+@media screen and (max-width: 429px){
+  .main-banner .s-container article .main-info h1 {
+    font-size: 30px;
+  }
+
+.teachures h4 {
+    color: #000;
+    font-size: 30px;
+    font-weight: 700;
+    text-align: center;
+  }
+
+  .faq .container h3 {
+    font-size: 32px;
+  }
+
+  .interest .s-container .interest-content h5 {
+    color: #000;
+    font-size: 32px;
+    font-weight: 700;
+  }
+
+  .interest .s-container .interest-content p {
+    font-size: 20px;
+  }
+}
+
+
+/* Гамбургер иконка */
+
+.menu-btn {
+	width: 30px;
+	height: 30px;
+	position: relative;
+	z-index:2;
+	overflow: hidden;
+  display: none;
+}
+
+.menu-btn .bar {
+	width: 30px;
+	height: 4px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+  border-radius: 4px;
+	transform: translate(-50%, -50%);
+	background-color: #FE6A5D;
+	transition: all 0.3s ease-in-out;
+}
+
+.menu-btn .bar:nth-of-type(2) {
+	top: calc(50% - 9px);
+}
+.menu-btn .bar:nth-of-type(3) {
+	top: calc(50% + 9px);
+}
+
+/* Меняем гамбургер иконку, когда меню открыто */
+
+.menu-btn.active .bar:nth-of-type(1) {
+  display: none;
+}
+.menu-btn.active .bar:nth-of-type(2) {
+  top: 50%;
+  transform: translate(-50%, 0%) rotate(45deg);  
+}
+.menu-btn.active .bar:nth-of-type(3) {
+  top: 50%;
+  transform: translate(-50%, 0%) rotate(-45deg); 
+}
+
+/* Меню, которое будет появляться */
+
+nav {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	padding: 15px;
+  background: #FFEFBA;
+	transform: translateX(100%);
+	transition: transform 0.5s; 
+}
+
+nav.active {
+	transform: translateX(0);
 }

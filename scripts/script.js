@@ -4,7 +4,10 @@ $('.owl-carousel').owlCarousel({
   nav:true,
   navText: [ '', ' ' ],
   autoplay:true,
-  autoplayTimeout:2000,
+  autoplayTimeout:5000,
+  autoplaySpeed:500,
+  autoplayHoverPause:false,
+  margin:5,
   responsive:{
       0:{
           items:1
@@ -33,4 +36,24 @@ accordionItem.forEach((el) =>
     }
   })
 );
+
+
+// Burger menu
+
+let menuBtn = document.querySelector('.menu-btn');
+let menu = document.querySelector('.nav');
+let menuItem = document.querySelectorAll('.nav__link');
+
+menuBtn.addEventListener('click', function(){
+	menuBtn.classList.toggle('active');
+	menu.classList.toggle('active');
+})
+
+
+menuItem.forEach (function(menuItem) {
+  menuItem.addEventListener('click',function(){
+          menuBtn.classList.toggle('active');
+          menu.classList.toggle('active');
+  })
+})
 
