@@ -179,6 +179,19 @@ $yello3: #FCEAB0;
           text-align: start;
           margin: 24px 0;
         }
+        .chev-right{
+          max-width: 20px;
+
+          img{
+            width: 100%;
+            display: block;
+          }
+        }
+
+        .more{
+          align-items: center;
+          gap: 6px;
+        }
       }
     }
   }

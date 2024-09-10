@@ -23,18 +23,19 @@ header .container nav ul li span {
 }
 header .container nav ul li span:hover {
   letter-spacing: 1px;
-}
-header .container nav ul li span::after {
-  content: url(/images/svgs/Vector-down.svg);
-  display: inline-block;
-  width: 0;
-  border-bottom: none;
-  position: relative;
-  left: 8px;
-  top: 1px;
-}
-header .container nav ul li span:hover {
   color: rgb(145, 145, 145);
+}
+header .container nav ul li span:hover::after {
+  transform: rotate(270deg);
+}
+header .container nav ul li span:after {
+  content: ">";
+  font-size: 22px;
+  position: absolute;
+  top: -2px;
+  right: -18px;
+  transform: rotate(90deg);
+  transition: 0.2s;
 }
 header .container nav ul li a {
   color: #000;
@@ -45,6 +46,9 @@ header .container nav ul li a {
 header .container nav ul li a:hover {
   color: rgb(145, 145, 145);
   letter-spacing: 1px;
+}
+header .container nav ul li:last-of-type {
+  margin-left: 12px;
 }
 header .container .main-logo {
   max-width: 180px;

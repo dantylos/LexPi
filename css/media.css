@@ -13,7 +13,7 @@
   }
 
   .cources .container article .cource-info p {
-    margin: 24px 0 104px;
+    margin: 24px 0 80px;
   }
 }
 
@@ -220,6 +220,10 @@
     right: 0;
   }
 
+  .cources .container article .cource-info {
+    padding: 0 12px;
+  }
+
   .owl-stage {
     display: inherit !important;
     margin: auto !important;
@@ -354,6 +358,10 @@
   .goals .container h3 {
     max-width: 200px;
   }
+
+  .teachures {
+    padding: 86px 0 82px;
+  }
 }
 
 @media screen and (max-width: 429px){
@@ -413,7 +421,7 @@
 
 @media screen and (max-width:360px){
   .cources .container article .cource-info p {
-    margin: 24px 0 140px 0;
+    margin: 24px 0 98px 0;
   }
 
   .goals .container h3 {
@@ -460,6 +468,10 @@
 }
 
 @media screen and (max-width:320px){
+
+  .cources .container article .cource-info p {
+    margin: 24px 0 126px 0;
+  }
 
   .advantages .container .advantages-item h3 {
     font-size: 26px;

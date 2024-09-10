@@ -25,20 +25,21 @@ header{
 
             &:hover{
               letter-spacing: 1px;
-            }
-
-            &::after{
-              content: url(/images/svgs/Vector-down.svg);
-              display: inline-block;
-              width: 0;
-              border-bottom: none;
-              position: relative;
-              left: 8px;
-              top: 1px;
-            }
-
-            &:hover{
               color: rgb(145, 145, 145);
+
+              &::after{
+                transform: rotate(270deg);
+              }
+            }
+
+            &:after {
+              content: ">";
+              font-size: 22px;
+              position: absolute;
+              top: -2px;
+              right: -18px;
+              transform: rotate(90deg);
+              transition: 0.2s;
             }
           }
 
@@ -52,6 +53,10 @@ header{
               color: rgb(145, 145, 145);
               letter-spacing: 1px;
             }
+          }
+
+          &:last-of-type{
+            margin-left: 12px;
           }
         }
       }

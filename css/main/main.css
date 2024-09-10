@@ -130,6 +130,17 @@
   text-align: start;
   margin: 24px 0;
 }
+.cources .container article .cource-info .chev-right {
+  max-width: 20px;
+}
+.cources .container article .cource-info .chev-right img {
+  width: 100%;
+  display: block;
+}
+.cources .container article .cource-info .more {
+  align-items: center;
+  gap: 6px;
+}
 
 .education .S-container h3 {
   color: #000;
