@@ -35,6 +35,14 @@ nav > #nav-check {
     height: 10px;
     border-top: 2px solid #FE6A5D;
   }
+  header .container nav .nav-list .toggle-down:hover + .item-down{
+    transform: translateY(220px);
+  }
+  .consultation{
+    display: inline-block;
+    position: relative;
+    transition: transform 0.3s ease;
+  }
   nav > .nav-list { 
     position: absolute;
     display: flex;
@@ -61,6 +69,7 @@ nav > #nav-check {
     height: 100vh;
     padding: 64px 0 0 40px;
   }
+
   header .container nav ul li a {
     color: #fff;
     font-size: 28px;
@@ -68,10 +77,6 @@ nav > #nav-check {
   header .container nav ul li span {
     color: #fff;
     font-size: 28px;
-  }
-  .dropdown:hover + header .container nav ul li:last-of-type{
-    position: relative !important;
-    top: 220px !important;
   }
   header .container nav ul li span:after {
     content: ">";

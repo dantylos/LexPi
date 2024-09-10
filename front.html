@@ -13,13 +13,23 @@
 
     <div class="container d-flex">
 
-      <a class="col-7" href="index.html">
-        <div class="main-logo"><img src="images/svgs/logo.svg" alt="Logo" title="Home"></div>
-      </a>
+      <nav class="d-flex">
 
-      <nav>
+        <input type="checkbox" id="nav-check">
 
-        <ul class="ls-none d-flex">
+        <a class="col-7" href="index.html">
+          <div class="main-logo"><img src="images/svgs/logo.svg" alt="Logo" title="Home"></div>
+        </a>
+
+        <div class="nav-btn">
+          <label for="nav-check">
+            <span></span>
+            <span></span>
+            <span></span>
+          </label>
+        </div>
+        
+        <ul class="nav-list">
 
           <li><a href="#">Контакты</a></li>
 
@@ -27,18 +37,17 @@
             <div class="dropdown">
               <span>Курсы</span>
               <div class="dropdown-content">
-                <ul class="ls-none">
-                  <li><a class="linkHover coPrpl" href="#">Front-End</a></li>
-                  <li><a class="linkHover coBlue" href="#">Python</a></li>
-                  <li><a class="linkHover coRad" href="#">Design</a></li>
-                  <li><a class="linkHover coYello" href="#">Mathematics</a></li>
+                <ul class="ls-none courceslist">
+                  <li><a class="coPrpl" href="front.html">Front-End</a></li>
+                  <li><a class="coBlue" href="#">Python</a></li>
+                  <li><a class="coRad" href="#">Design</a></li>
+                  <li><a class="coYello" href="#">Mathematics</a></li>
                 </ul>
               </div>
             </div>
           </li>
 
-          <li class="consultation"><a href="#">Бесплатная консультация</a></li>
-
+          <li class="consultation move-bottom"><a class=href="#">Бесплатная консультация</a></li>
         </ul>
 
       </nav>
@@ -48,7 +57,49 @@
   </header>
 
   <main>
-    
+    <section class="consultation-form bg-colr-bl">
+
+      <div class="consultation-svg"><img src="images/svgs/Group.svg" alt="imgsvg"></div>
+
+      <div class="container d-flex">
+
+        <div class="form-info">
+          <h3>Узнайте больше о курсах</h3>
+          <p>Не уверенны какой курс подойдет ребенку? Запишитесь на бесплатную консультацию и узнайте больше о наших программах</p>
+        </div>
+
+        <div class="form-container">
+
+          <form method="post" action="#">
+
+            <div class="input-item">
+              <label for="Name"></label>
+              <input type="text" name="Name" id="Name" placeholder="Ваше имя">
+            </div>
+
+            <div class="input-item">
+              <label for="Email"></label>
+              <input type="email" name="Email" id="Email" placeholder="Ваша електронная почта">
+            </div>
+
+            <div class="input-item">
+              <label for="Phone"></label>
+              <input type="tel" name="Phone_number" id="Phone" placeholder="Ваш номер телефона">
+            </div>
+
+            <div class="input-item">
+              <label for="Age"></label>
+              <input type="text"" name="Age" id="Age" placeholder="Возраст ребенка">
+            </div>
+
+            <div class="cons-block" ><a href="#" class="cons-link" >Записатся на консультацию</a></div>
+
+          </form>
+
+        </div>
+
+      </div>
+    </section>
   </main>
 
   <footer class="bg-colr-rd">

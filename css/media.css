@@ -191,6 +191,10 @@
     justify-content: space-between;
     align-items: center;
   }
+  
+  header .container nav ul li:last-of-type {
+    margin-left: inherit;
+  }
 
   .menu-btn {
     display: block !important;
@@ -223,6 +227,8 @@
   .cources .container article .cource-info {
     padding: 0 12px;
   }
+
+
 
   .owl-stage {
     display: inherit !important;
@@ -362,6 +368,14 @@
   .teachures {
     padding: 86px 0 82px;
   }
+
+  header .container nav ul li a {
+    font-size: 24px;
+  }
+
+  header .container nav ul li span {
+    font-size: 24px;
+  }
 }
 
 @media screen and (max-width: 429px){
@@ -442,6 +456,10 @@
 
   .education .S-container .education-item .education-info p {
     font-size: 12px;
+  }
+
+  header .container nav ul .consultation a {
+    font-size: 17px;
   }
 }
 

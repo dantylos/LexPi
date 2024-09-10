@@ -15,6 +15,9 @@ header .container nav ul {
   gap: 32px;
   align-items: center;
 }
+header .container nav ul li:nth-child(2) {
+  margin-right: 12px;
+}
 header .container nav ul li span {
   color: #000;
   font-size: 17px;
@@ -46,9 +49,6 @@ header .container nav ul li a {
 header .container nav ul li a:hover {
   color: rgb(145, 145, 145);
   letter-spacing: 1px;
-}
-header .container nav ul li:last-of-type {
-  margin-left: 12px;
 }
 header .container .main-logo {
   max-width: 180px;
