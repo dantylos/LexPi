@@ -220,6 +220,11 @@
     right: 0;
   }
 
+  .owl-stage {
+    display: inherit !important;
+    margin: auto !important;
+  }
+
   .goals .container .goal-info {
     justify-content: flex-start;
     gap: 36px;
@@ -407,6 +412,10 @@
 }
 
 @media screen and (max-width:360px){
+  .cources .container article .cource-info p {
+    margin: 24px 0 140px 0;
+  }
+
   .goals .container h3 {
     font-size: 24px;
   }
@@ -432,6 +441,22 @@
   .main-banner .s-container {
     padding: 116px 0;
   }
+
+  .education .S-container .education-item img{
+    max-width: 102px;
+  }
+
+  .faq .container h3 {
+    font-size: 28px;
+  }
+
+  main .accordion-item .title span {
+    font-size: 20px;
+  }
+
+  main .accordion-item .paragraph {
+    font-size: 16px;
+  }
 }
 
 @media screen and (max-width:320px){
@@ -446,6 +471,22 @@
 
   .advantages .container .advantages-item .advantages-info p {
     font-size: 12px;
+  }
+
+  .education .S-container .education-item img{
+    max-width: 92px;
+  }
+
+  .interest .s-container .interest-content h5 {
+    font-size: 28px;
+  }
+
+  .interest .s-container .interest-content p {
+    font-size: 18px;
+  }
+
+  .cons-block .cons-link {
+    font-size: 18px !important;
   }
 }
 
