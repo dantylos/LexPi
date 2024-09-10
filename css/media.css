@@ -182,6 +182,9 @@
 
 
 @media screen and (max-width: 767px){
+  header{
+    padding: 12px 0;
+  }
 
   header .container{
     display: flex;
@@ -286,6 +289,28 @@
   }
 }
 
+@media screen and (max-width: 700px){
+  .goals .container .goal-info .goal-item:nth-child(2) {
+    text-align: end;
+  }
+  .goals .container .goal-info .goal-item .justify-end{
+    justify-content: flex-end;
+  }
+
+  .goals .container .goal-info .goal-item {
+    max-width: -webkit-fill-available;
+  }
+
+  .goals .container .goal-info {
+    max-width: 464px;
+    margin: auto;
+  }
+
+  .advantages .container .advantages-item h3 {
+    font-size: 32px;
+  }
+}
+
 @media screen and (max-width: 560px){
   .consultation-form .container .form-container {
     width: -webkit-fill-available;
@@ -294,7 +319,7 @@
 
 @media screen and (max-width: 554px){
   .main-banner .s-container article .main-info h1 {
-    font-size: 32px;
+    font-size: 36px;
   }
 
   .main-banner .s-container article .main-info img {
@@ -306,11 +331,57 @@
   .main-banner .s-container article .main-info .svgblock_main img {
     left: 218px;
   }
+
+  .goals .container h3 {
+    font-size: 30px;
+  }
+
+  .goals .container .goal-info .goal-item .goal-text h6 {
+    font-size: 24px;
+  }
+
+  .goals .container .goal-info .goal-item .goal-text p {
+    font-size: 15px;
+  }
+}
+
+@media screen and (max-width:460px){
+  .goals .container h3 {
+    max-width: 200px;
+  }
 }
 
 @media screen and (max-width: 429px){
   .main-banner .s-container article .main-info h1 {
     font-size: 30px;
+  }
+
+  .advantages .container .advantages-item .advantages-info {
+    gap: 12px;
+  }
+
+  .advantages .container .advantages-item .advantages-info h6 {
+    font-size: 22px;
+  }
+
+  .advantages .container .advantages-item .advantages-info p {
+    font-size: 14px;
+  }
+
+  .education .S-container h3 {
+    font-size: 30px;
+  }
+
+  .education .S-container .education-item .education-info h5 {
+    font-size: 20px;
+  }
+
+  .education .S-container .education-item .education-info p {
+    font-size: 14px;
+  }
+
+  .education .S-container .education-item .education-info p {
+    word-spacing: inherit;
   }
 
 .teachures h4 {
@@ -332,68 +403,54 @@
 
   .interest .s-container .interest-content p {
     font-size: 20px;
+  } 
+}
+
+@media screen and (max-width:360px){
+  .goals .container h3 {
+    font-size: 24px;
+  }
+
+  .goals .container .goal-info .goal-item .goal-text h6 {
+    font-size: 22px;
+  }
+
+  .goals .container .goal-info .goal-item .goal-text p {
+    font-size: 14px;
+  }
+
+  .education .S-container .education-item .education-info h5 {
+    font-size: 18px;
+  }
+
+  .education .S-container .education-item .education-info p {
+    font-size: 12px;
   }
 }
 
-
-/* Гамбургер иконка */
-
-.menu-btn {
-	width: 30px;
-	height: 30px;
-	position: relative;
-	z-index:2;
-	overflow: hidden;
-  display: none;
+@media screen and (max-width:343px){
+  .main-banner .s-container {
+    padding: 116px 0;
+  }
 }
 
-.menu-btn .bar {
-	width: 30px;
-	height: 4px;
-	position: absolute;
-	top: 50%;
-	left: 50%;
-  border-radius: 4px;
-	transform: translate(-50%, -50%);
-	background-color: #FE6A5D;
-	transition: all 0.3s ease-in-out;
+@media screen and (max-width:320px){
+
+  .advantages .container .advantages-item h3 {
+    font-size: 26px;
+  }
+
+  .advantages .container .advantages-item .advantages-info h6 {
+    font-size: 20px;
+  }
+
+  .advantages .container .advantages-item .advantages-info p {
+    font-size: 12px;
+  }
 }
 
-.menu-btn .bar:nth-of-type(2) {
-	top: calc(50% - 9px);
-}
-.menu-btn .bar:nth-of-type(3) {
-	top: calc(50% + 9px);
-}
-
-/* Меняем гамбургер иконку, когда меню открыто */
-
-.menu-btn.active .bar:nth-of-type(1) {
-  display: none;
-}
-.menu-btn.active .bar:nth-of-type(2) {
-  top: 50%;
-  transform: translate(-50%, 0%) rotate(45deg);  
-}
-.menu-btn.active .bar:nth-of-type(3) {
-  top: 50%;
-  transform: translate(-50%, 0%) rotate(-45deg); 
-}
-
-/* Меню, которое будет появляться */
-
-nav {
-	position: fixed;
-	top: 0;
-	left: 0;
-	width: 100%;
-	height: 100%;
-	padding: 15px;
-  background: #FFEFBA;
-	transform: translateX(100%);
-	transition: transform 0.5s; 
-}
-
-nav.active {
-	transform: translateX(0);
+@media screen and (max-width:282px){
+  .advantages .container .advantages-item h3 {
+    font-size: 28px;
+  }
 }

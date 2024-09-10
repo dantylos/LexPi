@@ -13,44 +13,44 @@
 
     <div class="container d-flex">
 
-      <a class="col-7" href="index.html">
-        <div class="main-logo"><img src="images/svgs/logo.svg" alt="Logo" title="Home"></div>
-      </a>
+      <nav class="d-flex">
 
+        <input type="checkbox" id="nav-check">
 
-      <div class="header__nav">
-        <nav role="navigation">
+        <a class="col-7" href="index.html">
+          <div class="main-logo"><img src="images/svgs/logo.svg" alt="Logo" title="Home"></div>
+        </a>
 
-            <ul class="ls-none d-flex nav__list">
+        <div class="nav-btn">
+          <label for="nav-check">
+            <span></span>
+            <span></span>
+            <span></span>
+          </label>
+        </div>
+        
+        <ul class="nav-list">
 
-              <li class="nav__list_item"><a class="nav__link" href="#">Контакты</a></li>
-    
-              <li class="nav__list_item">
-                <div class="dropdown">
-                  <span>Курсы</span>
-                  <div class="dropdown-content">
-                    <ul class="ls-none">
-                      <li><a class="linkHover coPrpl" href="front.html">Front-End</a></li>
-                      <li><a class="linkHover coBlue" href="#">Python</a></li>
-                      <li><a class="linkHover coRad" href="#">Design</a></li>
-                      <li><a class="linkHover coYello" href="#">Mathematics</a></li>
-                    </ul>
-                  </div>
-                </div>
-              </li>
-    
-              <li class="consultation nav__list_item"><a class="nav__link" href="#">Бесплатная консультация</a></li>
-    
-            </ul>
+          <li><a href="#">Контакты</a></li>
 
-        </nav>
-      </div>
+          <li>
+            <div class="dropdown">
+              <span>Курсы</span>
+              <div class="dropdown-content">
+                <ul class="ls-none">
+                  <li><a class="coPrpl" href="front.html">Front-End</a></li>
+                  <li><a class="coBlue" href="#">Python</a></li>
+                  <li><a class="coRad" href="#">Design</a></li>
+                  <li><a class="coYello" href="#">Mathematics</a></li>
+                </ul>
+              </div>
+            </div>
+          </li>
 
-      <div class="menu-btn">
-        <span class="bar"></span>
-        <span class="bar"></span>
-        <span class="bar"></span>
-      </div>
+          <li class="consultation"><a class="href="#">Бесплатная консультация</a></li>
+        </ul>
+
+      </nav>
 
     </div>
 
@@ -249,7 +249,7 @@
 
           <div class="goal-item">
 
-            <div class="goal-img d-flex">
+            <div class="goal-img justify-end d-flex">
               <div class="goal-img-1"><img src="images/goals/Layer.svg" alt="img"></div>
             </div>
 

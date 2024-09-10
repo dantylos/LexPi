@@ -1,5 +1,5 @@
 header{
-  padding: 16px 0;
+  padding: 20px 0;
   border-bottom: 2px solid #FE6A5D;
 
   .container{
@@ -7,6 +7,9 @@ header{
     justify-content: space-between;
 
     nav{
+      align-items: center;
+      justify-content: space-between;
+      width: -webkit-fill-available;
 
       ul{
         gap: 32px;
