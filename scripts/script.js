@@ -1,27 +1,27 @@
-// $('.owl-carousel').owlCarousel({
-//   loop:true,
-//   margin:0,
-//   nav:true,
-//   navText: [ '', ' ' ],
-//   autoplay:true,
-//   autoplayTimeout:5000,
-//   autoplaySpeed:500,
-//   autoplayHoverPause:false,
-//   margin:5,
-//   responsive:{
-//       0:{
-//           items:1
-//       },
+$('.owl-carousel').owlCarousel({
+  loop:true,
+  margin:0,
+  nav:true,
+  navText: [ '', ' ' ],
+  autoplay:true,
+  autoplayTimeout:5000,
+  autoplaySpeed:500,
+  autoplayHoverPause:false,
+  margin:5,
+  responsive:{
+      0:{
+          items:1
+      },
 
-//       767:{
-//         items:2
-//     },
+      767:{
+        items:2
+    },
 
-//       1000:{
-//           items:3
-//       }
-//   }
-// });
+      1000:{
+          items:3
+      }
+  }
+});
 
 // Accordion Action
 const accordionItem = document.querySelectorAll(".accordion-item");
