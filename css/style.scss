@@ -5,8 +5,8 @@
 @import url(../css/dropdown.css);
 @import url(../css/accordion.css);
 @import url(../css/footer/foot.css);
+@import url(../css/owl.theme.default.css);
 @import url(../css/owl.carousel.css);
-@import url(../owl.theme.default.css);
 @import url(../css/media.css);
 @import url(../css/burger.css);
 
@@ -201,7 +201,7 @@ $grey: rgb(145, 145, 145);
 
   .owl-nav{
     .owl-next{
-      content: url('../images/svgs/Property-forward.svg');
+      content: url('../../website/images/svgs/Property-forward.svg');
       position: absolute;
       display: inline-block;
       width: 48px;

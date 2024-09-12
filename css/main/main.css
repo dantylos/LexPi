@@ -433,4 +433,199 @@
   display: block;
 }
 
+.cource-main-banner {
+  margin-top: 36px;
+}
+.cource-main-banner .container {
+  background-color: #FEF5FE;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.cource-main-banner .container .cource-main-info {
+  max-width: 445px;
+  margin-left: 36px;
+}
+.cource-main-banner .container .cource-main-info .main-cource-svg {
+  width: 48px;
+  margin-bottom: 56px;
+}
+.cource-main-banner .container .cource-main-info .main-cource-svg img {
+  display: block;
+  width: 100%;
+}
+.cource-main-banner .container .cource-main-info .main-cource-age {
+  padding: 6px 12px;
+  background-color: #FDD7FD;
+  max-width: 104px;
+  margin-bottom: 24px;
+}
+.cource-main-banner .container .cource-main-info .main-cource-age p {
+  color: #000;
+  font-size: 17px;
+  font-weight: 700;
+}
+.cource-main-banner .container .cource-main-info article h1 {
+  color: #000;
+  font-size: 48px;
+  font-weight: 700;
+  margin-bottom: 8px;
+}
+.cource-main-banner .container .cource-main-info article p {
+  color: #000;
+  font-size: 16px;
+  font-weight: 400;
+  margin-bottom: 32px;
+}
+.cource-main-banner .container .cource-main-info article .cource-content {
+  justify-content: space-between;
+  margin-bottom: 48px;
+}
+.cource-main-banner .container .cource-main-info article .cource-content p {
+  max-width: 130px;
+  padding: 8px;
+  color: 16px;
+  font-size: 16px;
+  font-weight: 400;
+  border: 2px solid #F99AF9;
+  box-shadow: #FDD7FD 6px -6px;
+  text-align: center;
+  transition: 0.15s;
+}
+.cource-main-banner .container .cource-main-info article .cource-content p:hover {
+  box-shadow: #fd17FD 3px -3px;
+  word-spacing: 5px;
+}
+.cource-main-banner .container .cource-main-info article a {
+  color: #fff;
+  font-size: 24px;
+  font-weight: 700;
+  padding: 17px 0;
+  background-color: #F99AF9;
+  box-shadow: #FDD7FD 8px -8px;
+  width: -webkit-fill-available;
+  text-align: center;
+  transition: 0.15s;
+}
+.cource-main-banner .container .cource-main-info article a:hover {
+  box-shadow: #fd17FD 4px -4px;
+  letter-spacing: 2px;
+  word-spacing: 5px;
+}
+
+.whatis-cource {
+  margin-top: 96px;
+}
+.whatis-cource .container {
+  max-width: 1127px;
+}
+.whatis-cource .container .cource-page-infoblock {
+  gap: 28px;
+  justify-content: space-between;
+  margin-top: 24px;
+}
+.whatis-cource .container .cource-page-infoblock h2 {
+  margin-bottom: 32px;
+  color: #000;
+  font-size: 40px;
+  font-weight: 700;
+}
+.whatis-cource .container .cource-page-infoblock .left-whatis-wrapper {
+  max-width: 672px;
+}
+.whatis-cource .container .cource-page-infoblock .left-whatis-wrapper h4 {
+  color: #fff;
+  font-size: 28px;
+  font-weight: 700;
+}
+.whatis-cource .container .cource-page-infoblock .left-whatis-wrapper .whatis-item {
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 24px;
+  border: 2px solid #3586FF;
+  gap: 42px;
+  padding: 0 16px;
+}
+.whatis-cource .container .cource-page-infoblock .left-whatis-wrapper .whatis-item:first-of-type {
+  min-height: 203px;
+}
+.whatis-cource .container .cource-page-infoblock .left-whatis-wrapper .whatis-item:first-of-type p {
+  color: #fff;
+  font-size: 16px;
+  font-weight: 400;
+}
+.whatis-cource .container .cource-page-infoblock .left-whatis-wrapper .whatis-item:last-of-type {
+  min-height: 154px;
+  gap: 12px;
+}
+.whatis-cource .container .cource-page-infoblock .left-whatis-wrapper .whatis-item:last-of-type p {
+  color: #000;
+  font-size: 16px;
+  font-weight: 400;
+}
+.whatis-cource .container .cource-page-infoblock .right-whatis-wrapper {
+  max-width: 426px;
+}
+.whatis-cource .container .cource-page-infoblock .right-whatis-wrapper .whatis-item {
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 24px;
+  border: 2px solid #3586FF;
+  min-height: 154px;
+  gap: 12px;
+  padding: 0 16px;
+}
+.whatis-cource .container .cource-page-infoblock .right-whatis-wrapper .whatis-item p {
+  color: #000;
+  font-size: 16px;
+  font-weight: 400;
+}
+.whatis-cource .container .cource-page-infoblock .right-whatis-wrapper .embaresed-img {
+  margin-bottom: 24px;
+  max-width: 426px;
+}
+.whatis-cource .container .cource-page-infoblock .right-whatis-wrapper .embaresed-img img {
+  display: block;
+  width: 100%;
+}
+
+.cource-learn {
+  padding-top: 112px;
+}
+.cource-learn .container {
+  max-width: 1127px;
+  justify-content: space-between;
+}
+.cource-learn .container h3 {
+  color: #000;
+  font-size: 40px;
+  font-weight: 700;
+  margin-bottom: 72px;
+}
+.cource-learn .container ul {
+  list-style: url("../../images/svgs/arrow-forward.svg");
+}
+.cource-learn .container ul li {
+  color: #000;
+  font-size: 28px;
+  font-weight: 600;
+  margin-bottom: 30px;
+}
+.cource-learn .container .tech-images {
+  max-width: 294px;
+}
+.cource-learn .container .tech-images ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.cource-learn .container .tech-images ul li {
+  max-width: 131px;
+  margin-bottom: 26px;
+}
+.cource-learn .container .tech-images ul li img {
+  display: block;
+  width: 100%;
+}
+
 /*# sourceMappingURL=main.css.map */
