@@ -559,6 +559,24 @@ $yello3: #FCEAB0;
 .cource-main-banner{
   margin-top: 36px;
 
+  .main-cource-smallImg{
+    position: relative;
+
+    img{
+      display: none;
+      width: 100%;
+    }
+
+    .main-cource-svg2{
+      width: 48px;
+
+      img{
+        display: none;
+        width: 100%;
+      }
+    }
+  }
+
   .container{
     background-color: #FEF5FE;
     display: flex;
@@ -616,7 +634,7 @@ $yello3: #FCEAB0;
             padding: 8px;
             color: 16px;
             font-size: 16px;
-            font-weight: 400;
+            font-weight: 600;
             border: 2px solid #F99AF9;
             box-shadow: #FDD7FD 6px -6px;
             text-align: center;
@@ -648,6 +666,15 @@ $yello3: #FCEAB0;
         }
       }
     }
+
+    .cource-main-img{
+      max-width: 456px;
+
+      img{
+        display: block;
+        width: 100%;
+      }
+    }
   }
 }
 
@@ -676,6 +703,7 @@ $yello3: #FCEAB0;
           color: $white;
           font-size: 28px;
           font-weight: 700;
+          margin-bottom: 8px;
         }
 
         .whatis-item{
