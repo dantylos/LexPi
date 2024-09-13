@@ -15,6 +15,39 @@
   .cources .container article .cource-info p {
     margin: 24px 0 80px;
   }
+
+  .cource-teacher .s-container article .cource-teachure-img .cource-kent {
+    right: inherit;
+    left: -112px;
+  }
+}
+
+@media screen and (max-width: 1127px){
+  .how .container .how-block .how-item {
+    gap: 12px;
+    max-width: 348px;
+    padding: 8px;
+  }
+
+  .how .container .how-block .how-item .how-item-img img {
+    width: 36px;
+  }
+}
+
+@media screen and (max-width: 1060px){
+  .how .container .how-block .how-item h5 {
+    font-size: 24px;
+  }
+
+  .how .container .how-block .how-item p {
+    color: #fff;
+    font-size: 14.5px;
+    font-weight: 400;
+  }
+
+  .how .container .how-block .how-item {
+    max-width: 330px;
+  }
 }
 
 @media screen and (max-width: 1024px){
@@ -145,6 +178,73 @@
   .cource-main-banner .container .cource-main-img {
     max-width: 420px;
   }
+
+  .how .container {
+    gap: 8px;
+  }
+
+  .how .container .how-block .how-item {
+    max-width: 292px;
+    gap: 6px;
+    padding: 6px;
+  }
+
+  .how .container .how-block .how-item h5 {
+    font-size: 22px;
+  }
+
+  .how .container .how-block .how-item p {
+    color: #fff;
+    font-size: 13px;
+    font-weight: 400;
+  }
+
+  .why .container {
+    max-width: 1127px;
+    justify-content: center;
+    align-items: center;
+    gap: 36px;
+    flex-wrap: wrap;
+  }
+
+  .why .container .why-item {
+    text-align: center;
+  }
+
+  .why .container .why-item .why-img img {
+    margin: auto;
+  }
+}
+
+@media screen and (max-width:950px){
+  .whatis-cource .container .cource-page-infoblock .left-whatis-wrapper h4 {
+    font-size: 22px;
+  }
+
+.whatis-cource .container .cource-page-infoblock .left-whatis-wrapper .whatis-item:first-of-type p {
+    font-size: 14px;
+  }
+
+  .whatis-cource .container .cource-page-infoblock .left-whatis-wrapper .whatis-item {
+    gap: 12px;
+    padding: 0px 12px;
+  }
+
+  .whatis-cource .container .cource-page-infoblock .right-whatis-wrapper .embaresed-img {
+    max-width: 342px;
+  }
+
+  .whatis-cource .container .cource-page-infoblock .left-whatis-wrapper .whatis-item:first-of-type {
+    min-height: 163px;
+  }
+
+  .whatis-cource .container .cource-page-infoblock .right-whatis-wrapper {
+    max-width: 342px;
+  }
+
+  .container, .s-container, .S-container {
+    padding: 0 28px 0 12px;
+  }
 }
 
 @media screen and (max-width: 930px){
@@ -173,31 +273,8 @@
     font-size: 22px;
   }
 
-@media screen and (max-width:950px){
-  .whatis-cource .container .cource-page-infoblock .left-whatis-wrapper h4 {
-    font-size: 22px;
-  }
-
-}
-.whatis-cource .container .cource-page-infoblock .left-whatis-wrapper .whatis-item:first-of-type p {
-    font-size: 14px;
-  }
-
-  .whatis-cource .container .cource-page-infoblock .left-whatis-wrapper .whatis-item {
-    gap: 12px;
-    padding: 0px 12px;
-  }
-
-  .whatis-cource .container .cource-page-infoblock .right-whatis-wrapper .embaresed-img {
-    max-width: 342px;
-  }
-
-  .whatis-cource .container .cource-page-infoblock .left-whatis-wrapper .whatis-item:first-of-type {
-    min-height: 163px;
-  }
-
-  .whatis-cource .container .cource-page-infoblock .right-whatis-wrapper {
-    max-width: 342px;
+  .how .container .how-block .how-item {
+    max-width: 268px;
   }
 }
 
@@ -230,6 +307,34 @@
 
   .cource-main-banner .container .cource-main-info article .cource-content p {
     max-width: 110px;
+  }
+
+  .how .container .how-block .how-item {
+    max-width: 235px;
+  }
+
+  .how .container .how-block .how-item h5 {
+    font-size: 20px;
+  }
+
+  .how .container .how-block .how-item p {
+    font-size: 12px;
+  }
+
+  .cource-teacher .s-container article .cource-teachure-img .cource-kent {
+    max-width: 212px;
+  }
+
+  .cource-teacher .s-container article .cource-teachure-img {
+    max-width: 320px;
+  }
+
+  .cource-teacher .s-container article h5 {
+    font-size: 38px;
+  }
+
+  .cource-teacher .s-container article p {
+    max-width: 342px;
   }
 }
 
@@ -271,6 +376,32 @@
   .teachures .teachers-block {
     flex-direction: column;
     gap: 48px;
+  }
+
+  .how .container .how-img {
+    max-width: 310px;
+  }
+
+  .how .container .how-block .how-item {
+    max-width: 208px;
+    gap: 0;
+    padding: 2px;
+  }
+
+  .how .container .how-block .how-item h5 {
+    font-size: 18px;
+  }
+
+  .cource-teacher .s-container article .cource-teachure-img {
+    max-width: 300px;
+  }
+
+  .cource-teacher .s-container article h5 {
+    font-size: 36px;
+  }
+
+  .cource-teacher .s-container article p {
+    max-width: 302px;
   }
 }
 
@@ -447,6 +578,85 @@
     max-width: -webkit-fill-available;
   }
 
+  .how .container {
+    flex-direction: column;
+    align-items: center;
+    max-width: 420px;
+  }
+
+  .how .container .how-block .how-item {
+    max-width: inherit;
+    gap: 12px;
+    padding: 16px;
+  }
+
+  .how .container .how-block .how-item .how-item-img img {
+    width: 48px;
+  }
+
+  .how .container .how-block .how-item h5 {
+    font-size: 26px;
+  }
+
+  .how .container .how-block .how-item p {
+    font-size: 16px;
+  }
+
+  .how .container .how-img {
+    width: 100%;
+    max-width: inherit;
+  }
+
+  .how .container .how-img {
+    width: 100%;
+    max-width: inherit;
+    margin: 6px 0;
+  }
+
+  .how .container .how-img img {
+    display: none;
+    width: 100%;
+  }
+
+  .how .container .how-img-small img {
+    display: block;
+  }
+
+  .why .container {
+    justify-content: flex-start;
+    justify-content: center;
+  }
+
+  .why .container .why-item {
+    text-align: inherit;
+    max-width: 442px;
+  }
+
+  .why h2 {
+    padding: 0 42px;
+  }
+
+  .why .container .why-item .why-img img {
+    margin: inherit;
+  }
+
+  .why .container .why-item:nth-child(2) {
+    text-align: end;
+  }
+
+  .why .container .why-item:nth-child(2) .why-img {
+    display: flex;
+    justify-content: end;
+  }
+
+  .cource-teacher .s-container article {
+    flex-direction: column-reverse;
+  }
+
+  .cource-teacher .s-container .teacher-info{
+    text-align: center;
+  }
+
   footer{
     padding: 56px 0;
   }
@@ -532,6 +742,11 @@
 
   header .container nav ul li span {
     font-size: 24px;
+  }
+
+  .why h2 {
+    padding: 0 12px;
+    font-size: 38px;
   }
 }
 

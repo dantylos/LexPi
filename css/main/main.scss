@@ -813,3 +813,178 @@ $yello3: #FCEAB0;
     }
   }
 }
+
+.how{
+  h3{
+    color: $black;
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 48px;
+    text-align: center;
+  }
+
+  .container{
+    max-width: 1127px;
+    justify-content: space-between;
+    gap: 16px;
+
+    .how-img-small{
+      width: 100%;
+
+      img{
+        display: none;
+        width: 100%;
+      }
+    }
+
+    .how-img{
+      max-width: 312px;
+
+      img{
+        display: block;
+        width: 100%;
+      }
+    }
+
+    .how-block{
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      gap: 16px;
+
+      .how-item{
+        display: flex;
+        align-items: center;
+        gap: 28px;
+        max-width: 385px;
+        min-height: 266px;
+        padding: 20px 16px;
+  
+        h5{
+          color: $white;
+          font-size: 28px;
+          font-weight: 600;
+          margin-bottom: 8px;
+        }
+
+        p{
+          color: $white;
+          font-size: 16px;
+          font-weight: 400;
+          letter-spacing: 0.5px;
+        }
+
+        .how-item-img{
+          img{
+            display: block;
+            width: 48px;
+          }
+        }
+      }
+    }
+  }
+}
+
+.why{
+  margin-top: 120px;
+  padding: 74px 0;
+  background-color: #FEF5FE;
+
+  h2{
+    color: $black;
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 86px;
+    text-align: center;
+  }
+
+  .container{
+    max-width: 1127px;
+    justify-content: space-between;
+    align-items: center;
+    gap: 28px;
+
+    .why-item{
+      max-width: 330px;
+
+      .why-img{
+          img{
+            display: block;
+          }
+      }
+
+      h5{
+        color: $black;
+        font-size: 28px;
+        font-weight: 700;
+        margin: 18px 0 8px;
+      }
+
+      p{
+        color: $black;
+        font-size: 16px;
+        font-weight: 400;
+      }
+    }
+  }
+}
+
+.cource-teacher{
+  padding: 120px 0 102px;
+
+  .s-container{
+    
+    article{
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      
+      h5{
+        color: $black;
+        font-size: 40px;
+        font-weight: 700;
+        margin-bottom: 72px;
+      }
+
+      p{
+        color: $black;
+        font-size: 20px;
+        font-weight: 400;
+        max-width: 384px;
+
+        &:last-of-type{
+          font-size: 16px;
+          margin-top: 16px;
+        }
+      }
+
+      .cource-teachure-img{
+        max-width: 364px;
+        box-shadow: $purple2 16px -16px;
+        transition: 0.2s;
+        position: relative;
+
+        &:hover{
+          box-shadow: $purple 12px -12px;
+        }
+
+        .cource-kent{
+          max-width: 272px;
+          position: absolute;
+          bottom: 0;
+          right: -140px;
+
+          img{
+            width: 100%;
+            display: block;
+          }
+        }
+
+        img{
+          width: 100%;
+          display: block;
+        }
+      }
+    }
+  }
+}

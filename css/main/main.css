@@ -650,4 +650,145 @@
   width: 100%;
 }
 
+.how h3 {
+  color: #000;
+  font-size: 40px;
+  font-weight: 700;
+  margin-bottom: 48px;
+  text-align: center;
+}
+.how .container {
+  max-width: 1127px;
+  justify-content: space-between;
+  gap: 16px;
+}
+.how .container .how-img-small {
+  width: 100%;
+}
+.how .container .how-img-small img {
+  display: none;
+  width: 100%;
+}
+.how .container .how-img {
+  max-width: 312px;
+}
+.how .container .how-img img {
+  display: block;
+  width: 100%;
+}
+.how .container .how-block {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 16px;
+}
+.how .container .how-block .how-item {
+  display: flex;
+  align-items: center;
+  gap: 28px;
+  max-width: 385px;
+  min-height: 266px;
+  padding: 20px 16px;
+}
+.how .container .how-block .how-item h5 {
+  color: #fff;
+  font-size: 28px;
+  font-weight: 600;
+  margin-bottom: 8px;
+}
+.how .container .how-block .how-item p {
+  color: #fff;
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: 0.5px;
+}
+.how .container .how-block .how-item .how-item-img img {
+  display: block;
+  width: 48px;
+}
+
+.why {
+  margin-top: 120px;
+  padding: 74px 0;
+  background-color: #FEF5FE;
+}
+.why h2 {
+  color: #000;
+  font-size: 40px;
+  font-weight: 700;
+  margin-bottom: 86px;
+  text-align: center;
+}
+.why .container {
+  max-width: 1127px;
+  justify-content: space-between;
+  align-items: center;
+  gap: 28px;
+}
+.why .container .why-item {
+  max-width: 330px;
+}
+.why .container .why-item .why-img img {
+  display: block;
+}
+.why .container .why-item h5 {
+  color: #000;
+  font-size: 28px;
+  font-weight: 700;
+  margin: 18px 0 8px;
+}
+.why .container .why-item p {
+  color: #000;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.cource-teacher {
+  padding: 120px 0 102px;
+}
+.cource-teacher .s-container article {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.cource-teacher .s-container article h5 {
+  color: #000;
+  font-size: 40px;
+  font-weight: 700;
+  margin-bottom: 72px;
+}
+.cource-teacher .s-container article p {
+  color: #000;
+  font-size: 20px;
+  font-weight: 400;
+  max-width: 384px;
+}
+.cource-teacher .s-container article p:last-of-type {
+  font-size: 16px;
+  margin-top: 16px;
+}
+.cource-teacher .s-container article .cource-teachure-img {
+  max-width: 364px;
+  box-shadow: #FAD1FA 16px -16px;
+  transition: 0.2s;
+  position: relative;
+}
+.cource-teacher .s-container article .cource-teachure-img:hover {
+  box-shadow: #F99AF9 12px -12px;
+}
+.cource-teacher .s-container article .cource-teachure-img .cource-kent {
+  max-width: 272px;
+  position: absolute;
+  bottom: 0;
+  right: -140px;
+}
+.cource-teacher .s-container article .cource-teachure-img .cource-kent img {
+  width: 100%;
+  display: block;
+}
+.cource-teacher .s-container article .cource-teachure-img img {
+  width: 100%;
+  display: block;
+}
+
 /*# sourceMappingURL=main.css.map */
