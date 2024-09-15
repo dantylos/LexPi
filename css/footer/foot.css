@@ -50,18 +50,18 @@ footer .container .middle-foot ul li:hover {
 footer .container .middle-foot ul li::selection {
   background-color: rgba(110, 252, 134, 0.7843137255);
 }
-footer .container .right-foot ul {
+footer .container #right-foot ul {
   gap: 9px;
 }
-footer .container .right-foot ul li {
+footer .container #right-foot ul li {
   max-width: 44.3px;
 }
-footer .container .right-foot ul li img {
+footer .container #right-foot ul li img {
   width: 100%;
   display: block;
   transition: 0.2s;
 }
-footer .container .right-foot ul li img:hover {
+footer .container #right-foot ul li img:hover {
   width: 110%;
 }
 
