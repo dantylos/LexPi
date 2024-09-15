@@ -33,6 +33,7 @@ $yello: #F7C005;
 $yello2: #FCDB6E;
 $yello3: #FCEAB0;
 $grey: rgb(145, 145, 145);
+$green: rgb(105, 219, 166);
 
 
 .border-prp{
@@ -86,6 +87,9 @@ $grey: rgb(145, 145, 145);
 }
 .coYello{
   color: $yello !important
+}
+.coGreen{
+  color: $green !important
 }
 
 

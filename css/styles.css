@@ -65,6 +65,10 @@
   color: #F7C005 !important;
 }
 
+.coGreen {
+  color: rgb(105, 219, 166) !important;
+}
+
 * {
   margin: 0;
   padding: 0;
