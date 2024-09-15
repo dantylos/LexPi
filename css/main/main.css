@@ -152,7 +152,7 @@
 .education .S-container .education-item {
   justify-content: space-between;
   align-items: center;
-  margin-bottom: 120px;
+  margin-bottom: 98px;
 }
 .education .S-container .education-item .education-info {
   max-width: 442px;
@@ -231,7 +231,7 @@
 }
 
 .advantages {
-  padding: 180px 0;
+  padding: 140px 0;
 }
 .advantages .container {
   flex-direction: column;
@@ -245,6 +245,9 @@
 }
 .advantages .container .advantages-item:first-of-type {
   justify-content: space-around;
+}
+.advantages .container .advantages-item:first-of-type h6::selection, .advantages .container .advantages-item:first-of-type p::selection {
+  background-color: rgba(110, 252, 134, 0.7843137255);
 }
 .advantages .container .advantages-item .advantages-img-com {
   max-width: 456px;

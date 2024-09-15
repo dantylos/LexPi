@@ -164,9 +164,8 @@
   text-align: center;
 }
 .owl-carousel .owl-nav .owl-next {
-  content: url("../../website/images/svgs/Property-forward.svg");
+  background-image: url(../images/svgs/right.svg);
   position: absolute;
-  display: inline-block;
   width: 48px;
   height: 48px;
   top: -84px;
@@ -174,7 +173,7 @@
   border: 0;
 }
 .owl-carousel .owl-nav .owl-prev {
-  content: url("../images/svgs/Property-forward.svg");
+  background-image: url("../images/svgs/right.svg");
   transform: rotate(180deg);
   position: absolute;
   display: inline-block;

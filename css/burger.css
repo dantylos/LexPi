@@ -41,7 +41,7 @@ nav > #nav-check {
   .consultation{
     display: inline-block;
     position: relative;
-    transition: transform 0.3s ease;
+    transition: transform 0.2s ease;
   }
   nav > .nav-list { 
     position: absolute;

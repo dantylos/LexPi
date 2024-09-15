@@ -210,7 +210,7 @@ $yello3: #FCEAB0;
     .education-item{
       justify-content: space-between;
       align-items: center;
-      margin-bottom: 120px;
+      margin-bottom: 98px;
 
       .education-info{
         max-width: 442px;
@@ -311,7 +311,7 @@ $yello3: #FCEAB0;
 }
 
 .advantages{
-  padding: 180px 0;
+  padding: 140px 0;
 
   .container{
     flex-direction: column;
@@ -325,6 +325,12 @@ $yello3: #FCEAB0;
 
       &:first-of-type{
         justify-content: space-around;
+
+        h6,p{
+          &::selection{
+            background-color: #6efc86c8;
+          }
+        }
       }
 
       .advantages-img-com{
