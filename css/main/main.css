@@ -543,16 +543,16 @@
 .whatis-cource .container {
   max-width: 1127px;
 }
-.whatis-cource .container .cource-page-infoblock {
-  gap: 28px;
-  justify-content: space-between;
-  margin-top: 24px;
-}
-.whatis-cource .container .cource-page-infoblock h2 {
+.whatis-cource .container h2 {
   margin-bottom: 32px;
   color: #000;
   font-size: 40px;
   font-weight: 700;
+}
+.whatis-cource .container .cource-page-infoblock {
+  gap: 28px;
+  justify-content: space-between;
+  margin-top: 24px;
 }
 .whatis-cource .container .cource-page-infoblock .left-whatis-wrapper {
   max-width: 672px;
@@ -666,7 +666,7 @@
   gap: 16px;
 }
 .how .container .how-img-small {
-  width: 100%;
+  width: 0;
 }
 .how .container .how-img-small img {
   display: none;

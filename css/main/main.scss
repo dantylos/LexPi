@@ -690,17 +690,18 @@ $yello3: #FCEAB0;
   .container{
     max-width: 1127px;
 
+    h2{
+      margin-bottom: 32px;
+      color: $black;
+      font-size: 40px;
+      font-weight: 700;
+    }
+    
     .cource-page-infoblock{
       gap: 28px;
       justify-content: space-between;
       margin-top: 24px;
 
-      h2{
-        margin-bottom: 32px;
-        color: $black;
-        font-size: 40px;
-        font-weight: 700;
-      }
 
       .left-whatis-wrapper{
         max-width: 672px;
@@ -835,7 +836,7 @@ $yello3: #FCEAB0;
     gap: 16px;
 
     .how-img-small{
-      width: 100%;
+      width: 0;
 
       img{
         display: none;

@@ -512,6 +512,14 @@
     margin-top: 36px !important;
   }
 
+  .cource-main-banner .container {
+    padding-bottom: 24px;
+  }
+
+  .cource-main-banner {
+    margin-top: 0;
+  }
+
   .cource-main-banner .container .cource-main-img img {
     display: none;
   }
@@ -554,6 +562,7 @@
 
   .cource-main-banner .container .cource-main-info article .cource-content p {
     max-width: 130px;
+    padding: 6px;
   }
 
   .cource-main-banner .container .cource-main-info article a {
@@ -618,6 +627,10 @@
     width: 100%;
   }
 
+  .how .container .how-img-small{
+    width: 100%;
+  }
+
   .how .container .how-img-small img {
     display: block;
   }
@@ -655,6 +668,29 @@
 
   .cource-teacher .s-container .teacher-info{
     text-align: center;
+  }
+
+  .cource-learn .container {
+    justify-content: inherit;
+    align-items: center;
+    flex-direction: column;
+    gap: 42px;
+  }
+
+  .cource-learn .container .tech-images {
+    max-width: inherit;
+  }
+
+  .cource-learn .container .tech-images ul li {
+    max-width: 131px;
+    margin-bottom: 0;
+  }
+
+  .cource-learn .container .tech-images ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 28px;
   }
 
   footer{
@@ -696,6 +732,13 @@
 @media screen and (max-width: 560px){
   .consultation-form .container .form-container {
     width: -webkit-fill-available;
+  }
+
+  .whatis-cource .container h2 {
+    margin-bottom: 20px;
+    color: #000;
+    font-size: 32px;
+    font-weight: 700;
   }
 }
 
@@ -744,9 +787,38 @@
     font-size: 24px;
   }
 
+  .cource-main-banner .container .cource-main-info article .cource-content {
+    margin-bottom: 16px;
+    padding-right: 4px;
+  }
+
+  .cource-main-banner .container .cource-main-info article .cource-content p {
+    max-width: 116px;
+  }
+
+  .cource-main-banner .container .cource-main-info article h1 {
+    font-size: 42px;
+  }
+
+  .cource-main-banner .container .cource-main-info article a {
+    font-size: 20px;
+  }
+
   .why h2 {
     padding: 0 12px;
     font-size: 38px;
+  }
+
+  .cource-main-banner .container .cource-main-info     .cource-main-banner .container .cource-main-info article a {
+    padding: 16px 28px;
+  }
+
+  .whatis-cource {
+    margin-top: 42px;
+  }
+
+  .cource-learn {
+    padding-top: 82px;
   }
 }
 
@@ -802,7 +874,59 @@
 
   .interest .s-container .interest-content p {
     font-size: 20px;
-  } 
+  }
+
+  .cource-main-banner .container .cource-main-info article .cource-content p {
+    max-width: 98px;
+  }
+
+  .cource-main-banner .container .cource-main-info article h1 {
+    font-size: 40px;
+  }
+
+  .cource-main-banner .container .cource-main-info article a {
+    padding: 16px 42px;
+  }
+
+  .whatis-cource .container .cource-page-infoblock .left-whatis-wrapper .whatis-item {
+    gap: 8px;
+    padding: 0px 6px;
+  }
+
+  .whatis-cource .container .cource-page-infoblock .left-whatis-wrapper h4 {
+    font-size: 20px;
+  }
+
+  .whatis-cource .container .cource-page-infoblock .left-whatis-wrapper .whatis-item:first-of-type p {
+    font-size: 13px;
+  }
+
+  .whatis-cource .container .cource-page-infoblock .left-whatis-wrapper .whatis-item:last-of-type p {
+    color: #000;
+    font-size: 14px;
+    font-weight: 400;
+  }
+
+  .whatis-cource .container .cource-page-infoblock .right-whatis-wrapper .whatis-item {
+    gap: 8px;
+    padding: 0 8px;
+    margin-bottom: 8px
+  }
+
+  .whatis-cource .container .cource-page-infoblock .right-whatis-wrapper .embaresed-img {
+    margin-bottom: 8px;
+    max-width: 426px;
+  }
+
+  .whatis-cource .container .cource-page-infoblock .right-whatis-wrapper .whatis-item {
+    margin-bottom: 0;
+  }
+
+  .whatis-cource .container .cource-page-infoblock .right-whatis-wrapper .whatis-item p {
+    color: #000;
+    font-size: 15px;
+    font-weight: 400;
+  }
 }
 
 @media screen and (max-width:360px){
@@ -833,6 +957,15 @@
   header .container nav ul .consultation a {
     font-size: 17px;
   }
+
+  .cource-main-banner .container .cource-main-info article .cource-content p {
+    max-width: 90px;
+    font-size: 14px;
+  }
+
+  .cource-main-banner .container .cource-main-info article h1 {
+    font-size: 38px;
+  }
 }
 
 @media screen and (max-width:343px){
@@ -854,6 +987,21 @@
 
   main .accordion-item .paragraph {
     font-size: 16px;
+    }
+
+    .cource-main-banner .container .cource-main-info article h1 {
+      font-size: 35px;
+    }
+
+  .cource-main-banner .container .cource-main-info article .cource-content p {
+    max-width: 84px;
+    font-size: 13px;
+    padding: 4px 4px 0 2px;
+  }
+
+  .cource-main-banner .container .cource-main-info article a {
+    font-size: 18px;
+    padding: 16px 24px;
   }
 }
 
@@ -889,6 +1037,25 @@
 
   .cons-block .cons-link {
     font-size: 18px !important;
+  }
+
+  .cource-main-banner .container .cource-main-info article p {
+    font-size: 15px;
+  }
+
+  .cource-main-banner .container .cource-main-info article h1 {
+    font-size: 32px;
+  }
+
+  .cource-main-banner .container .cource-main-info article .cource-content {
+    margin-bottom: 16px;
+    padding-right: 0;
+  }
+
+  .cource-main-banner .container .cource-main-info article .cource-content p {
+    max-width: 76px;
+    font-size: 12.5px;
+    padding: 3px 3px 0 1px;
   }
 }
 
