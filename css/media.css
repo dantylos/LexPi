@@ -214,6 +214,10 @@
   .why .container .why-item .why-img img {
     margin: auto;
   }
+
+  .cource-learn .container ul li {
+    font-size: 26px;
+  }
 }
 
 @media screen and (max-width:950px){
@@ -240,10 +244,6 @@
 
   .whatis-cource .container .cource-page-infoblock .right-whatis-wrapper {
     max-width: 342px;
-  }
-
-  .container, .s-container, .S-container {
-    padding: 0 28px 0 12px;
   }
 }
 
@@ -275,6 +275,14 @@
 
   .how .container .how-block .how-item {
     max-width: 268px;
+  }
+
+  .cource-learn .container ul li {
+    font-size: 25px;
+  }
+
+  .cource-learn .container .tech-images ul li {
+    max-width: 120px;
   }
 }
 
@@ -434,10 +442,6 @@
     padding-bottom: 40px;
   }
 
-  .main-banner .s-container{
-    padding: 132px 0;
-  }
-
   .main-banner .s-container article {
     height: inherit;
   }
@@ -513,7 +517,7 @@
   }
 
   .cource-main-banner .container {
-    padding-bottom: 24px;
+    padding-bottom: 54px;
   }
 
   .cource-main-banner {
@@ -693,6 +697,111 @@
     gap: 28px;
   }
 
+  .main-banner .s-container {
+    padding: 98px 0 208px;
+  }
+
+  .cources {
+    padding: 108px 0 80px;
+  }
+
+  .education .S-container .education-item {
+    margin-bottom: 64px;
+  }
+
+  .advantages {
+    padding: 82px 0;
+  }
+
+  .advantages .container .advantages-item {
+    gap: 12px;
+  }
+
+  .advantages .container {
+    gap: 12px;
+  }
+
+  .advantages .container .advantages-item h3 {
+    margin-bottom: 20px;
+  }
+
+  .consultation-form {
+    padding: 72px 0;
+  }
+
+  .faq {
+    padding: 72px 0 92px;
+  }
+
+  .how{
+    margin-top: 72px;
+  }
+
+  .how .container{
+    gap: 12px;
+  }
+
+  .how .container .how-img {
+    margin-top: -18px;
+  }
+
+  .how .container .how-block {
+    gap: 12px;
+  }
+
+  .why {
+    margin-top: 36px;
+    padding: 56px 0;
+  }
+
+  .why h2 {
+    margin-bottom: 62px;
+  }
+
+  .cource-teacher {
+    padding: 82px 0 86px;
+  }
+
+  .cource-teacher .s-container .teacher-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .cource-teacher .s-container article .cource-teachure-img .cource-kent {
+    max-width: 162px;
+  }
+
+  .cource-teacher .s-container article .cource-teachure-img .cource-kent {
+    left: -72px;
+  }
+
+  .cource-teacher .s-container article .cource-teachure-img {
+    max-width: 224px;
+  }
+
+  .cource-teacher .s-container article .teachure-img-block h5 {
+    display: inline-block;
+  }
+
+  .cource-teacher .s-container article .teachure-img-block {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .cource-teacher .s-container article h5 {
+    display: none;
+  }
+
+  .cource-teacher .s-container .teacher-info {
+    margin-top: 24px;
+  }
+
+  footer {
+    padding: 48px 0;
+  }
+
   footer{
     padding: 56px 0;
   }
@@ -771,6 +880,10 @@
 }
 
 @media screen and (max-width:460px){
+  .cources .container article .cource-info {
+    min-height: 400px;
+  }
+
   .goals .container h3 {
     max-width: 200px;
   }
@@ -819,6 +932,10 @@
 
   .cource-learn {
     padding-top: 82px;
+  }
+
+  .cource-main-banner .container {
+    height: 55vh;
   }
 }
 
@@ -930,6 +1047,17 @@
 }
 
 @media screen and (max-width:360px){
+  .cource-teacher .s-container article .cource-teachure-img {
+    max-width: 212px;
+  }
+
+  .cource-teacher .s-container article .cource-teachure-img .cource-kent {
+    left: -62px;
+    max-width: 148px;
+  }
+}
+
+@media screen and (max-width:360px){
   .cources .container article .cource-info p {
     margin: 24px 0 98px 0;
   }
@@ -1002,6 +1130,15 @@
   .cource-main-banner .container .cource-main-info article a {
     font-size: 18px;
     padding: 16px 24px;
+  }
+
+  .cource-teacher .s-container article .cource-teachure-img {
+    max-width: 198px;
+    box-shadow: #FAD1FA 12px -12px;
+    }
+
+    .cource-teacher .s-container article .cource-teachure-img:hover {
+      box-shadow: #f697f6 10px -10px;
   }
 }
 

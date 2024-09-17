@@ -790,13 +790,19 @@ $yello3: #FCEAB0;
       margin-bottom: 72px;
     }
     ul {
-      list-style: url('../../images/svgs/arrow-forward.svg');
-
       li{
         color: $black;
         font-size: 28px;
         font-weight: 600;
         margin-bottom: 30px;
+        display: flex;
+
+        &::before{
+          content: url('../../images/svgs/arrow-forward.svg');
+          position: relative;
+          top: 5px;
+          margin-right: 12px;
+        }
       }
     }
     .tech-images{
@@ -810,6 +816,10 @@ $yello3: #FCEAB0;
         li{
           max-width: 131px;
           margin-bottom: 26px;
+
+          &::before{
+            content: none;
+          }
 
           img{
             display: block;
@@ -953,6 +963,12 @@ $yello3: #FCEAB0;
         margin-bottom: 72px;
       }
 
+      h6{
+        color: $black;
+        font-size: 32px;
+        font-weight: 700;
+      }
+
       p{
         color: $black;
         font-size: 20px;
@@ -962,6 +978,12 @@ $yello3: #FCEAB0;
         &:last-of-type{
           font-size: 16px;
           margin-top: 16px;
+        }
+      }
+
+      .teachure-img-block{
+        h5{
+          display: none;
         }
       }
 

@@ -627,14 +627,18 @@
   font-weight: 700;
   margin-bottom: 72px;
 }
-.cource-learn .container ul {
-  list-style: url("../../images/svgs/arrow-forward.svg");
-}
 .cource-learn .container ul li {
   color: #000;
   font-size: 28px;
   font-weight: 600;
   margin-bottom: 30px;
+  display: flex;
+}
+.cource-learn .container ul li::before {
+  content: url("../../images/svgs/arrow-forward.svg");
+  position: relative;
+  top: 5px;
+  margin-right: 12px;
 }
 .cource-learn .container .tech-images {
   max-width: 294px;
@@ -647,6 +651,9 @@
 .cource-learn .container .tech-images ul li {
   max-width: 131px;
   margin-bottom: 26px;
+}
+.cource-learn .container .tech-images ul li::before {
+  content: none;
 }
 .cource-learn .container .tech-images ul li img {
   display: block;
@@ -760,6 +767,11 @@
   font-weight: 700;
   margin-bottom: 72px;
 }
+.cource-teacher .s-container article h6 {
+  color: #000;
+  font-size: 32px;
+  font-weight: 700;
+}
 .cource-teacher .s-container article p {
   color: #000;
   font-size: 20px;
@@ -769,6 +781,9 @@
 .cource-teacher .s-container article p:last-of-type {
   font-size: 16px;
   margin-top: 16px;
+}
+.cource-teacher .s-container article .teachure-img-block h5 {
+  display: none;
 }
 .cource-teacher .s-container article .cource-teachure-img {
   max-width: 364px;
