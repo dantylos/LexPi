@@ -368,7 +368,7 @@
   .interest .s-container {
     flex-direction: column;
     align-items: center;
-    gap: 48px;
+    gap: 24px;
     padding: 0 32px;
   }
 
@@ -378,7 +378,7 @@
 
   .interest .s-container .interest-img {
     max-width: inherit;
-    width: 95%;
+    width: 90%;
   }
 
   .teachures .teachers-block {
@@ -932,10 +932,6 @@
 
   .cource-learn {
     padding-top: 82px;
-  }
-
-  .cource-main-banner .container {
-    height: 55vh;
   }
 }
 

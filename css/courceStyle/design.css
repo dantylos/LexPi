@@ -1,0 +1,33 @@
+.cource-main-banner .container {
+  background-color: #ffe3df;
+}
+.cource-main-banner .container .cource-main-info .main-cource-age {
+  background-color: #FEACA4;
+}
+.cource-main-banner .container .cource-main-info article .cource-content p {
+  border: 2px solid #FE6A5D;
+  box-shadow: #FEACA4 6px -6px;
+}
+.cource-main-banner .container .cource-main-info article .cource-content p:hover {
+  box-shadow: #FE6A5D 3px -3px;
+}
+.cource-main-banner .container .cource-main-info article a {
+  background-color: #FE6A5D;
+  box-shadow: #FEACA4 8px -8px;
+}
+.cource-main-banner .container .cource-main-info article a:hover {
+  box-shadow: #FEACA4 4px -4px;
+}
+
+.why {
+  background-color: #ffe3df;
+}
+
+.cource-teacher .s-container article .cource-teachure-img {
+  box-shadow: #FED2CD 16px -16px;
+}
+.cource-teacher .s-container article .cource-teachure-img:hover {
+  box-shadow: #FEACA4 12px -12px;
+}
+
+/*# sourceMappingURL=design.css.map */

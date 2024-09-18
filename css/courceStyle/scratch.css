@@ -1,0 +1,37 @@
+header {
+  border-bottom: 2px solid #F7C005;
+}
+
+.cource-main-banner .container {
+  background-color: #fdffbc;
+}
+.cource-main-banner .container .cource-main-info .main-cource-age {
+  background-color: #fff248;
+}
+.cource-main-banner .container .cource-main-info article .cource-content p {
+  border: 2px solid #F7C005;
+  box-shadow: #FCEAB0 6px -6px;
+}
+.cource-main-banner .container .cource-main-info article .cource-content p:hover {
+  box-shadow: #fff248 3px -3px;
+}
+.cource-main-banner .container .cource-main-info article a {
+  background-color: #F7C005;
+  box-shadow: #FCEAB0 8px -8px;
+}
+.cource-main-banner .container .cource-main-info article a:hover {
+  box-shadow: #fff248 4px -4px;
+}
+
+.why {
+  background-color: #fdffbc;
+}
+
+.cource-teacher .s-container article .cource-teachure-img {
+  box-shadow: #FCEAB0 16px -16px;
+}
+.cource-teacher .s-container article .cource-teachure-img:hover {
+  box-shadow: #fff248 12px -12px;
+}
+
+/*# sourceMappingURL=scratch.css.map */

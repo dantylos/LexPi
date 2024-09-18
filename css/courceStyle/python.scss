@@ -1,0 +1,76 @@
+$black: #000;
+$white: #fff;
+$blue: #3586FF;
+$blue2: #61A0FF;
+$blue3: #BDD7FF;
+$blue4: #e1edff;
+$red: #FE6A5D;
+$red2: #FEACA4;
+$red3: #FED2CD;
+$purple: #F99AF9;
+$purple2: #FAD1FA;
+$purple3: #FCE9FC;
+$pink: #fd17FD;
+$pink2: #FDD7FD;
+$pink3: #FEF5FE;
+$yello: #F7C005;
+$yello2: #FCDB6E;
+$yello3: #FCEAB0;
+
+
+header {
+  border-bottom: 2px solid $blue;
+}
+
+.cource-main-banner{
+  .container{
+    background-color: $blue4;
+
+    .cource-main-info{
+      .main-cource-age{
+        background-color: $blue3;
+      }
+
+      article{
+        .cource-content{
+          p{
+            border: 2px solid $blue;
+            box-shadow: $blue3 6px -6px;
+
+            &:hover{
+              box-shadow: $blue2 3px -3px;
+            }
+          }
+        }
+
+        a{
+          background-color: $blue;
+          box-shadow: $blue3 8px -8px;
+
+          &:hover{
+            box-shadow: $blue2 4px -4px;
+          }
+        }
+      }
+    }
+  }
+}
+
+.why{
+  background-color: $blue4;
+}
+
+.cource-teacher{
+  .s-container{
+    
+    article{
+      .cource-teachure-img{
+        box-shadow: $blue3 16px -16px;
+
+        &:hover{
+          box-shadow: $blue2 12px -12px;
+        }
+      }
+    }
+  }
+}

@@ -32,6 +32,9 @@ $purple3: #FCE9FC;
 $yello: #F7C005;
 $yello2: #FCDB6E;
 $yello3: #FCEAB0;
+$pink: #fd17FD;
+$pink2: #FDD7FD;
+$pink3: #FEF5FE;
 $grey: rgb(145, 145, 145);
 $green: rgb(105, 219, 166);
 
@@ -59,6 +62,10 @@ $green: rgb(105, 219, 166);
 .border-grn{
   border: 2px solid #6efc86 !important;
   border-top: none !important;
+}
+
+.border-prpl{
+  border-bottom: 2px solid $purple;
 }
 
 
@@ -103,7 +110,7 @@ $green: rgb(105, 219, 166);
 
 :root{
   p,h1,h2,h3,h4,h5,h6,label,a,li,span{
-    font-family: "Rubik", sans-serif;
+    font-family: 'Rubik';
 
     &::selection{
       background-color: rgb(253, 125, 78);

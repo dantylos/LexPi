@@ -348,52 +348,6 @@
   border: none;
 }
 
-.teachures {
-  padding: 112px 0 82px;
-}
-.teachures h4 {
-  color: #000;
-  font-size: 40px;
-  font-weight: 700;
-  text-align: center;
-}
-.teachures .teachers-block {
-  align-items: center;
-  justify-content: space-between;
-  margin-top: 56px;
-}
-.teachures .teachers-block article {
-  max-width: 264px;
-}
-.teachures .teachers-block article .teacher-img {
-  max-width: 264px;
-}
-.teachures .teachers-block article .teacher-img img {
-  display: block;
-  width: 100%;
-}
-.teachures .teachers-block article h5 {
-  color: #000;
-  font-size: 32px;
-  font-weight: 700;
-  margin-top: 20px;
-  text-align: center;
-}
-.teachures .teachers-block article p {
-  text-align: center;
-}
-.teachures .teachers-block article p:nth-child(3) {
-  color: #000;
-  font-size: 20px;
-  font-weight: 400;
-}
-.teachures .teachers-block article p:nth-child(4) {
-  color: #000;
-  font-size: 16px;
-  font-weight: 400;
-  margin-top: 8px;
-}
-
 .faq {
   padding: 100px 0 116px;
 }
@@ -510,8 +464,8 @@
   transition: 0.15s;
 }
 .cource-main-banner .container .cource-main-info article .cource-content p:hover {
-  box-shadow: #fd17FD 3px -3px;
-  word-spacing: 5px;
+  box-shadow: #F99AF9 3px -3px;
+  word-spacing: 2px;
 }
 .cource-main-banner .container .cource-main-info article a {
   color: #fff;
@@ -787,7 +741,7 @@
 }
 .cource-teacher .s-container article .cource-teachure-img {
   max-width: 364px;
-  box-shadow: #FAD1FA 16px -16px;
+  box-shadow: #FDD7FD 16px -16px;
   transition: 0.2s;
   position: relative;
 }
