@@ -424,10 +424,14 @@
     justify-content: space-between;
     align-items: center;
   }
-  
-  header .container nav ul li:last-of-type {
-    margin-left: inherit;
+
+  /* header nav  .nav-list li:first-of-type{ 
+    display: none;
   }
+
+  header .container nav ul li a {
+    font-size: 26px !important;
+  } */
 
   .menu-btn {
     display: block !important;

@@ -9,7 +9,7 @@
 </head>
 
 <body>
-  <header class="border-prpl">
+  <header>
 
     <div class="container d-flex">
 
@@ -17,7 +17,7 @@
 
         <input type="checkbox" id="nav-check">
 
-        <a class="col-7" href="front.html">
+        <a class="col-7" href="index.html">
           <div class="main-logo"><img src="images/svgs/logo.svg" alt="Logo" title="Home"></div>
         </a>
 
@@ -28,16 +28,16 @@
             <span></span>
           </label>
         </div>
-        
+
         <ul class="nav-list">
 
           <li><a href="#right-foot">Контакты</a></li>
 
-          <li>
+          <li class="toggle-down">
             <div class="dropdown">
               <span>Курсы</span>
               <div class="dropdown-content">
-                <ul class="ls-none courceslist">
+                <ul class="ls-none">
                   <li><a class="coBlue" href="python.html">Python</a></li>
                   <li><a class="coRad" href="design.html">Design</a></li>
                   <li><a class="coGreen" href="math.html">Mathematics</a></li>
@@ -47,7 +47,16 @@
             </div>
           </li>
 
-          <li class="consultation"><a class=href="#">Бесплатная консультация</a></li>
+          <ul class="ls-none menu-media">
+            <li><a href="python.html">Python</a></li>
+            <li><a href="design.html">Design</a></li>
+            <li><a href="math.html">Mathematics</a></li>
+            <li><a href="scratch.html">Scratch</a></li>
+          </ul>
+
+          <li class="consultation item-down"><a class=href="#">Бесплатная консультация</a></li>
+
+          <li class="bigLogo"><img src="images/bigLogo.svg" alt="logo"></li>
         </ul>
 
       </nav>
