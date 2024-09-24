@@ -13,7 +13,7 @@
 }
 nav .nav-list {
   display: flex;
-  margin-top: 82px;
+  margin-top: 74px;
   position: relative;
 }
 nav .nav-list li {
@@ -41,7 +41,7 @@ nav #nav-check {
   }
   header .container nav ul {
     align-items: center;
-    gap: 0;
+    gap: 24px;
   }
   nav .nav-btn {
     display: inline-block;
@@ -76,7 +76,7 @@ nav #nav-check {
     box-shadow: inherit !important;
     width: -webkit-fill-available;
   }
-  nav .nav-list { 
+  nav .nav-list {
     position: absolute;
     display: flex;
     flex-direction: column;
@@ -89,9 +89,6 @@ nav #nav-check {
     left: 0;
     overflow: hidden;
     z-index: 2;
-  }
-  nav .nav-list li {
-    margin-top: 1.5rem;
   }
   nav .nav-list li:last-of-type {
     right: 0;
@@ -106,7 +103,7 @@ nav #nav-check {
     display: block !important;
   }
   nav #nav-check:checked ~ .nav-list {
-    height: calc(100vh - 82px);
+    height: calc(100vh - 74px);
     padding: 28px 12px 0;
   }
 

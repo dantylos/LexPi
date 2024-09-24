@@ -416,7 +416,7 @@
 
 @media screen and (max-width: 767px){
   header{
-    padding: 12px 0;
+    padding: 8px 0;
   }
 
   header .container{
@@ -432,6 +432,11 @@
   header .container nav ul li a {
     font-size: 26px !important;
   } */
+
+  nav .nav-list li {
+    display: flex;
+    justify-content: center;
+  }
 
   .menu-btn {
     display: block !important;
@@ -702,7 +707,7 @@
   }
 
   .main-banner .s-container {
-    padding: 98px 0 208px;
+    padding: 98px 0 182px;
   }
 
   .cources {
