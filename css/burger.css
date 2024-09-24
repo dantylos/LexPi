@@ -13,7 +13,6 @@
 }
 nav .nav-list {
   display: flex;
-  margin-top: 74px;
   position: relative;
 }
 nav .nav-list li {
@@ -61,15 +60,7 @@ nav #nav-check {
     border-top: 2px solid #FE6A5D;
   }
   nav .nav-btn label span{
-    transform: rotate(45deg);
-  }
-  nav .nav-btn label span:first-of-type {
-    transform: rotate(135deg);
-    position: relative;
-    top: 4px;
-  }
-  nav .nav-btn label span:last-of-type {
-  display: none;
+    transition: 0.2s;
   }
 
   .consultation{
@@ -103,8 +94,22 @@ nav #nav-check {
     display: block !important;
   }
   nav #nav-check:checked ~ .nav-list {
-    height: calc(100vh - 74px);
+    height: 100vh;
     padding: 28px 12px 0;
+  }
+
+  nav #nav-check:checked ~ .nav-btn span{
+    transform: rotate(135deg);
+  }
+
+  nav #nav-check:checked ~ .nav-btn span:first-of-type{
+    position: relative;
+    top: 16px;
+    transform: rotate(45deg);
+  }
+
+  nav #nav-check:checked ~ .nav-btn span:last-of-type{
+    display: none;
   }
 
   header .container nav ul li a {

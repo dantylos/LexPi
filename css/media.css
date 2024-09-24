@@ -425,19 +425,10 @@
     align-items: center;
   }
 
-  /* header nav  .nav-list li:first-of-type{ 
-    display: none;
-  }
-
-  header .container nav ul li a {
-    font-size: 26px !important;
-  } */
-
   nav .nav-list li {
     display: flex;
     justify-content: center;
   }
-
   .menu-btn {
     display: block !important;
   }
