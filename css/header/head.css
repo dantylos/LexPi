@@ -12,7 +12,7 @@ header .container nav {
   width: -webkit-fill-available;
 }
 header .container nav ul {
-  gap: 32px;
+  gap: 36px;
   align-items: center;
 }
 header .container nav ul li:nth-child(2) {
@@ -29,15 +29,12 @@ header .container nav ul li span:hover {
   color: rgb(145, 145, 145);
 }
 header .container nav ul li span:hover::after {
-  transform: rotate(270deg);
+  transform: rotate(180deg);
 }
 header .container nav ul li span:after {
-  content: ">";
-  font-size: 22px;
+  content: url(../../images/svgs/chevron_down.svg);
   position: absolute;
-  top: -2px;
-  right: -18px;
-  transform: rotate(90deg);
+  top: -6px;
   transition: 0.2s;
 }
 header .container nav ul li a {

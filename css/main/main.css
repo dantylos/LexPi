@@ -26,7 +26,7 @@
 }
 .main-banner .s-container article .main-info .svgblock_main img {
   position: absolute;
-  left: 270px;
+  left: 290px;
   top: 6px;
 }
 .main-banner .s-container article .main-info p {
@@ -346,6 +346,10 @@
   padding: 16px;
   width: 100%;
   border: none;
+}
+.consultation-form .container .form-container form .input-item input::placeholder {
+  font-size: 16px;
+  font-weight: 400;
 }
 
 .faq {

@@ -1,3 +1,23 @@
+$black: #000;
+$white: #fff;
+$blue: #3586FF;
+$blue2: #61A0FF;
+$blue3: #BDD7FF;
+$red: #FE6A5D;
+$red2: #FEACA4;
+$red3: #FED2CD;
+$purple: #F99AF9;
+$purple2: #FAD1FA;
+$purple3: #FCE9FC;
+$yello: #F7C005;
+$yello2: #FCDB6E;
+$yello3: #FCEAB0;
+$pink: #fd17FD;
+$pink2: #FDD7FD;
+$pink3: #FEF5FE;
+$grey: rgb(145, 145, 145);
+$green: rgb(105, 219, 166);
+
 header{
   padding: 20px 0;
   border-bottom: 2px solid $red;
@@ -12,7 +32,7 @@ header{
       width: -webkit-fill-available;
 
       ul{
-        gap: 32px;
+        gap: 36px;
         align-items: center;
 
         li{
@@ -32,17 +52,14 @@ header{
               color: rgb(145, 145, 145);
 
               &::after{
-                transform: rotate(270deg);
+                transform: rotate(180deg);
               }
             }
 
             &:after {
-              content: ">";
-              font-size: 22px;
+              content: url(../../images/svgs/chevron_down.svg);
               position: absolute;
-              top: -2px;
-              right: -18px;
-              transform: rotate(90deg);
+              top: -6px;
               transition: 0.2s;
             }
           }

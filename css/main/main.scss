@@ -57,7 +57,7 @@ $yello3: #FCEAB0;
 
           img{
             position: absolute;
-            left: 270px;
+            left: 290px;
             top: 6px;
           }
         }
@@ -453,66 +453,17 @@ $yello3: #FCEAB0;
             padding: 16px;
             width: 100%;
             border: none;
+
+            &::placeholder{
+              font-size: 16px;
+              font-weight: 400;
+            }
           }
         }
       }
     }
   }
 }
-
-// .teachures{
-//   padding: 112px 0 82px;
-
-//   h4{
-//     color: $black;
-//     font-size: 40px;
-//     font-weight: 700;
-//     text-align: center;
-//   }
-
-//   .teachers-block{
-//     align-items: center;
-//     justify-content: space-between;
-//     margin-top: 56px;
-
-//     article{
-//       max-width: 264px;
-
-//       .teacher-img{
-//         max-width: 264px;
-
-//         img{
-//           display: block;
-//           width: 100%;
-//         }
-//       }
-
-//       h5{
-//         color: $black;
-//         font-size: 32px;
-//         font-weight: 700;
-//         margin-top: 20px;
-//         text-align: center;
-//       }
-
-//       p{
-//         text-align: center;
-
-//         &:nth-child(3){
-//           color: $black;
-//           font-size: 20px;
-//           font-weight: 400;
-//         }
-//         &:nth-child(4){
-//           color: $black;
-//           font-size: 16px;
-//           font-weight: 400;
-//           margin-top: 8px;
-//         }
-//       }
-//     }
-//   }
-// }
 
 .faq{
   padding: 100px 0 116px;

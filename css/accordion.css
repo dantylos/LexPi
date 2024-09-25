@@ -25,18 +25,19 @@ main .accordion-item .title {
   cursor: pointer;
 }
 main .accordion-item .title::after {
-  content: ">";
-  transform: rotate(90deg);
+  content: url(../../website/images/svgs/chevron_down.svg);
   font-size: 32px;
   color: #000;
   float: right;
   margin-left: 5px;
+  transition: 0.2s;
 }
 main .accordion-item .title span {
   color: #000;
   font-size: 32px;
   font-weight: 700;
   margin: 20px 0 24px;
+  transition: 0.2s;
 }
 main .accordion-item .paragraph {
   font-size: 22px;
@@ -47,12 +48,13 @@ main .accordion-item .paragraph {
 }
 main .accordion-item.active {
   background-color: #FCEAB0;
+  transition: 0.5s;
 }
 main .accordion-item.active .paragraph {
   display: block;
 }
 main .accordion-item.active .title::after {
-  transform: translateX(-50%) rotate(270deg);
+  transform: translateX(-50%) rotate(180deg);
 }
 
 @media only screen and (max-width: 768px) {
