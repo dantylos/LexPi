@@ -28,7 +28,7 @@
 }
 
 .border-grn {
-  border: 2px solid #6efc86 !important;
+  border: 2px solid #00B894 !important;
   border-top: none !important;
 }
 
@@ -53,7 +53,7 @@
 }
 
 .bg-colr-grn {
-  background-color: rgb(105, 219, 166) !important;
+  background-color: #00B894 !important;
 }
 
 .coPrpl {
@@ -73,7 +73,7 @@
 }
 
 .coGreen {
-  color: rgb(105, 219, 166) !important;
+  color: #00B894 !important;
 }
 
 * {
@@ -82,11 +82,8 @@
   box-sizing: border-box;
 }
 
-:root p, :root h1, :root h2, :root h3, :root h4, :root h5, :root h6, :root label, :root a, :root li, :root span {
-  font-family: "Rubik";
-}
 :root p::selection, :root h1::selection, :root h2::selection, :root h3::selection, :root h4::selection, :root h5::selection, :root h6::selection, :root label::selection, :root a::selection, :root li::selection, :root span::selection {
-  background-color: rgb(253, 125, 78);
+  background-color: #87E3D1;
 }
 :root a {
   text-decoration: none;
@@ -137,7 +134,7 @@
   color: #fff !important;
 }
 .consultation a::selection {
-  background-color: rgba(110, 252, 134, 0.7843137255);
+  background-color: #00B894;
 }
 
 .cons-block {
@@ -159,7 +156,7 @@
   width: 95%;
 }
 .cons-block .cons-link::selection {
-  background-color: rgba(110, 252, 134, 0.7843137255);
+  background-color: #87E3D1;
 }
 
 .owl-stage {

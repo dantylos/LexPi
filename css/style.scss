@@ -13,6 +13,8 @@
 
 // Font:
 
+
+
 // Colors:
 
 $black: #000;
@@ -33,7 +35,9 @@ $pink: #fd17FD;
 $pink2: #FDD7FD;
 $pink3: #FEF5FE;
 $grey: rgb(145, 145, 145);
-$green: rgb(105, 219, 166);
+$green: #00B894;
+$green2: #87E3D1;
+$green3: #E1FFF9;
 
 
 .border-prp{
@@ -57,7 +61,7 @@ $green: rgb(105, 219, 166);
 }
 
 .border-grn{
-  border: 2px solid #6efc86 !important;
+  border: 2px solid $green !important;
   border-top: none !important;
 }
 
@@ -110,10 +114,10 @@ $green: rgb(105, 219, 166);
 
 :root{
   p,h1,h2,h3,h4,h5,h6,label,a,li,span{
-    font-family: 'Rubik';
+    
 
     &::selection{
-      background-color: rgb(253, 125, 78);
+      background-color: $green2;
     }
   }
 
@@ -170,7 +174,7 @@ $green: rgb(105, 219, 166);
     color: $white !important;
 
     &::selection{
-      background-color: #6efc86c8;
+      background-color: $green;
     }
   }
 }
@@ -195,7 +199,7 @@ $green: rgb(105, 219, 166);
     }
 
     &::selection{
-      background-color: #6efc86c8;
+      background-color: $green2;
     }
   }
 }

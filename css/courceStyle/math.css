@@ -1,37 +1,37 @@
 header {
-  border-bottom: 2px solid #4ff48f;
+  border-bottom: 2px solid #00B894;
 }
 
 .cource-main-banner .container {
-  background-color: #e0ffec;
+  background-color: #E1FFF9;
 }
 .cource-main-banner .container .cource-main-info .main-cource-age {
-  background-color: #9dffc2;
+  background-color: #87E3D1;
 }
 .cource-main-banner .container .cource-main-info article .cource-content p {
-  border: 2px solid #4ff48f;
-  box-shadow: #9dffc2 6px -6px;
+  border: 2px solid #00B894;
+  box-shadow: #87E3D1 6px -6px;
 }
 .cource-main-banner .container .cource-main-info article .cource-content p:hover {
-  box-shadow: #4ff48f 3px -3px;
+  box-shadow: #00B894 3px -3px;
 }
 .cource-main-banner .container .cource-main-info article a {
-  background-color: #4ff48f;
-  box-shadow: #9dffc2 8px -8px;
+  background-color: #00B894;
+  box-shadow: #87E3D1 8px -8px;
 }
 .cource-main-banner .container .cource-main-info article a:hover {
-  box-shadow: #9dffc2 4px -4px;
+  box-shadow: #87E3D1 4px -4px;
 }
 
 .why {
-  background-color: #e0ffec;
+  background-color: #E1FFF9;
 }
 
 .cource-teacher .s-container article .cource-teachure-img {
-  box-shadow: #9dffc2 16px -16px;
+  box-shadow: #87E3D1 16px -16px;
 }
 .cource-teacher .s-container article .cource-teachure-img:hover {
-  box-shadow: #4ff48f 12px -12px;
+  box-shadow: #00B894 12px -12px;
 }
 
 /*# sourceMappingURL=math.css.map */
