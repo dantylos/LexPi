@@ -13,6 +13,53 @@
 
 // Font:
 
+@font-face {
+    font-family: 'GT Walsheim Pro';
+    src: url(../fonts/GTWalsheimPro-Regular.eot);
+    src: local('GT Walsheim Pro Regular'), local('GTWalsheimPro-Regular'),
+        url('GTWalsheimPro-Regular.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/GTWalsheimPro-RegularOblique.woff2') format('woff2'),
+        url('../fonts/GTWalsheimPro-RegularOblique.woff') format('woff'),
+        url('../fonts/GTWalsheimPro-Regular.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'GT Walsheim Pro';
+    src: url(../fonts/GTWalsheimPro-Bold.eot);
+    src: local('GT Walsheim Pro Bold'), local('GTWalsheimPro-Bold'),
+        url('GTWalsheimPro-Bold.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/GTWalsheimPro-Black.woff2') format('woff2'),
+        url('../fonts/GTWalsheimPro-Black.woff') format('woff'),
+        url('../fonts/GTWalsheimPro-Bold.ttf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'GT Walsheim Pro';
+    src: url(../fonts/GTWalsheimPro-Medium.eot);
+    src: local('GT Walsheim Pro Medium'), local('GTWalsheimPro-Medium'),
+        url('GTWalsheimPro-Medium.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/GTWalsheimPro-Medium.woff2') format('woff2'),
+        url('../fonts/GTWalsheimPro-Medium.woff') format('woff'),
+        url('../fonts/GTWalsheimPro-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+/* @font-face {
+    font-family: 'GT Walsheim Pro Condensed';
+    src: url('GTWalsheimPro-CondensedRegular.eot');
+    src: local('GT Walsheim Pro Condensed Regular'), local('GTWalsheimPro-CondensedRegular'),
+        url('GTWalsheimPro-CondensedRegular.eot?#iefix') format('embedded-opentype'),
+        url('GTWalsheimPro-CondensedRegular.woff2') format('woff2'),
+        url('GTWalsheimPro-CondensedRegular.woff') format('woff'),
+        url('GTWalsheimPro-CondensedRegular.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+} */
 
 
 // Colors:
@@ -114,7 +161,7 @@ $green3: #E1FFF9;
 
 :root{
   p,h1,h2,h3,h4,h5,h6,label,a,li,span{
-    
+    font-family: 'GT Walsheim Pro';
 
     &::selection{
       background-color: $green2;
@@ -161,11 +208,9 @@ $green3: #E1FFF9;
 .consultation{
   background-color: $red;
   padding: 14px;
-  box-shadow: 8px -8px $red3;
   transition: 0.2s;
 
   &:hover{
-    box-shadow: 4px -4px $red2;
     padding: 14px 20px;
     letter-spacing: 1px;
   }

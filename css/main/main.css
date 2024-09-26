@@ -42,23 +42,17 @@
   color: #fff;
   background-color: #3586FF;
   padding: 12px 20px;
-  box-shadow: 8px -8px #E6F0FF;
   transition: 0.2s;
   margin-top: 32px;
 }
 .main-banner .s-container article .main-info a:hover {
-  box-shadow: 4px -4px #61A0FF;
   padding: 12px 24px;
   letter-spacing: 1px;
 }
 .main-banner .s-container article .main-img {
   max-width: 360px;
   position: relative;
-  box-shadow: 18px -18px #FED2CD;
   transition: 0.2s;
-}
-.main-banner .s-container article .main-img:hover {
-  box-shadow: 14px -14px #FEACA4;
 }
 .main-banner .s-container article .main-img img {
   width: 100%;
@@ -95,7 +89,6 @@
 }
 .cources .container article .cource-info {
   padding: 0 24px;
-  border: 2px solid #F99AF9;
   border-top: none;
 }
 .cources .container article .cource-info .age {
@@ -103,20 +96,20 @@
 }
 .cources .container article .cource-info .age p {
   color: #000;
+  background-color: #fff;
   font-size: 17px;
   font-weight: 700;
   padding: 6px 12px;
-  background-color: #FAD1FA;
   margin: 24px 0 4px;
 }
 .cources .container article .cource-info h3 {
-  color: #000;
+  color: #fff;
   font-size: 32px;
   font-weight: 700;
   text-align: start;
 }
 .cources .container article .cource-info p {
-  color: #000;
+  color: #fff;
   font-size: 16px;
   font-weight: 400;
   margin-top: 14px;
@@ -129,6 +122,9 @@
   font-weight: 700;
   text-align: start;
   margin: 24px 0;
+  line-height: 130%;
+  position: relative;
+  bottom: 3px;
 }
 .cources .container article .cource-info .chev-right {
   max-width: 20px;
@@ -140,6 +136,9 @@
 .cources .container article .cource-info .more {
   align-items: center;
   gap: 6px;
+}
+.cources .container article .cource-info .more:after {
+  content: url(../../images/svgs/cource-chevron.svg);
 }
 
 .education .S-container h3 {

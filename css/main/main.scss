@@ -76,12 +76,10 @@ $yello3: #FCEAB0;
           color: $white;
           background-color: $blue;
           padding: 12px 20px;
-          box-shadow: 8px -8px $blue3;
           transition: 0.2s;
           margin-top: 32px;
 
           &:hover {
-            box-shadow: 4px -4px $blue2;
             padding: 12px 24px;
             letter-spacing: 1px;
           }
@@ -91,12 +89,7 @@ $yello3: #FCEAB0;
       .main-img{
         max-width: 360px;
         position: relative;
-        box-shadow: 18px -18px $red3;
         transition: 0.2s;
-
-        &:hover{
-          box-shadow: 14px -14px $red2;
-        }
 
         img{
           width: 100%;
@@ -143,7 +136,6 @@ $yello3: #FCEAB0;
 
       .cource-info{
         padding: 0 24px;
-        border: 2px solid $purple;
         border-top: none;
 
         .age{
@@ -151,23 +143,23 @@ $yello3: #FCEAB0;
 
           p{
             color: $black;
+            background-color: $white;
             font-size: 17px;
             font-weight: 700;
             padding: 6px 12px;
-            background-color: $purple2;
             margin: 24px 0 4px;
           }
         }
 
         h3{
-          color: $black;
+          color: $white;
           font-size: 32px;
           font-weight: 700;
           text-align: start;
         }
 
         p{
-          color: $black;
+          color: $white;
           font-size: 16px;
           font-weight: 400;
           margin-top: 14px;
@@ -181,6 +173,9 @@ $yello3: #FCEAB0;
           font-weight: 700;
           text-align: start;
           margin: 24px 0;
+          line-height: 130%;
+          position: relative;
+          bottom: 3px;
         }
         .chev-right{
           max-width: 20px;
@@ -194,6 +189,10 @@ $yello3: #FCEAB0;
         .more{
           align-items: center;
           gap: 6px;
+
+          &:after{
+            content: url(../../images/svgs/cource-chevron.svg);
+          }
         }
       }
     }
