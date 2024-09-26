@@ -45,6 +45,7 @@ main .accordion-item .paragraph {
   color: #000;
   display: none;
   padding: 1rem 0;
+  line-height: 140%;
 }
 main .accordion-item.active {
   background-color: #FCEAB0;

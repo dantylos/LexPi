@@ -86,16 +86,24 @@
   text-align: center;
   }
 
-  .owl-carousel .owl-nav {
-    display: none !important;
-  }
-
   .owl-carousel .owl-dots {
     display: none !important;
   }
 
   .owl-stage{
     gap: 8px;
+  }
+
+  .cources .container .owl-carousel .owl-nav .owl-prev {
+    top: inherit;
+    bottom: -62px;
+    left: 8px;
+  }
+
+  .cources .container .owl-carousel .owl-nav .owl-next {
+    top: inherit;
+    bottom: -62px;
+    right: 8px;
   }
 
   .goals .container .goal-info .goal-item .goal-img .goal-img-2 img {
@@ -407,7 +415,7 @@
   .cource-teacher .s-container article h5 {
     font-size: 36px;
   }
-
+  
   .cource-teacher .s-container article p {
     max-width: 302px;
   }
@@ -429,14 +437,19 @@
     display: flex;
     justify-content: center;
   }
+
+  .main-banner .s-container {
+    padding: 98px 0 158px;
+  }
+  
   .menu-btn {
     display: block !important;
   }
-
+  
   .nav-container .hamburger-lines .line {
     display: block;
   }
-
+  
   .main-banner{
     position: relative;
     padding-bottom: 40px;
@@ -697,9 +710,6 @@
     gap: 28px;
   }
 
-  .main-banner .s-container {
-    padding: 98px 0 182px;
-  }
 
   .cources {
     padding: 108px 0 80px;

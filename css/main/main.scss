@@ -2,19 +2,23 @@ $black: #000;
 $white: #fff;
 $blue: #3586FF;
 $blue2: #61A0FF;
-$blue3: #E6F0FF;
+$blue3: #BDD7FF;
 $red: #FE6A5D;
 $red2: #FEACA4;
 $red3: #FED2CD;
 $purple: #F99AF9;
 $purple2: #FAD1FA;
 $purple3: #FCE9FC;
-$pink: #fd17FD;
-$pink2: #FDD7FD;
-$pink3: #FEF5FE;
 $yello: #F7C005;
 $yello2: #FCDB6E;
 $yello3: #FCEAB0;
+$pink: #fd17FD;
+$pink2: #FDD7FD;
+$pink3: #FEF5FE;
+$grey: rgb(145, 145, 145);
+$green: #00B894;
+$green2: #87E3D1;
+$green3: #E1FFF9;
 
 
 //
@@ -50,6 +54,7 @@ $yello3: #FCEAB0;
           font-size: 48px;
           font-weight: 700;
           position: relative;
+          line-height: 130%;
         }
 
         .svgblock_main{
@@ -57,7 +62,7 @@ $yello3: #FCEAB0;
 
           img{
             position: absolute;
-            left: 290px;
+            left: 308px;
             top: 6px;
           }
         }
@@ -68,6 +73,7 @@ $yello3: #FCEAB0;
           font-weight: 400;
           max-width: 320px;
           margin-top: 10px;
+          line-height: 140%;
         }
 
         a{
@@ -78,6 +84,7 @@ $yello3: #FCEAB0;
           padding: 12px 20px;
           transition: 0.2s;
           margin-top: 32px;
+          line-height: 130%;
 
           &:hover {
             padding: 12px 24px;
@@ -121,6 +128,7 @@ $yello3: #FCEAB0;
       font-weight: 700;
       color: $black;
       margin-bottom: 42px;
+      line-height: 125%;
     }
 
     article{
@@ -156,6 +164,7 @@ $yello3: #FCEAB0;
           font-size: 32px;
           font-weight: 700;
           text-align: start;
+          line-height: 130%;
         }
 
         p{
@@ -164,9 +173,10 @@ $yello3: #FCEAB0;
           font-weight: 400;
           margin-top: 14px;
           letter-spacing: 1px;
-          margin: 24px 0 86px;
+          margin: 24px 0 108px;
           text-align: start;
           max-height: 120px;
+          line-height: 150%;
         }
 
         .bold{
@@ -207,6 +217,7 @@ $yello3: #FCEAB0;
       font-weight: 700;
       text-align: center;
       margin-bottom: 68px;
+      line-height: 130%;
     }
 
     .education-item{
@@ -221,6 +232,7 @@ $yello3: #FCEAB0;
           color: $black;
           font-size: 28px;
           font-weight: 700;
+          line-height: 130%;
         }
 
         p{
@@ -230,6 +242,7 @@ $yello3: #FCEAB0;
           word-spacing: 5px;
           letter-spacing: 0.5px;
           margin-top: 10px;
+          line-height: 150%;
         }
       }
     }
@@ -253,6 +266,7 @@ $yello3: #FCEAB0;
       font-size: 40px;
       font-weight: 700;
       margin-bottom: 48px;
+      line-height: 130%;
     }
 
     .goal-info{
@@ -292,6 +306,7 @@ $yello3: #FCEAB0;
             color: $black;
             font-size: 28px;
             font-weight: 600;
+            line-height: 130%;
           }
 
           p{
@@ -300,11 +315,13 @@ $yello3: #FCEAB0;
             font-weight: 400;
             word-spacing: 3px;
             margin-top: 8px;
+            line-height: 150%;
           }
 
           img{
             position: absolute;
-            left: -118px;
+            left: -112px;
+            transform: rotateX(180deg);
           }
         }
       }
@@ -359,6 +376,7 @@ $yello3: #FCEAB0;
         font-weight: 700;
         text-align: center;
         max-width: 368px;
+        line-height: 125%;
       }
 
       .advantages-info{
@@ -379,6 +397,7 @@ $yello3: #FCEAB0;
           font-size: 16px;
           font-weight: 400;
           margin-top: 8px;
+          line-height: 150%;
         }
 
         .advantages-info_chevron{
@@ -427,6 +446,7 @@ $yello3: #FCEAB0;
         color: $white;
         font-size: 40px;
         font-weight: 700;
+        line-height: 125%;
       }
   
       p{
@@ -434,6 +454,7 @@ $yello3: #FCEAB0;
         font-size: 20px;
         font-weight: 400;
         margin-top: 16px;
+        line-height: 140%;
       }
     }
 
@@ -476,6 +497,7 @@ $yello3: #FCEAB0;
       font-weight: 700;
       max-width: 505px;
       margin-bottom: 80px;
+      line-height: 125%;
     }
   }
 }
@@ -494,6 +516,7 @@ $yello3: #FCEAB0;
         color: $black;
         font-size: 40px;
         font-weight: 700;
+        line-height: 125%;
       }
   
       p{
@@ -501,6 +524,7 @@ $yello3: #FCEAB0;
         font-size: 24px;
         font-weight: 400;
         margin-top: 16px;
+        line-height: 130%;
       }
     }
 
@@ -549,7 +573,7 @@ $yello3: #FCEAB0;
       .main-cource-svg{
         width: 48px;
         margin-bottom: 56px;
-
+        
         img{
           display: block;
           width: 100%;
@@ -574,7 +598,8 @@ $yello3: #FCEAB0;
           color: $black;
           font-size: 48px;
           font-weight: 700;
-          margin-bottom: 8px;
+          margin-bottom: 8px; 
+          line-height: 110%;
         }
 
         p{
@@ -582,6 +607,7 @@ $yello3: #FCEAB0;
           font-size: 16px;
           font-weight: 400;
           margin-bottom: 32px;
+          line-height: 150%;
         }
 
         .cource-content{
@@ -664,6 +690,7 @@ $yello3: #FCEAB0;
           font-size: 28px;
           font-weight: 700;
           margin-bottom: 8px;
+          line-height: 130%;
         }
 
         .whatis-item{
@@ -681,6 +708,7 @@ $yello3: #FCEAB0;
               color: $white;
               font-size: 16px;
               font-weight: 400;
+              line-height: 150%;
             }
           }
 
@@ -692,6 +720,7 @@ $yello3: #FCEAB0;
               color: $black;
               font-size: 16px;
               font-weight: 400;
+              line-height: 150%;
             }
           }
         }
@@ -713,6 +742,7 @@ $yello3: #FCEAB0;
             color: $black;
             font-size: 16px;
             font-weight: 400;
+            line-height: 150%;
           }
         }
 
@@ -835,6 +865,7 @@ $yello3: #FCEAB0;
           font-size: 28px;
           font-weight: 600;
           margin-bottom: 8px;
+          line-height: 130%;
         }
 
         p{
@@ -842,6 +873,7 @@ $yello3: #FCEAB0;
           font-size: 16px;
           font-weight: 400;
           letter-spacing: 0.5px;
+          line-height: 150%;
         }
 
         .how-item-img{
@@ -888,12 +920,14 @@ $yello3: #FCEAB0;
         font-size: 28px;
         font-weight: 700;
         margin: 18px 0 8px;
+        line-height: 130%;
       }
 
       p{
         color: $black;
         font-size: 16px;
         font-weight: 400;
+        line-height: 150%;
       }
     }
   }

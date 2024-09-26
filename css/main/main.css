@@ -20,13 +20,14 @@
   font-size: 48px;
   font-weight: 700;
   position: relative;
+  line-height: 130%;
 }
 .main-banner .s-container article .main-info .svgblock_main {
   position: relative;
 }
 .main-banner .s-container article .main-info .svgblock_main img {
   position: absolute;
-  left: 290px;
+  left: 308px;
   top: 6px;
 }
 .main-banner .s-container article .main-info p {
@@ -35,6 +36,7 @@
   font-weight: 400;
   max-width: 320px;
   margin-top: 10px;
+  line-height: 140%;
 }
 .main-banner .s-container article .main-info a {
   font-size: 24px;
@@ -44,6 +46,7 @@
   padding: 12px 20px;
   transition: 0.2s;
   margin-top: 32px;
+  line-height: 130%;
 }
 .main-banner .s-container article .main-info a:hover {
   padding: 12px 24px;
@@ -77,6 +80,7 @@
   font-weight: 700;
   color: #000;
   margin-bottom: 42px;
+  line-height: 125%;
 }
 .cources .container article {
   max-width: 360px;
@@ -107,6 +111,7 @@
   font-size: 32px;
   font-weight: 700;
   text-align: start;
+  line-height: 130%;
 }
 .cources .container article .cource-info p {
   color: #fff;
@@ -114,9 +119,10 @@
   font-weight: 400;
   margin-top: 14px;
   letter-spacing: 1px;
-  margin: 24px 0 86px;
+  margin: 24px 0 108px;
   text-align: start;
   max-height: 120px;
+  line-height: 150%;
 }
 .cources .container article .cource-info .bold {
   font-weight: 700;
@@ -147,6 +153,7 @@
   font-weight: 700;
   text-align: center;
   margin-bottom: 68px;
+  line-height: 130%;
 }
 .education .S-container .education-item {
   justify-content: space-between;
@@ -160,6 +167,7 @@
   color: #000;
   font-size: 28px;
   font-weight: 700;
+  line-height: 130%;
 }
 .education .S-container .education-item .education-info p {
   color: #000;
@@ -168,10 +176,11 @@
   word-spacing: 5px;
   letter-spacing: 0.5px;
   margin-top: 10px;
+  line-height: 150%;
 }
 
 .goals {
-  background-color: #E6F0FF;
+  background-color: #BDD7FF;
   padding: 80px 0;
   position: relative;
 }
@@ -183,6 +192,7 @@
   font-size: 40px;
   font-weight: 700;
   margin-bottom: 48px;
+  line-height: 130%;
 }
 .goals .container .goal-info {
   justify-content: space-between;
@@ -216,6 +226,7 @@
   color: #000;
   font-size: 28px;
   font-weight: 600;
+  line-height: 130%;
 }
 .goals .container .goal-info .goal-item .goal-text p {
   color: #000;
@@ -223,10 +234,12 @@
   font-weight: 400;
   word-spacing: 3px;
   margin-top: 8px;
+  line-height: 150%;
 }
 .goals .container .goal-info .goal-item .goal-text img {
   position: absolute;
-  left: -118px;
+  left: -112px;
+  transform: rotateX(180deg);
 }
 
 .advantages {
@@ -268,6 +281,7 @@
   font-weight: 700;
   text-align: center;
   max-width: 368px;
+  line-height: 125%;
 }
 .advantages .container .advantages-item .advantages-info {
   align-items: center;
@@ -286,6 +300,7 @@
   font-size: 16px;
   font-weight: 400;
   margin-top: 8px;
+  line-height: 150%;
 }
 .advantages .container .advantages-item .advantages-info .advantages-info_chevron {
   width: 108px;
@@ -325,12 +340,14 @@
   color: #fff;
   font-size: 40px;
   font-weight: 700;
+  line-height: 125%;
 }
 .consultation-form .container .form-info p {
   color: #fff;
   font-size: 20px;
   font-weight: 400;
   margin-top: 16px;
+  line-height: 140%;
 }
 .consultation-form .container .form-container {
   width: 552px;
@@ -362,6 +379,7 @@
   font-weight: 700;
   max-width: 505px;
   margin-bottom: 80px;
+  line-height: 125%;
 }
 
 .interest {
@@ -378,12 +396,14 @@
   color: #000;
   font-size: 40px;
   font-weight: 700;
+  line-height: 125%;
 }
 .interest .s-container .interest-content p {
   color: #000;
   font-size: 24px;
   font-weight: 400;
   margin-top: 16px;
+  line-height: 130%;
 }
 .interest .s-container .interest-img {
   max-width: 330px;
@@ -444,12 +464,14 @@
   font-size: 48px;
   font-weight: 700;
   margin-bottom: 8px;
+  line-height: 110%;
 }
 .cource-main-banner .container .cource-main-info article p {
   color: #000;
   font-size: 16px;
   font-weight: 400;
   margin-bottom: 32px;
+  line-height: 150%;
 }
 .cource-main-banner .container .cource-main-info article .cource-content {
   justify-content: space-between;
@@ -519,6 +541,7 @@
   font-size: 28px;
   font-weight: 700;
   margin-bottom: 8px;
+  line-height: 130%;
 }
 .whatis-cource .container .cource-page-infoblock .left-whatis-wrapper .whatis-item {
   align-items: center;
@@ -535,6 +558,7 @@
   color: #fff;
   font-size: 16px;
   font-weight: 400;
+  line-height: 150%;
 }
 .whatis-cource .container .cource-page-infoblock .left-whatis-wrapper .whatis-item:last-of-type {
   min-height: 154px;
@@ -544,6 +568,7 @@
   color: #000;
   font-size: 16px;
   font-weight: 400;
+  line-height: 150%;
 }
 .whatis-cource .container .cource-page-infoblock .right-whatis-wrapper {
   max-width: 426px;
@@ -561,6 +586,7 @@
   color: #000;
   font-size: 16px;
   font-weight: 400;
+  line-height: 150%;
 }
 .whatis-cource .container .cource-page-infoblock .right-whatis-wrapper .embaresed-img {
   margin-bottom: 24px;
@@ -662,12 +688,14 @@
   font-size: 28px;
   font-weight: 600;
   margin-bottom: 8px;
+  line-height: 130%;
 }
 .how .container .how-block .how-item p {
   color: #fff;
   font-size: 16px;
   font-weight: 400;
   letter-spacing: 0.5px;
+  line-height: 150%;
 }
 .how .container .how-block .how-item .how-item-img img {
   display: block;
@@ -703,11 +731,13 @@
   font-size: 28px;
   font-weight: 700;
   margin: 18px 0 8px;
+  line-height: 130%;
 }
 .why .container .why-item p {
   color: #000;
   font-size: 16px;
   font-weight: 400;
+  line-height: 150%;
 }
 
 .cource-teacher {
