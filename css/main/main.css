@@ -32,7 +32,7 @@
 }
 .main-banner .s-container article .main-info p {
   color: #000;
-  font-size: 20px;
+  font-size: 22px;
   font-weight: 400;
   max-width: 320px;
   margin-top: 10px;
@@ -181,7 +181,7 @@
 
 .goals {
   background-color: #E6F0FF;
-  padding: 80px 0;
+  padding: 80px 0 58px;
   position: relative;
 }
 .goals .kvadratan img {

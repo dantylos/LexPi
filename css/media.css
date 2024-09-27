@@ -94,18 +94,6 @@
     gap: 8px;
   }
 
-  .cources .container .owl-carousel .owl-nav .owl-prev {
-    top: inherit;
-    bottom: -62px;
-    left: 8px;
-  }
-
-  .cources .container .owl-carousel .owl-nav .owl-next {
-    top: inherit;
-    bottom: -62px;
-    right: 8px;
-  }
-
   .goals .container .goal-info .goal-item .goal-img .goal-img-2 img {
     display: none;
   }
@@ -367,7 +355,7 @@
   .education .S-container .education-item {
     justify-content: space-evenly;
     flex-direction: row-reverse;
-    gap: 12px;
+    gap: 22px;
   }
   .education .S-container .education-item:first-of-type {
     flex-direction: row;
@@ -475,9 +463,22 @@
     margin: auto !important;
   }
 
+  .cources .container .owl-carousel .owl-nav .owl-prev {
+    top: inherit;
+    bottom: -62px;
+    left: 8px;
+  }
+
+  .cources .container .owl-carousel .owl-nav .owl-next {
+    top: inherit;
+    bottom: -62px;
+    right: inherit;
+    left: 69px;
+  }
+
   .goals .container .goal-info {
     justify-content: flex-start;
-    gap: 36px;
+    gap: 56px;
   }
 
   .goals .container .goal-info .goal-item {
@@ -498,6 +499,11 @@
   .goals .container h3 {
     text-align: start;
     font-size: 34px;
+  }
+
+  .goals .container .goal-info .goal-item .goal-text p {
+    word-spacing: 1px;
+    line-height: 135%;
   }
 
   .advantages .container .advantages-item {
@@ -716,7 +722,16 @@
   }
 
   .education .S-container .education-item {
-    margin-bottom: 64px;
+    margin-bottom: 60px;
+  }
+
+  .education{
+    padding-top: 88px;
+  }
+
+  .education .S-container .education-item .education-info p {
+    font-size: 13px;
+    line-height: 120%;
   }
 
   .advantages {
@@ -827,12 +842,6 @@
 }
 
 @media screen and (max-width: 700px){
-  .goals .container .goal-info .goal-item:nth-child(2) {
-    text-align: end;
-  }
-  .goals .container .goal-info .goal-item .justify-end{
-    justify-content: flex-end;
-  }
 
   .goals .container .goal-info .goal-item {
     max-width: -webkit-fill-available;
@@ -866,14 +875,23 @@
     font-size: 36px;
   }
 
+  .main-banner .s-container article .main-info .svgblock_main img {
+    left: 218px;
+  }
+
   .main-banner .s-container article .main-info img {
-    display: none;
+    left: 14px;
   }
 }
 
 @media screen and (max-width: 519px){
   .main-banner .s-container article .main-info .svgblock_main img {
     left: 218px;
+    display: block;
+  }
+
+  .main-banner .s-container article .main-info img {
+    display: none ;
   }
 
   .goals .container h3 {
@@ -890,6 +908,14 @@
 }
 
 @media screen and (max-width:460px){
+  header .container nav ul li a {
+    font-size: 24px;
+  }
+
+  header .container nav ul li span {
+    font-size: 24px;
+  }
+
   .cources .container article .cource-info {
     min-height: 400px;
   }
@@ -900,14 +926,6 @@
 
   .teachures {
     padding: 86px 0 82px;
-  }
-
-  header .container nav ul li a {
-    font-size: 24px;
-  }
-
-  header .container nav ul li span {
-    font-size: 24px;
   }
 
   .cource-main-banner .container .cource-main-info article .cource-content {
@@ -952,6 +970,10 @@
 @media screen and (max-width: 429px){
   .main-banner .s-container article .main-info h1 {
     font-size: 30px;
+  }
+
+  .main-banner .s-container article .main-info .svgblock_main img {
+    left: 178px;
   }
 
   .advantages .container .advantages-item .advantages-info {
@@ -1054,6 +1076,10 @@
     font-size: 15px;
     font-weight: 400;
   }
+
+  header .container nav ul .consultation a {
+    font-size: 22px;
+  }
 }
 
 @media screen and (max-width:360px){
@@ -1149,6 +1175,10 @@
 
     .cource-teacher .s-container article .cource-teachure-img:hover {
       box-shadow: #f697f6 10px -10px;
+  }
+
+  .main-banner .s-container article .main-info .svgblock_main img {
+    left: 130px;
   }
 }
 
