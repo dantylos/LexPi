@@ -167,6 +167,10 @@ $green3: #E1FFF9;
   }
 }
 
+body{
+  touch-action: manipulation;
+}
+
 .container{
   max-width: 1200px;
   margin: auto;
@@ -246,6 +250,10 @@ $green3: #E1FFF9;
 .owl-carousel{
   .owl-item{
     text-align: center;
+  }
+
+  .owl-dots{
+    display: none;
   }
 
   .owl-nav{

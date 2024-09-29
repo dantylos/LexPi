@@ -466,14 +466,14 @@
   .cources .container .owl-carousel .owl-nav .owl-prev {
     top: inherit;
     bottom: -62px;
-    left: 8px;
+    left: 0;
   }
 
   .cources .container .owl-carousel .owl-nav .owl-next {
     top: inherit;
     bottom: -62px;
     right: inherit;
-    left: 69px;
+    left: 56px;
   }
 
   .goals .container .goal-info {
@@ -716,7 +716,6 @@
     gap: 28px;
   }
 
-
   .cources {
     padding: 108px 0 80px;
   }
@@ -823,6 +822,18 @@
     margin-top: 24px;
   }
 
+  .cources .container article .cource-info p {
+    color: #fff;
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 14px;
+    letter-spacing: 1px;
+    margin: 24px 0 108px;
+    text-align: start;
+    max-height: 120px;
+    line-height: 125%;
+  }
+
   footer {
     padding: 48px 0;
   }
@@ -917,7 +928,23 @@
   }
 
   .cources .container article .cource-info {
-    min-height: 400px;
+    min-height: 313px;
+  }
+
+  .wrapper-cource {
+    display: flex;
+    align-items: center;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    margin-top: 17px;
+  }
+
+  .cources .container article .cource-info .age p {
+    margin: 0;
+  }
+
+  .cources .container article .cource-info p {
+    margin: 24px 0 74px;
   }
 
   .goals .container h3 {
@@ -1094,10 +1121,6 @@
 }
 
 @media screen and (max-width:360px){
-  .cources .container article .cource-info p {
-    margin: 24px 0 98px 0;
-  }
-
   .goals .container h3 {
     font-size: 24px;
   }
@@ -1183,6 +1206,13 @@
 }
 
 @media screen and (max-width:320px){
+  .cources .container article .cource-info h3 {
+    font-size: 30px;
+  }
+
+  .cources .container article .cource-info .age p {
+    padding: 5px 10px 4px;
+  }
 
   .cources .container article .cource-info p {
     margin: 24px 0 126px 0;
@@ -1233,6 +1263,12 @@
     max-width: 76px;
     font-size: 12.5px;
     padding: 3px 3px 0 1px;
+  }
+}
+
+@media screen and (max-width:300px){
+  .cources .container article .cource-info h3 {
+    font-size: 26px;
   }
 }
 

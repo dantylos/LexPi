@@ -122,12 +122,12 @@
   margin: 24px 0 108px;
   text-align: start;
   max-height: 120px;
-  line-height: 150%;
+  line-height: 130%;
 }
 .cources .container article .cource-info .bold {
   font-weight: 700;
   text-align: start;
-  margin: 24px 0;
+  margin: 0;
   line-height: 130%;
   position: relative;
   bottom: 3px;
@@ -362,6 +362,7 @@
   padding: 16px;
   width: 100%;
   border: none;
+  font-size: 16px;
 }
 .consultation-form .container .form-container form .input-item input::placeholder {
   font-size: 16px;

@@ -177,13 +177,13 @@ $green3: #E1FFF9;
           margin: 24px 0 108px;
           text-align: start;
           max-height: 120px;
-          line-height: 150%;
+          line-height: 130%;
         }
 
         .bold{
           font-weight: 700;
           text-align: start;
-          margin: 24px 0;
+          margin: 0;
           line-height: 130%;
           position: relative;
           bottom: 3px;
@@ -474,6 +474,7 @@ $green3: #E1FFF9;
             padding: 16px;
             width: 100%;
             border: none;
+            font-size: 16px;
 
             &::placeholder{
               font-size: 16px;
