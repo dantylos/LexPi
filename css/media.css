@@ -466,14 +466,14 @@
   .cources .container .owl-carousel .owl-nav .owl-prev {
     top: inherit;
     bottom: -62px;
-    left: 0;
+    right: 60px;
   }
 
   .cources .container .owl-carousel .owl-nav .owl-next {
     top: inherit;
     bottom: -62px;
     right: inherit;
-    left: 56px;
+    right: 0;
   }
 
   .goals .container .goal-info {
@@ -941,6 +941,12 @@
 
   .cources .container article .cource-info .age p {
     margin: 0;
+    white-space: nowrap;
+    padding: 5px 8px 4px;
+  }
+
+  .cources .container article .cource-info h3 {
+    font-size: 30px;
   }
 
   .cources .container article .cource-info p {

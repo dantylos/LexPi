@@ -1,3 +1,6 @@
+.main-banner {
+  background-color: #E6F0FF;
+}
 .main-banner .comment-img img {
   width: 180px;
   display: none;
@@ -17,10 +20,13 @@
   left: -26px;
 }
 .main-banner .s-container article .main-info h1 {
+  color: #fff;
   font-size: 48px;
   font-weight: 700;
   position: relative;
   line-height: 130%;
+  background-color: #FE6A5D;
+  box-shadow: #FEACA4 10px -10px;
 }
 .main-banner .s-container article .main-info .svgblock_main {
   position: relative;
@@ -47,10 +53,13 @@
   transition: 0.2s;
   margin-top: 32px;
   line-height: 130%;
+  box-shadow: #BDD7FF 8px -8px;
 }
 .main-banner .s-container article .main-info a:hover {
   padding: 12px 24px;
   letter-spacing: 1px;
+  padding: 12px 24px;
+  box-shadow: #61A0FF 5px -5px;
 }
 .main-banner .s-container article .main-img {
   max-width: 360px;
@@ -258,6 +267,9 @@
 .advantages .container .advantages-item:first-of-type {
   justify-content: space-around;
 }
+.advantages .container .advantages-item:first-of-type h6::-moz-selection, .advantages .container .advantages-item:first-of-type p::-moz-selection {
+  background-color: rgba(110, 252, 134, 0.7843137255);
+}
 .advantages .container .advantages-item:first-of-type h6::selection, .advantages .container .advantages-item:first-of-type p::selection {
   background-color: rgba(110, 252, 134, 0.7843137255);
 }
@@ -363,6 +375,10 @@
   width: 100%;
   border: none;
   font-size: 16px;
+}
+.consultation-form .container .form-container form .input-item input::-moz-placeholder {
+  font-size: 16px;
+  font-weight: 400;
 }
 .consultation-form .container .form-container form .input-item input::placeholder {
   font-size: 16px;
@@ -795,6 +811,4 @@
 .cource-teacher .s-container article .cource-teachure-img img {
   width: 100%;
   display: block;
-}
-
-/*# sourceMappingURL=main.css.map */
+}/*# sourceMappingURL=main.css.map */

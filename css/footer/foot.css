@@ -14,6 +14,9 @@ footer .container p {
   font-weight: 700;
   margin-bottom: 28px;
 }
+footer .container p::-moz-selection {
+  background-color: rgba(110, 252, 134, 0.7843137255);
+}
 footer .container p::selection {
   background-color: rgba(110, 252, 134, 0.7843137255);
 }
@@ -35,6 +38,9 @@ footer .container .left-foot ul li a {
 footer .container .left-foot ul li a:hover {
   color: darkseagreen;
 }
+footer .container .left-foot ul li a::-moz-selection {
+  background-color: rgba(110, 252, 134, 0.7843137255);
+}
 footer .container .left-foot ul li a::selection {
   background-color: rgba(110, 252, 134, 0.7843137255);
 }
@@ -46,6 +52,9 @@ footer .container .middle-foot ul li {
 }
 footer .container .middle-foot ul li:hover {
   color: darkseagreen;
+}
+footer .container .middle-foot ul li::-moz-selection {
+  background-color: rgba(110, 252, 134, 0.7843137255);
 }
 footer .container .middle-foot ul li::selection {
   background-color: rgba(110, 252, 134, 0.7843137255);
@@ -63,6 +72,4 @@ footer .container #right-foot ul li img {
 }
 footer .container #right-foot ul li img:hover {
   width: 110%;
-}
-
-/*# sourceMappingURL=foot.css.map */
+}/*# sourceMappingURL=foot.css.map */
