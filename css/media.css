@@ -425,10 +425,6 @@
     display: flex;
     justify-content: center;
   }
-
-  .main-banner .s-container {
-    padding: 98px 0 158px;
-  }
   
   .menu-btn {
     display: block !important;
@@ -439,19 +435,31 @@
   }
   
   .main-banner{
+    background-color: #E6F0FF;
     position: relative;
-    padding-bottom: 40px;
+    height: calc(100vh - 75.53px);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .main-banner .mobile-mainkent img {
+    display: block;
   }
 
   .main-banner .s-container article {
     height: inherit;
+    margin-top: 54px;
   }
 
   .main-banner .comment-img img {
     display: block;
-    position: absolute;
-    bottom: 0;
-    right: 0;
+    position: inherit;
+  }
+
+  .main-banner .comment-img{
+    margin: 15px auto 0 -24px;
   }
 
   .cources .container article .cource-info {
@@ -1112,6 +1120,10 @@
 
   header .container nav ul .consultation a {
     font-size: 22px;
+  }
+
+  .main-banner .s-container article .main-info p {
+    font-size: 20px;
   }
 }
 

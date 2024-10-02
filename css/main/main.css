@@ -1,9 +1,13 @@
-.main-banner {
-  background-color: #E6F0FF;
-}
 .main-banner .comment-img img {
   width: 180px;
   display: none;
+}
+.main-banner .mobile-mainkent {
+  max-width: 213px;
+}
+.main-banner .mobile-mainkent img {
+  display: none;
+  width: 100%;
 }
 .main-banner .s-container article {
   height: calc(100vh - 73px);

@@ -26,12 +26,19 @@ $green3: #E1FFF9;
 
 
 .main-banner {
-  background-color: $blue4;
-
   .comment-img{
     img{
       width: 180px;
       display: none;
+    }
+  }
+
+  .mobile-mainkent{
+    max-width: 213px;
+
+    img{
+      display: none;
+      width: 100%;
     }
   }
 
