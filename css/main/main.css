@@ -24,13 +24,10 @@
   left: -26px;
 }
 .main-banner .s-container article .main-info h1 {
-  color: #fff;
   font-size: 48px;
   font-weight: 700;
   position: relative;
   line-height: 130%;
-  background-color: #FE6A5D;
-  box-shadow: #FEACA4 10px -10px;
 }
 .main-banner .s-container article .main-info .svgblock_main {
   position: relative;
@@ -105,7 +102,7 @@
   display: block;
 }
 .cources .container article .cource-info {
-  padding: 0 24px;
+  padding: 0 24px 12px;
   border-top: none;
 }
 .cources .container article .cource-info .age {
@@ -636,6 +633,7 @@
   font-size: 28px;
   font-weight: 600;
   margin-bottom: 30px;
+  line-height: 130%;
   display: flex;
 }
 .cource-learn .container ul li::before {
