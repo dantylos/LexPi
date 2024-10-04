@@ -34,7 +34,7 @@ main {
         cursor: pointer;
 
         &::after{
-          content: url(../../website/images/svgs/chevron_down.svg);
+          content: url(../images/svgs/chevron_down.svg);
           // transform: rotate(90deg);
           font-size: 32px;
           color: #000;
