@@ -1,1 +1,1 @@
-Link to the website: https://dantylos.github.io/LexPi/
+Link to the website: https://dantylos.github.io/LexPi/pages/ru
