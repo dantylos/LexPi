@@ -25,7 +25,7 @@ main .accordion-item .title {
   cursor: pointer;
 }
 main .accordion-item .title::after {
-  content: url(../../website/images/svgs/chevron_down.svg);
+  content: url(../images/svgs/chevron_down.svg);
   font-size: 32px;
   color: #000;
   float: right;
@@ -64,4 +64,6 @@ main .accordion-item.active .title::after {
     height: auto;
     margin: 0 auto;
   }
-}/*# sourceMappingURL=accordion.css.map */
+}
+
+/*# sourceMappingURL=accordion.css.map */

@@ -24,7 +24,6 @@
     font-weight: 400;
     font-style: normal;
 }
-
 @font-face {
     font-family: 'GT Walsheim Pro';
     src: url(../fonts/GTWalsheimPro-Bold.eot);
@@ -36,7 +35,6 @@
     font-weight: 700;
     font-style: normal;
 }
-
 @font-face {
     font-family: 'GT Walsheim Pro';
     src: url(../fonts/GTWalsheimPro-Medium.eot);
@@ -146,6 +144,7 @@ $green3: #E1FFF9;
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  scroll-behavior: smooth;
 }
 
 :root{

@@ -101,6 +101,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  scroll-behavior: smooth;
 }
 
 :root p, :root h1, :root h2, :root h3, :root h4, :root h5, :root h6, :root label, :root a, :root li, :root span {
