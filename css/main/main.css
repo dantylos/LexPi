@@ -268,6 +268,9 @@
 .advantages .container .advantages-item:first-of-type {
   justify-content: space-around;
 }
+.advantages .container .advantages-item:first-of-type h6::-moz-selection, .advantages .container .advantages-item:first-of-type p::-moz-selection {
+  background-color: rgba(110, 252, 134, 0.7843137255);
+}
 .advantages .container .advantages-item:first-of-type h6::selection, .advantages .container .advantages-item:first-of-type p::selection {
   background-color: rgba(110, 252, 134, 0.7843137255);
 }
@@ -374,6 +377,10 @@
   border: none;
   font-size: 16px;
 }
+.consultation-form .container .form-container form .input-item input::-moz-placeholder {
+  font-size: 16px;
+  font-weight: 400;
+}
 .consultation-form .container .form-container form .input-item input::placeholder {
   font-size: 16px;
   font-weight: 400;
@@ -475,18 +482,17 @@
   font-size: 48px;
   font-weight: 700;
   margin-bottom: 8px;
-  line-height: 110%;
 }
 .cource-main-banner .container .cource-main-info article p {
   color: #000;
   font-size: 16px;
   font-weight: 400;
-  margin-bottom: 32px;
-  line-height: 150%;
+  margin-bottom: 24px;
+  line-height: 130%;
 }
 .cource-main-banner .container .cource-main-info article .cource-content {
   justify-content: space-between;
-  margin-bottom: 48px;
+  margin-bottom: 24px;
 }
 .cource-main-banner .container .cource-main-info article .cource-content p {
   max-width: 130px;
@@ -806,6 +812,4 @@
 .cource-teacher .s-container article .cource-teachure-img img {
   width: 100%;
   display: block;
-}
-
-/*# sourceMappingURL=main.css.map */
+}/*# sourceMappingURL=main.css.map */

@@ -17,6 +17,7 @@
 nav .nav-list {
   display: flex;
   position: relative;
+  overflow-y: hidden;
 }
 
 nav .nav-list li a {
@@ -107,6 +108,7 @@ nav #nav-check {
   nav #nav-check:checked~.nav-list {
     height: 100vh;
     padding: 28px 12px 0;
+    position: fixed;
   }
 
   nav #nav-check:checked~.nav-btn span {

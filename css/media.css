@@ -435,7 +435,6 @@
   }
   
   .main-banner{
-    background-color: #E6F0FF;
     position: relative;
     height: calc(100vh - 75.53px);
     display: flex;
