@@ -22,10 +22,19 @@ $green2: #87E3D1;
 $green3: #E1FFF9;
 
 
-//
+// MAIN
 
 
 .main-banner {
+  position: relative;
+
+  .main-vector{
+    position: absolute;
+    right: 0;
+    bottom: -56px;
+    display: none;
+  }
+
   .comment-img{
     img{
       width: 180px;
@@ -60,13 +69,15 @@ $green3: #E1FFF9;
         }
 
         h1{
-          // color: $white;
+          color: $white;
           font-size: 48px;
           font-weight: 700;
           position: relative;
-          line-height: 130%;
-          // background-color: $red;
-          // box-shadow: $red2 10px -10px;
+          line-height: 140%;
+          display: inline;
+          background-color: $red;
+          box-shadow: $red2 6px -6px;
+          padding: 0 6px;
         }
 
         .svgblock_main{
@@ -74,7 +85,7 @@ $green3: #E1FFF9;
 
           img{
             position: absolute;
-            left: 308px;
+            left: 262px;
             top: 6px;
           }
         }
@@ -138,6 +149,11 @@ $green3: #E1FFF9;
   padding: 24px 0 120px;
   
   .container{
+
+    .cource_underline{
+      position: absolute;
+    }
+
     h2{
       font-size: 40px;
       font-weight: 700;
@@ -225,13 +241,16 @@ $green3: #E1FFF9;
 }
 
 .education{
+  background-image: url(../../images/back.svg);
+  padding-top: 12px;
+
   .S-container{
     h3{
       color: $black;
       font-size: 40px;
       font-weight: 700;
       text-align: center;
-      margin-bottom: 68px;
+      margin-bottom: 62px;
       line-height: 130%;
     }
 
@@ -248,6 +267,8 @@ $green3: #E1FFF9;
           font-size: 28px;
           font-weight: 700;
           line-height: 130%;
+          display: inline-block;
+          padding: 0 6px;
         }
 
         p{
@@ -266,7 +287,7 @@ $green3: #E1FFF9;
 
 .goals{
   background-color: $blue4;
-  padding: 80px 0 58px;
+  padding: 80px 15px 58px;
   position: relative;
 
   .kvadratan{
@@ -276,6 +297,11 @@ $green3: #E1FFF9;
   }
 
   .container{
+    border: 2px solid $blue;
+    box-shadow: #CCE1FF 10px -10px;
+    padding: 44px 20px;
+    background-color: $white;
+
     h3{
       color: $black;
       font-size: 40px;
@@ -345,92 +371,7 @@ $green3: #E1FFF9;
 }
 
 .advantages{
-  padding: 140px 0;
-
-  .container{
-    flex-direction: column;
-    align-items: stretch;
-    gap: 30px;
-
-    .advantages-item{
-      align-items: center;
-      justify-content: center;
-      gap: 30px;
-
-      &:first-of-type{
-        justify-content: space-around;
-
-        h6,p{
-          &::selection{
-            background-color: #6efc86c8;
-          }
-        }
-      }
-
-      .advantages-img-com{
-        max-width: 456px;
-
-        img{
-          width: 100%;
-          display: block;
-        }
-      }
-
-      .advantages-img-com_type{
-        max-width: 590px;
-
-        img{
-          width: 100%;
-          display: block;
-        }
-      }
-
-      h3{
-        color: $black;
-        font-size: 40px;
-        font-weight: 700;
-        text-align: center;
-        max-width: 368px;
-        line-height: 125%;
-      }
-
-      .advantages-info{
-        align-items: center;
-        gap: 36px;
-        max-width: 618px;
-        background-color: $red;
-        padding: 32px 16px;
-
-        h6{
-          color: $white;
-          font-size: 28px;
-          font-weight: 700;
-        }
-
-        p{
-          color: $white;
-          font-size: 16px;
-          font-weight: 400;
-          margin-top: 8px;
-          line-height: 150%;
-        }
-
-        .advantages-info_chevron{
-          width: 108px;
-
-          img{
-            width: 100%;
-            display: block;
-          }
-        }
-      }
-
-      .advantages-info_type{
-        max-width: 484px;
-        padding: 27px 16px;
-      }
-    }
-  }
+  margin-top: 57px;
 }
 
 .consultation-form{
@@ -614,7 +555,7 @@ $green3: #E1FFF9;
           color: $black;
           font-size: 48px;
           font-weight: 700;
-          margin-bottom: 8px; 
+          margin-bottom: 8px;
         }
 
         p{

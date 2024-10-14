@@ -13,8 +13,12 @@ $('.owl-carousel').owlCarousel({
           items:1.3
       },
 
+      560:{
+        items:1.7
+    },
+
       767:{
-        items:2
+        items:2.3
     },
 
       1000:{

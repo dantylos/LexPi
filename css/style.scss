@@ -120,6 +120,19 @@ $green3: #E1FFF9;
   background-color: $green !important
 }
 
+.bg-bl4{
+  background-color: #E6F0FF !important
+}
+.bg-rd3{
+  background-color: #FED2CD !important
+}
+.bg-yl3{
+  background-color: $yello3 !important
+}
+.bg-pr3{
+  background-color: $purple3 !important
+}
+
 
 .coPrpl{
   color: $purple !important
@@ -145,7 +158,6 @@ $green3: #E1FFF9;
   padding: 0;
   box-sizing: border-box;
   scroll-behavior: smooth;
-  overflow: hidden;
 }
 
 :root{

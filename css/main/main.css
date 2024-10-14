@@ -1,3 +1,12 @@
+.main-banner {
+  position: relative;
+}
+.main-banner .main-vector {
+  position: absolute;
+  right: 0;
+  bottom: -56px;
+  display: none;
+}
 .main-banner .comment-img img {
   width: 180px;
   display: none;
@@ -24,17 +33,22 @@
   left: -26px;
 }
 .main-banner .s-container article .main-info h1 {
+  color: #fff;
   font-size: 48px;
   font-weight: 700;
   position: relative;
-  line-height: 130%;
+  line-height: 140%;
+  display: inline;
+  background-color: #FE6A5D;
+  box-shadow: #FEACA4 6px -6px;
+  padding: 0 6px;
 }
 .main-banner .s-container article .main-info .svgblock_main {
   position: relative;
 }
 .main-banner .s-container article .main-info .svgblock_main img {
   position: absolute;
-  left: 308px;
+  left: 262px;
   top: 6px;
 }
 .main-banner .s-container article .main-info p {
@@ -84,6 +98,9 @@
 
 .cources {
   padding: 24px 0 120px;
+}
+.cources .container .cource_underline {
+  position: absolute;
 }
 .cources .container h2 {
   font-size: 40px;
@@ -157,12 +174,16 @@
   content: url(../../images/svgs/cource-chevron.svg);
 }
 
+.education {
+  background-image: url(../../images/back.svg);
+  padding-top: 12px;
+}
 .education .S-container h3 {
   color: #000;
   font-size: 40px;
   font-weight: 700;
   text-align: center;
-  margin-bottom: 68px;
+  margin-bottom: 62px;
   line-height: 130%;
 }
 .education .S-container .education-item {
@@ -178,6 +199,8 @@
   font-size: 28px;
   font-weight: 700;
   line-height: 130%;
+  display: inline-block;
+  padding: 0 6px;
 }
 .education .S-container .education-item .education-info p {
   color: #000;
@@ -191,11 +214,17 @@
 
 .goals {
   background-color: #E6F0FF;
-  padding: 80px 0 58px;
+  padding: 80px 15px 58px;
   position: relative;
 }
 .goals .kvadratan img {
   display: none;
+}
+.goals .container {
+  border: 2px solid #3586FF;
+  box-shadow: #CCE1FF 10px -10px;
+  padding: 44px 20px;
+  background-color: #fff;
 }
 .goals .container h3 {
   color: #000;
@@ -253,78 +282,7 @@
 }
 
 .advantages {
-  padding: 140px 0;
-}
-.advantages .container {
-  flex-direction: column;
-  align-items: stretch;
-  gap: 30px;
-}
-.advantages .container .advantages-item {
-  align-items: center;
-  justify-content: center;
-  gap: 30px;
-}
-.advantages .container .advantages-item:first-of-type {
-  justify-content: space-around;
-}
-.advantages .container .advantages-item:first-of-type h6::-moz-selection, .advantages .container .advantages-item:first-of-type p::-moz-selection {
-  background-color: rgba(110, 252, 134, 0.7843137255);
-}
-.advantages .container .advantages-item:first-of-type h6::selection, .advantages .container .advantages-item:first-of-type p::selection {
-  background-color: rgba(110, 252, 134, 0.7843137255);
-}
-.advantages .container .advantages-item .advantages-img-com {
-  max-width: 456px;
-}
-.advantages .container .advantages-item .advantages-img-com img {
-  width: 100%;
-  display: block;
-}
-.advantages .container .advantages-item .advantages-img-com_type {
-  max-width: 590px;
-}
-.advantages .container .advantages-item .advantages-img-com_type img {
-  width: 100%;
-  display: block;
-}
-.advantages .container .advantages-item h3 {
-  color: #000;
-  font-size: 40px;
-  font-weight: 700;
-  text-align: center;
-  max-width: 368px;
-  line-height: 125%;
-}
-.advantages .container .advantages-item .advantages-info {
-  align-items: center;
-  gap: 36px;
-  max-width: 618px;
-  background-color: #FE6A5D;
-  padding: 32px 16px;
-}
-.advantages .container .advantages-item .advantages-info h6 {
-  color: #fff;
-  font-size: 28px;
-  font-weight: 700;
-}
-.advantages .container .advantages-item .advantages-info p {
-  color: #fff;
-  font-size: 16px;
-  font-weight: 400;
-  margin-top: 8px;
-  line-height: 150%;
-}
-.advantages .container .advantages-item .advantages-info .advantages-info_chevron {
-  width: 108px;
-}
-.advantages .container .advantages-item .advantages-info .advantages-info_chevron img {
-  width: 100%;
-  display: block;
-}
-.advantages .container .advantages-item .advantages-info_type {
-  max-width: 484px;
-  padding: 27px 16px;
+  margin-top: 57px;
 }
 
 .consultation-form {
@@ -376,10 +334,6 @@
   width: 100%;
   border: none;
   font-size: 16px;
-}
-.consultation-form .container .form-container form .input-item input::-moz-placeholder {
-  font-size: 16px;
-  font-weight: 400;
 }
 .consultation-form .container .form-container form .input-item input::placeholder {
   font-size: 16px;
@@ -812,4 +766,6 @@
 .cource-teacher .s-container article .cource-teachure-img img {
   width: 100%;
   display: block;
-}/*# sourceMappingURL=main.css.map */
+}
+
+/*# sourceMappingURL=main.css.map */

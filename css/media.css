@@ -35,6 +35,15 @@
 }
 
 @media screen and (max-width: 1060px){
+  .goals .container .goal-info {
+    gap: 12px;
+  }
+
+  .goals .container .goal-info .goal-item .goal-text img {
+    left: -64px;
+    bottom: -78px;
+  }
+
   .how .container .how-block .how-item h5 {
     font-size: 24px;
   }
@@ -120,37 +129,8 @@
     text-align: center;
   }
 
-  .advantages .container .advantages-item {
-    flex-wrap: wrap;
-    max-width: 618px;
-    margin: auto;
-  }
-
-  .advantages .container .advantages-item .advantages-img-com {
-    max-width: inherit;
-    width: 100%;
-  }
-
-  .advantages .container .advantages-item .advantages-img-com img {
-    width: 100%;
-    display: block;
-  }
-
-  .advantages .container .advantages-item .advantages-info_type {
-    max-width: inherit;
-  }
-
-  .advantages .container .advantages-item .advantages-img-com_type {
-    max-width: inherit;
-  }
-
-  .advantages .container .advantages-item:nth-child(3) {
-    flex-direction: column-reverse;
-  }
-
-  .advantages .container .advantages-item h3 {
-    font-size: 38px;
-    max-width: inherit;
+  .consultation-form {
+    padding: 136px 0 80px;
   }
 
   .consultation-form .container {
@@ -159,8 +139,8 @@
     flex-direction: column;
   }
 
-  .consultation-form .consultation-svg img {
-    display: none;
+  .consultation-form .consultation-svg {
+    top: 35px;
   }
 
   .consultation-form .container .form-container form .input-item {
@@ -443,6 +423,10 @@
     align-items: center;
   }
 
+  .main-banner .main-vector {
+    display: block;
+  }
+
   .main-banner .mobile-mainkent img {
     display: block;
   }
@@ -483,9 +467,13 @@
     right: 0;
   }
 
+  .goals {
+    background-color: inherit;
+  }
+
   .goals .container .goal-info {
     justify-content: flex-start;
-    gap: 56px;
+    gap: 32px;
   }
 
   .goals .container .goal-info .goal-item {
@@ -499,32 +487,23 @@
   .goals .kvadratan img{
     display: block;
     position: absolute;
-    top: 35px;
+    top: 95px;
     right: 0;
   }
 
   .goals .container h3 {
     text-align: start;
     font-size: 34px;
+    margin-bottom: 36px;
+  }
+
+  .goals .container .goal-info .goal-item .goal-text {
+    margin-top: 8px;
   }
 
   .goals .container .goal-info .goal-item .goal-text p {
     word-spacing: 1px;
     line-height: 135%;
-  }
-
-  .advantages .container .advantages-item {
-    width: -webkit-fill-available;
-  }
-
-  .advantages .container .advantages-item .advantages-info {
-    max-width: inherit;
-    width: -webkit-fill-available;
-  }
-
-  .advantages .container .advantages-item .advantages-img-com {
-    max-width: inherit;
-    width: -webkit-fill-available;
   }
 
   main .accordion-item .title span {
@@ -732,7 +711,7 @@
   }
 
   .education{
-    padding-top: 88px;
+    padding-top: 16px;
   }
 
   .education .S-container .education-item .education-info p {
@@ -740,24 +719,24 @@
     line-height: 120%;
   }
 
-  .advantages {
-    padding: 82px 0;
+  .education .S-container .education-item .education-info h5 {
+    display: inline;
   }
 
-  .advantages .container .advantages-item {
-    gap: 12px;
-  }
-
-  .advantages .container {
-    gap: 12px;
-  }
-
-  .advantages .container .advantages-item h3 {
-    margin-bottom: 20px;
+  .main-banner .s-container article .main-info h1 {
+    color: #fff;
+    font-size: 48px;
+    font-weight: 700;
+    position: relative;
+    line-height: 150%;
+    display: inline;
+    background-color: #FE6A5D;
+    box-shadow: #FEACA4 6px -4px;
+    padding: 0 6px;
   }
 
   .consultation-form {
-    padding: 72px 0;
+    padding: 136px 0 60px;
   }
 
   .faq {
@@ -869,15 +848,15 @@
     max-width: 464px;
     margin: auto;
   }
-
-  .advantages .container .advantages-item h3 {
-    font-size: 32px;
-  }
 }
 
 @media screen and (max-width: 560px){
   .consultation-form .container .form-container {
     width: -webkit-fill-available;
+  }
+
+  .consultation-form .container .form-info h3 {
+    font-size: 36px;
   }
 
   .whatis-cource .container h2 {
@@ -912,6 +891,11 @@
     display: none ;
   }
 
+  .cources .container h2 {
+    text-align: start;
+    font-size: 32px;
+  }
+
   .goals .container h3 {
     font-size: 30px;
   }
@@ -922,6 +906,10 @@
 
   .goals .container .goal-info .goal-item .goal-text p {
     font-size: 15px;
+  }
+
+  .consultation-form .container .form-info h3 {
+    font-size: 32px;
   }
 }
 
@@ -1016,16 +1004,8 @@
     left: 178px;
   }
 
-  .advantages .container .advantages-item .advantages-info {
-    gap: 12px;
-  }
-
-  .advantages .container .advantages-item .advantages-info h6 {
-    font-size: 22px;
-  }
-
-  .advantages .container .advantages-item .advantages-info p {
-    font-size: 14px;
+  .cources .container h2 {
+    font-size: 27px;
   }
 
   .education .S-container h3 {
@@ -1044,11 +1024,12 @@
     word-spacing: inherit;
   }
 
-.teachures h4 {
-    color: #000;
-    font-size: 30px;
-    font-weight: 700;
-    text-align: center;
+  .consultation-form .container .form-info h3 {
+    font-size: 28px;
+  }
+
+  .consultation-form .container .form-info p {
+    font-size: 18px;
   }
 
   .faq .container h3 {
@@ -1126,6 +1107,12 @@
   }
 }
 
+@media screen and (max-width:380px){
+  .consultation-form .container .form-info h3 {
+    font-size: 26px;
+  }
+}
+
 @media screen and (max-width:360px){
   .cource-teacher .s-container article .cource-teachure-img {
     max-width: 212px;
@@ -1170,6 +1157,14 @@
   .cource-main-banner .container .cource-main-info article h1 {
     font-size: 38px;
   }
+
+  .consultation-form .container .form-info h3 {
+    font-size: 24px;
+  }
+
+  .consultation-form .container .form-info p {
+    font-size: 16px;
+  }
 }
 
 @media screen and (max-width:343px){
@@ -1179,6 +1174,10 @@
 
   .education .S-container .education-item img{
     max-width: 102px;
+  }
+
+  .kvadratan img{
+    width: 36%;
   }
 
   .faq .container h3 {
@@ -1220,6 +1219,10 @@
   .main-banner .s-container article .main-info .svgblock_main img {
     left: 130px;
   }
+
+  .consultation-form .container .form-info h3 {
+    font-size: 22px;
+  }
 }
 
 @media screen and (max-width:320px){
@@ -1233,18 +1236,6 @@
 
   .cources .container article .cource-info p {
     margin: 24px 0 126px 0;
-  }
-
-  .advantages .container .advantages-item h3 {
-    font-size: 26px;
-  }
-
-  .advantages .container .advantages-item .advantages-info h6 {
-    font-size: 20px;
-  }
-
-  .advantages .container .advantages-item .advantages-info p {
-    font-size: 12px;
   }
 
   .education .S-container .education-item img{
@@ -1281,16 +1272,18 @@
     font-size: 12.5px;
     padding: 3px 3px 0 1px;
   }
+
+  .consultation-form .container .form-info h3 {
+    font-size: 21px;
+  }
 }
 
 @media screen and (max-width:300px){
   .cources .container article .cource-info h3 {
     font-size: 26px;
   }
-}
 
-@media screen and (max-width:282px){
-  .advantages .container .advantages-item h3 {
-    font-size: 28px;
+  .consultation-form .container .form-info h3 {
+    font-size: 20px;
   }
 }
