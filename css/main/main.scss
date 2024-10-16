@@ -24,7 +24,6 @@ $green3: #E1FFF9;
 
 // MAIN
 
-
 .main-banner {
   position: relative;
 
@@ -149,7 +148,6 @@ $green3: #E1FFF9;
   padding: 24px 0 120px;
   
   .container{
-
     .cource_underline{
       position: absolute;
     }
@@ -175,7 +173,6 @@ $green3: #E1FFF9;
 
       .cource-info{
         padding: 0 24px 12px;
-        border-top: none;
 
         .age{
           justify-content: end;
@@ -217,14 +214,6 @@ $green3: #E1FFF9;
           line-height: 130%;
           position: relative;
           bottom: 3px;
-        }
-        .chev-right{
-          max-width: 20px;
-
-          img{
-            width: 100%;
-            display: block;
-          }
         }
 
         .more{
@@ -372,6 +361,8 @@ $green3: #E1FFF9;
 
 .advantages{
   margin-top: 57px;
+
+
 }
 
 .consultation-form{
@@ -417,7 +408,7 @@ $green3: #E1FFF9;
     .form-container{
       width: 552px;
 
-      form{  
+      form{
         .input-item{
           margin-bottom: 24px;
   

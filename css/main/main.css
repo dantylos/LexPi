@@ -120,7 +120,6 @@
 }
 .cources .container article .cource-info {
   padding: 0 24px 12px;
-  border-top: none;
 }
 .cources .container article .cource-info .age {
   justify-content: end;
@@ -158,13 +157,6 @@
   line-height: 130%;
   position: relative;
   bottom: 3px;
-}
-.cources .container article .cource-info .chev-right {
-  max-width: 20px;
-}
-.cources .container article .cource-info .chev-right img {
-  width: 100%;
-  display: block;
 }
 .cources .container article .cource-info .more {
   align-items: center;

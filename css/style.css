@@ -81,15 +81,15 @@
   background-color: #E6F0FF !important;
 }
 
-.bg-rd4 {
+.bg-rd3 {
   background-color: #FED2CD !important;
 }
 
-.bg-yl4 {
+.bg-yl3 {
   background-color: #FCEAB0 !important;
 }
 
-.bg-pr4 {
+.bg-pr3 {
   background-color: #FCE9FC !important;
 }
 
@@ -118,7 +118,6 @@
   padding: 0;
   box-sizing: border-box;
   scroll-behavior: smooth;
-  overflow: hidden;
 }
 
 :root p, :root h1, :root h2, :root h3, :root h4, :root h5, :root h6, :root label, :root a, :root li, :root span {
