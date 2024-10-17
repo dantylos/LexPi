@@ -315,6 +315,9 @@
 .consultation-form .container .form-container {
   width: 552px;
 }
+.consultation-form .container .form-container form button {
+  border: none;
+}
 .consultation-form .container .form-container form .input-item {
   margin-bottom: 24px;
 }
