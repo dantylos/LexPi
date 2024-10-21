@@ -26,6 +26,8 @@ $green3: #E1FFF9;
 
 .main-banner {
   position: relative;
+  background-color: $blue4;
+  background-image: url(../../images/main-ban-back.svg);
 
   .main-vector{
     position: absolute;
@@ -50,16 +52,34 @@ $green3: #E1FFF9;
     }
   }
 
-  .s-container {
+  .container {
 
     article {
-      height: calc(100vh - 73px);
+      height: calc(100vh - 82px);
       justify-content: space-around;
       align-items: center;
+
+      .left-main-img{
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        max-width: 447px;
+
+        img{
+          display: block;
+          width: 100%;
+        }
+      }
 
       .main-info {
         max-width: 510px;
         position: relative;
+        text-align: center;
+
+        .main-text{
+          display: flex;
+          justify-content: center;
+        }
 
         img{
           position: absolute;
@@ -72,11 +92,11 @@ $green3: #E1FFF9;
           font-size: 48px;
           font-weight: 700;
           position: relative;
-          line-height: 140%;
+          line-height: 152%;
           display: inline;
           background-color: $red;
           box-shadow: $red2 6px -6px;
-          padding: 0 6px;
+          padding: 4px 6px;
         }
 
         .svgblock_main{
@@ -84,8 +104,8 @@ $green3: #E1FFF9;
 
           img{
             position: absolute;
-            left: 262px;
-            top: 6px;
+            left: 336px;
+            top: -15px;
           }
         }
 
@@ -145,7 +165,7 @@ $green3: #E1FFF9;
 }
 
 .cources{
-  padding: 24px 0 120px;
+  padding-top: 24px;
   
   .container{
     .cource_underline{
@@ -230,8 +250,8 @@ $green3: #E1FFF9;
 }
 
 .education{
-  background-image: url(../../images/back.svg);
-  padding-top: 12px;
+  background-image: url(../../images/education-back.svg);
+  padding-top: 112px;
 
   .S-container{
     h3{
@@ -241,6 +261,20 @@ $green3: #E1FFF9;
       text-align: center;
       margin-bottom: 62px;
       line-height: 130%;
+
+      &::after{
+        content: url(../../images/svgs/education.svg);
+        position: relative;
+        bottom: 18px;
+        left: 20px;
+      }
+
+      &::before{
+        content: url(../../images/mainBanner-svgs/Layer_1.svg);
+        position: relative;
+        bottom: 22px;
+        left: 6px;
+      }
     }
 
     .education-item{
@@ -279,9 +313,15 @@ $green3: #E1FFF9;
   padding: 80px 15px 58px;
   position: relative;
 
-  .kvadratan{
+  .line-img-pink {
+    position: absolute;
+    top: -22px;
+    left: 0;
+    z-index: 1;
+
     img{
-      display: none;
+      display: block;
+      width: 100%;
     }
   }
 
@@ -290,6 +330,18 @@ $green3: #E1FFF9;
     box-shadow: #CCE1FF 10px -10px;
     padding: 44px 20px;
     background-color: $white;
+    position: relative;
+
+    .kvadratan-velky{
+      position: absolute;
+      top: 20px;
+      right: -50px;
+
+      img{
+        width: 100%;
+        display: block;
+      }
+    }
 
     h3{
       color: $black;
@@ -362,7 +414,49 @@ $green3: #E1FFF9;
 .advantages{
   margin-top: 57px;
 
+  .S-container{
+    display: flex;
+    flex-direction: column;
 
+    h3{
+      font-size: 40px;
+      font-weight: 700;
+      flood-color: $black;
+      text-align: center;
+      line-height: 125%;
+    }
+
+    h4{
+      font-size: 28px;
+      font-weight: 700;
+      color: $black;
+    }
+
+    p{
+      font-size: 18px;
+      font-weight: 400;
+      color: $black;
+      line-height: 140%;
+      margin-top: 16px;
+    }
+
+    .advantage-item{
+      margin-top: 64px;
+      display: flex;
+      gap: 24px;
+    }
+
+    .kent-bottom{
+      max-width: 480px;
+      margin-top: 32px;
+      align-self: flex-end;
+
+      img{
+        display: block;
+        width: 100%;
+      }
+    }
+  }
 }
 
 .consultation-form{

@@ -1,5 +1,7 @@
 .main-banner {
   position: relative;
+  background-color: #E6F0FF;
+  background-image: url(../../images/main-ban-back.svg);
 }
 .main-banner .main-vector {
   position: absolute;
@@ -18,40 +20,55 @@
   display: none;
   width: 100%;
 }
-.main-banner .s-container article {
-  height: calc(100vh - 73px);
+.main-banner .container article {
+  height: calc(100vh - 82px);
   justify-content: space-around;
   align-items: center;
 }
-.main-banner .s-container article .main-info {
+.main-banner .container article .left-main-img {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  max-width: 447px;
+}
+.main-banner .container article .left-main-img img {
+  display: block;
+  width: 100%;
+}
+.main-banner .container article .main-info {
   max-width: 510px;
   position: relative;
+  text-align: center;
 }
-.main-banner .s-container article .main-info img {
+.main-banner .container article .main-info .main-text {
+  display: flex;
+  justify-content: center;
+}
+.main-banner .container article .main-info img {
   position: absolute;
   top: -22px;
   left: -26px;
 }
-.main-banner .s-container article .main-info h1 {
+.main-banner .container article .main-info h1 {
   color: #fff;
   font-size: 48px;
   font-weight: 700;
   position: relative;
-  line-height: 140%;
+  line-height: 152%;
   display: inline;
   background-color: #FE6A5D;
   box-shadow: #FEACA4 6px -6px;
-  padding: 0 6px;
+  padding: 4px 6px;
 }
-.main-banner .s-container article .main-info .svgblock_main {
+.main-banner .container article .main-info .svgblock_main {
   position: relative;
 }
-.main-banner .s-container article .main-info .svgblock_main img {
+.main-banner .container article .main-info .svgblock_main img {
   position: absolute;
-  left: 262px;
-  top: 6px;
+  left: 336px;
+  top: -15px;
 }
-.main-banner .s-container article .main-info p {
+.main-banner .container article .main-info p {
   color: #000;
   font-size: 22px;
   font-weight: 400;
@@ -59,7 +76,7 @@
   margin-top: 10px;
   line-height: 140%;
 }
-.main-banner .s-container article .main-info a {
+.main-banner .container article .main-info a {
   font-size: 24px;
   font-weight: 700;
   color: #fff;
@@ -70,34 +87,34 @@
   line-height: 130%;
   box-shadow: #BDD7FF 8px -8px;
 }
-.main-banner .s-container article .main-info a:hover {
+.main-banner .container article .main-info a:hover {
   padding: 12px 24px;
   letter-spacing: 1px;
   padding: 12px 24px;
   box-shadow: #61A0FF 5px -5px;
 }
-.main-banner .s-container article .main-img {
+.main-banner .container article .main-img {
   max-width: 360px;
   position: relative;
   transition: 0.2s;
 }
-.main-banner .s-container article .main-img img {
+.main-banner .container article .main-img img {
   width: 100%;
   display: block;
 }
-.main-banner .s-container article .main-img .absKent {
+.main-banner .container article .main-img .absKent {
   position: absolute;
   max-width: 360px;
   bottom: 0;
   right: -166px;
 }
-.main-banner .s-container article .main-img .absKent img {
+.main-banner .container article .main-img .absKent img {
   display: block;
   width: 100%;
 }
 
 .cources {
-  padding: 24px 0 120px;
+  padding-top: 24px;
 }
 .cources .container .cource_underline {
   position: absolute;
@@ -167,8 +184,8 @@
 }
 
 .education {
-  background-image: url(../../images/back.svg);
-  padding-top: 12px;
+  background-image: url(../../images/education-back.svg);
+  padding-top: 112px;
 }
 .education .S-container h3 {
   color: #000;
@@ -177,6 +194,18 @@
   text-align: center;
   margin-bottom: 62px;
   line-height: 130%;
+}
+.education .S-container h3::after {
+  content: url(../../images/svgs/education.svg);
+  position: relative;
+  bottom: 18px;
+  left: 20px;
+}
+.education .S-container h3::before {
+  content: url(../../images/mainBanner-svgs/Layer_1.svg);
+  position: relative;
+  bottom: 22px;
+  left: 6px;
 }
 .education .S-container .education-item {
   justify-content: space-between;
@@ -209,14 +238,31 @@
   padding: 80px 15px 58px;
   position: relative;
 }
-.goals .kvadratan img {
-  display: none;
+.goals .line-img-pink {
+  position: absolute;
+  top: -22px;
+  left: 0;
+  z-index: 1;
+}
+.goals .line-img-pink img {
+  display: block;
+  width: 100%;
 }
 .goals .container {
   border: 2px solid #3586FF;
   box-shadow: #CCE1FF 10px -10px;
   padding: 44px 20px;
   background-color: #fff;
+  position: relative;
+}
+.goals .container .kvadratan-velky {
+  position: absolute;
+  top: 20px;
+  right: -50px;
+}
+.goals .container .kvadratan-velky img {
+  width: 100%;
+  display: block;
 }
 .goals .container h3 {
   color: #000;
@@ -276,6 +322,43 @@
 .advantages {
   margin-top: 57px;
 }
+.advantages .S-container {
+  display: flex;
+  flex-direction: column;
+}
+.advantages .S-container h3 {
+  font-size: 40px;
+  font-weight: 700;
+  flood-color: #000;
+  text-align: center;
+  line-height: 125%;
+}
+.advantages .S-container h4 {
+  font-size: 28px;
+  font-weight: 700;
+  color: #000;
+}
+.advantages .S-container p {
+  font-size: 18px;
+  font-weight: 400;
+  color: #000;
+  line-height: 140%;
+  margin-top: 16px;
+}
+.advantages .S-container .advantage-item {
+  margin-top: 64px;
+  display: flex;
+  gap: 24px;
+}
+.advantages .S-container .kent-bottom {
+  max-width: 480px;
+  margin-top: 32px;
+  align-self: flex-end;
+}
+.advantages .S-container .kent-bottom img {
+  display: block;
+  width: 100%;
+}
 
 .consultation-form {
   background-color: #3586FF;
@@ -329,6 +412,10 @@
   width: 100%;
   border: none;
   font-size: 16px;
+}
+.consultation-form .container .form-container form .input-item input::-moz-placeholder {
+  font-size: 16px;
+  font-weight: 400;
 }
 .consultation-form .container .form-container form .input-item input::placeholder {
   font-size: 16px;
@@ -761,6 +848,4 @@
 .cource-teacher .s-container article .cource-teachure-img img {
   width: 100%;
   display: block;
-}
-
-/*# sourceMappingURL=main.css.map */
+}/*# sourceMappingURL=main.css.map */

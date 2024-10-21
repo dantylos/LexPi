@@ -1,5 +1,5 @@
 @media screen and (max-width: 1276px){
-  .main-banner .s-container article .main-img .absKent {
+  .main-banner .container article .main-img .absKent {
     width: 230px;
     left: -106px;
   }
@@ -64,15 +64,15 @@
     padding: 0 24px;
   }
 
-  .main-banner .s-container article .main-img img {
+  .main-banner .container article .main-img img {
     display: none;
   }
 
-  .main-banner .s-container article .main-img .absKent img {
+  .main-banner .container article .main-img .absKent img {
     display: none;
   }
 
-  .main-banner .s-container article .main-info {
+  .main-banner .container article .main-info {
     margin: auto;
     text-align: center;
   }
@@ -82,11 +82,11 @@
     margin-top: 36px;
   }
 
-  .main-banner .s-container article .main-info img {
+  .main-banner .container article .main-info img {
     left: 30px;
   }
 
-  .main-banner .s-container article .main-info .svgblock_main img {
+  .main-banner .container article .main-info .svgblock_main img {
     left: 334px;
     top: 2px;
   }
@@ -431,7 +431,7 @@
     display: block;
   }
 
-  .main-banner .s-container article {
+  .main-banner .container article {
     height: inherit;
     margin-top: 54px;
   }
@@ -443,6 +443,10 @@
 
   .main-banner .comment-img{
     margin: 15px auto 0 -24px;
+  }
+
+  .main-banner .container article .left-main-img img {
+    display: none;
   }
 
   .cources .container article .cource-info {
@@ -482,13 +486,6 @@
 
   .goals .container .goal-info .goal-item .goal-img {
     justify-content: flex-start;
-  }
-
-  .goals .kvadratan img{
-    display: block;
-    position: absolute;
-    top: 95px;
-    right: 0;
   }
 
   .goals .container h3 {
@@ -711,7 +708,7 @@
   }
 
   .education{
-    padding-top: 16px;
+    padding-top: 28px;
   }
 
   .education .S-container .education-item .education-info p {
@@ -723,7 +720,7 @@
     display: inline;
   }
 
-  .main-banner .s-container article .main-info h1 {
+  .main-banner .container article .main-info h1 {
     color: #fff;
     font-size: 48px;
     font-weight: 700;
@@ -848,9 +845,30 @@
     max-width: 464px;
     margin: auto;
   }
+
+  .advantages .S-container h4 {
+    font-size: 24px;
+  }
+
+  .advantages .S-container p {
+    line-height: 130%;
+    margin-top: 12px;
+  }
 }
 
 @media screen and (max-width: 560px){
+  .advantages .S-container h4 {
+    font-size: 22px;
+  }
+
+  .advantages .S-container p {
+    line-height: 125%;
+    margin-top: 10px;
+    font-size: 16px;
+  }
+
+
+
   .consultation-form .container .form-container {
     width: -webkit-fill-available;
   }
@@ -868,32 +886,54 @@
 }
 
 @media screen and (max-width: 554px){
-  .main-banner .s-container article .main-info h1 {
+  .main-banner .container article .main-info h1 {
     font-size: 36px;
   }
 
-  .main-banner .s-container article .main-info .svgblock_main img {
+  .main-banner .container article .main-info .svgblock_main img {
     left: 218px;
   }
 
-  .main-banner .s-container article .main-info img {
+  .main-banner .container article .main-info img {
     left: 14px;
+  }
+
+  .education .S-container h3 {
+    font-size: 36px;
+  }
+
+  .education .S-container h3::after {
+    bottom: 16px;
   }
 }
 
 @media screen and (max-width: 519px){
-  .main-banner .s-container article .main-info .svgblock_main img {
+  .main-banner .container article .main-info .svgblock_main img {
     left: 218px;
     display: block;
   }
 
-  .main-banner .s-container article .main-info img {
+  .main-banner .container article .main-info img {
     display: none ;
   }
 
   .cources .container h2 {
     text-align: start;
     font-size: 32px;
+  }
+
+  .education .S-container h3::after{
+    content: url(../images/education/under-small.svg);
+    position: relative;
+    left: 20px;
+  }
+
+  .education .S-container h3 {
+    font-size: 34px;
+  }
+
+  .education .S-container h3::after {
+    bottom: 14px;
   }
 
   .goals .container h3 {
@@ -948,6 +988,15 @@
     margin: 24px 0 74px;
   }
 
+  .education .S-container h3 {
+    font-size: 30px;
+  }
+
+  .education .S-container h3::before {
+    bottom: 16px;
+    left: 8px;
+  }
+
   .goals .container h3 {
     max-width: 200px;
   }
@@ -996,11 +1045,11 @@
 }
 
 @media screen and (max-width: 429px){
-  .main-banner .s-container article .main-info h1 {
+  .main-banner .container article .main-info h1 {
     font-size: 30px;
   }
 
-  .main-banner .s-container article .main-info .svgblock_main img {
+  .main-banner .container article .main-info .svgblock_main img {
     left: 178px;
   }
 
@@ -1009,11 +1058,19 @@
   }
 
   .education .S-container h3 {
-    font-size: 30px;
+    font-size: 28px;
   }
 
   .education .S-container .education-item .education-info h5 {
     font-size: 20px;
+  }
+
+  .education .S-container h3::after {
+    bottom: 6px;
+  }
+
+  .education .S-container h3 {
+    font-size: 25px;
   }
 
   .education .S-container .education-item .education-info p {
@@ -1022,6 +1079,20 @@
 
   .education .S-container .education-item .education-info p {
     word-spacing: inherit;
+  }
+
+  .goals .container .kvadratan-velky img {
+    width: 88%;
+  }
+
+  .advantages .S-container h4 {
+    font-size: 21px;
+  }
+
+  .advantages .S-container p {
+    line-height: 120%;
+    margin-top: 8px;
+    font-size: 15px;
   }
 
   .consultation-form .container .form-info h3 {
@@ -1102,7 +1173,7 @@
     font-size: 22px;
   }
 
-  .main-banner .s-container article .main-info p {
+  .main-banner .container article .main-info p {
     font-size: 20px;
   }
 }
@@ -1114,17 +1185,17 @@
 }
 
 @media screen and (max-width:360px){
-  .cource-teacher .s-container article .cource-teachure-img {
-    max-width: 212px;
+  .education .S-container h3::after {
+    content: url(../images/education/under-smallest.svg);
+    position: relative;
+    left: 20px;
+    bottom: 6px;
   }
 
-  .cource-teacher .s-container article .cource-teachure-img .cource-kent {
-    left: -62px;
-    max-width: 148px;
+  .education .S-container h3 {
+    font-size: 24px;
   }
-}
 
-@media screen and (max-width:360px){
   .goals .container h3 {
     font-size: 24px;
   }
@@ -1158,6 +1229,15 @@
     font-size: 38px;
   }
 
+  .cource-teacher .s-container article .cource-teachure-img {
+    max-width: 212px;
+  }
+
+  .cource-teacher .s-container article .cource-teachure-img .cource-kent {
+    left: -62px;
+    max-width: 148px;
+  }
+
   .consultation-form .container .form-info h3 {
     font-size: 24px;
   }
@@ -1168,7 +1248,7 @@
 }
 
 @media screen and (max-width:343px){
-  .main-banner .s-container {
+  .main-banner .container {
     padding: 116px 0;
   }
 
@@ -1176,8 +1256,30 @@
     max-width: 102px;
   }
 
-  .kvadratan img{
-    width: 36%;
+  .education .S-container h3 {
+    font-size: 22.2px;
+  }
+
+  .education .S-container h3::after {
+    bottom: 2px;
+  }
+
+  .education .S-container h3::before {
+    bottom: 11px;
+  }
+
+  .goals .container .kvadratan-velky img {
+    width: 80%;
+  }
+
+  .advantages .S-container h4 {
+    font-size: 20px;
+  }
+
+  .advantages .S-container p {
+    line-height: 120%;
+    margin-top: 6px;
+    font-size: 14.5px;
   }
 
   .faq .container h3 {
@@ -1216,7 +1318,7 @@
       box-shadow: #f697f6 10px -10px;
   }
 
-  .main-banner .s-container article .main-info .svgblock_main img {
+  .main-banner .container article .main-info .svgblock_main img {
     left: 130px;
   }
 
@@ -1236,6 +1338,20 @@
 
   .cources .container article .cource-info p {
     margin: 24px 0 126px 0;
+  }
+
+  .education .S-container h3 {
+    font-size: 18px;
+  }
+
+  .education .S-container h3::after {
+    left: 0;
+  }
+
+  .goals .container .kvadratan-velky img {
+    width: 60%;
+    position: relative;
+    right: -34px;
   }
 
   .education .S-container .education-item img{
