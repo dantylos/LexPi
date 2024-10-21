@@ -77,18 +77,29 @@
     text-align: center;
   }
 
-  .main-text{
-    text-align: -webkit-center;
-    margin-top: 36px;
-  }
-
   .main-banner .container article .main-info img {
     left: 30px;
   }
 
   .main-banner .container article .main-info .svgblock_main img {
     left: 334px;
-    top: 2px;
+    top: -16px;
+  }
+
+  .main-banner .left-main-img img {
+    display: none;
+  }
+
+  .main-banner .main-tipok {
+    max-width: 260px;
+    position: absolute;
+    bottom: 0;
+    right: 24px;
+  }
+
+  .main-banner .main-tipok {
+    max-width: 260px;
+    right: 24px;
   }
 
   .cources .container h2 {
@@ -197,6 +208,11 @@
 }
 
 @media screen and (max-width:950px){
+  .main-banner .main-tipok {
+    max-width: 232px;
+    right: 12px;
+  }
+
   .whatis-cource .container .cource-page-infoblock .left-whatis-wrapper h4 {
     font-size: 22px;
   }
@@ -447,6 +463,14 @@
 
   .main-banner .container article .left-main-img img {
     display: none;
+  }
+
+  .main-banner .main-tipok img {
+    display: none;
+  }
+
+  .advantages .S-container h3::after {
+    left: 220px;
   }
 
   .cources .container article .cource-info {
@@ -836,6 +860,13 @@
 }
 
 @media screen and (max-width: 700px){
+  .advantages .S-container h3::after {
+    left: 220px;
+  }
+
+  .advantages .S-container h3::after {
+    left: 174px;
+  }
 
   .goals .container .goal-info .goal-item {
     max-width: -webkit-fill-available;
@@ -853,6 +884,12 @@
   .advantages .S-container p {
     line-height: 130%;
     margin-top: 12px;
+  }
+}
+
+@media screen and (max-width: 620px){
+  .advantages .S-container h3::after {
+    left: 122px;
   }
 }
 
@@ -882,6 +919,11 @@
     color: #000;
     font-size: 32px;
     font-weight: 700;
+  }
+
+  .main-banner .container article .main-info h1::before {
+    top: -36px;
+    left: -30px;
   }
 }
 
@@ -950,6 +992,14 @@
 
   .consultation-form .container .form-info h3 {
     font-size: 32px;
+  }
+
+  .advantages .S-container h3::after {
+    left: 122px;
+  }
+
+  .advantages .S-container h3::after {
+    left: 80px;
   }
 }
 
@@ -1176,6 +1226,10 @@
   .main-banner .container article .main-info p {
     font-size: 20px;
   }
+
+  .advantages .S-container h3::after {
+    left: 38px;
+  }
 }
 
 @media screen and (max-width:380px){
@@ -1244,6 +1298,15 @@
 
   .consultation-form .container .form-info p {
     font-size: 16px;
+  }
+
+  .advantages .S-container h3::after {
+    left: 16px;
+    top: 80px;
+  }
+
+  .advantages .S-container h3 {
+    font-size: 30px;
   }
 }
 
@@ -1325,6 +1388,16 @@
   .consultation-form .container .form-info h3 {
     font-size: 22px;
   }
+
+  .advantages .S-container h3::after {
+    left: 0;
+    top: 78px;
+  }
+
+  .main-banner .container article .main-info h1::before {
+    top: -32px;
+    left: -24px;
+  }
 }
 
 @media screen and (max-width:320px){
@@ -1391,6 +1464,16 @@
 
   .consultation-form .container .form-info h3 {
     font-size: 21px;
+  }
+
+  .advantages .S-container h3::after {
+    content: url(../images/svgs/purp-smallunder.svg);
+    left: 68px;
+    top: 68px;
+  }
+
+  .main-banner .container article .main-info h1::before {
+    display: none;
   }
 }
 

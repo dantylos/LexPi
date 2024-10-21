@@ -29,6 +29,18 @@ $green3: #E1FFF9;
   background-color: $blue4;
   background-image: url(../../images/main-ban-back.svg);
 
+  .left-main-img{
+    position: absolute;
+    left: -80px;
+    bottom: 0;
+    max-width: 447px;
+
+    img{
+      display: block;
+      width: 100%;
+    }
+  }
+
   .main-vector{
     position: absolute;
     right: 0;
@@ -40,6 +52,18 @@ $green3: #E1FFF9;
     img{
       width: 180px;
       display: none;
+    }
+  }
+
+    .main-tipok{
+    max-width: 324px;
+    position: absolute;
+    bottom: 0;
+    right: 76px;
+
+    img{
+      display: block;
+      width: 100%;
     }
   }
 
@@ -58,18 +82,6 @@ $green3: #E1FFF9;
       height: calc(100vh - 82px);
       justify-content: space-around;
       align-items: center;
-
-      .left-main-img{
-        position: absolute;
-        left: 0;
-        bottom: 0;
-        max-width: 447px;
-
-        img{
-          display: block;
-          width: 100%;
-        }
-      }
 
       .main-info {
         max-width: 510px;
@@ -97,6 +109,13 @@ $green3: #E1FFF9;
           background-color: $red;
           box-shadow: $red2 6px -6px;
           padding: 4px 6px;
+
+          &::before{
+            content: url(../../images/mainBanner-svgs/Layer_1.svg);
+            position: absolute;
+            top: -52px;
+            left: -32px;
+          }
         }
 
         .svgblock_main{
@@ -424,6 +443,21 @@ $green3: #E1FFF9;
       flood-color: $black;
       text-align: center;
       line-height: 125%;
+      position: relative;
+
+      &::after{
+        content: url(../../images/svgs/purp-underline.svg);
+        position: absolute;
+        left: 260px;
+        top: 82px;
+      }
+
+      &::before{
+        content: url(../../images/mainBanner-svgs/Layer_1.svg);
+        position: relative;
+        bottom: 22px;
+        left: 6px;
+      }
     }
 
     h4{

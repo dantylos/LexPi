@@ -3,6 +3,16 @@
   background-color: #E6F0FF;
   background-image: url(../../images/main-ban-back.svg);
 }
+.main-banner .left-main-img {
+  position: absolute;
+  left: -80px;
+  bottom: 0;
+  max-width: 447px;
+}
+.main-banner .left-main-img img {
+  display: block;
+  width: 100%;
+}
 .main-banner .main-vector {
   position: absolute;
   right: 0;
@@ -12,6 +22,16 @@
 .main-banner .comment-img img {
   width: 180px;
   display: none;
+}
+.main-banner .main-tipok {
+  max-width: 324px;
+  position: absolute;
+  bottom: 0;
+  right: 76px;
+}
+.main-banner .main-tipok img {
+  display: block;
+  width: 100%;
 }
 .main-banner .mobile-mainkent {
   max-width: 213px;
@@ -24,16 +44,6 @@
   height: calc(100vh - 82px);
   justify-content: space-around;
   align-items: center;
-}
-.main-banner .container article .left-main-img {
-  position: absolute;
-  left: 0;
-  bottom: 0;
-  max-width: 447px;
-}
-.main-banner .container article .left-main-img img {
-  display: block;
-  width: 100%;
 }
 .main-banner .container article .main-info {
   max-width: 510px;
@@ -59,6 +69,12 @@
   background-color: #FE6A5D;
   box-shadow: #FEACA4 6px -6px;
   padding: 4px 6px;
+}
+.main-banner .container article .main-info h1::before {
+  content: url(../../images/mainBanner-svgs/Layer_1.svg);
+  position: absolute;
+  top: -52px;
+  left: -32px;
 }
 .main-banner .container article .main-info .svgblock_main {
   position: relative;
@@ -332,6 +348,19 @@
   flood-color: #000;
   text-align: center;
   line-height: 125%;
+  position: relative;
+}
+.advantages .S-container h3::after {
+  content: url(../../images/svgs/purp-underline.svg);
+  position: absolute;
+  left: 260px;
+  top: 82px;
+}
+.advantages .S-container h3::before {
+  content: url(../../images/mainBanner-svgs/Layer_1.svg);
+  position: relative;
+  bottom: 22px;
+  left: 6px;
 }
 .advantages .S-container h4 {
   font-size: 28px;
@@ -412,10 +441,6 @@
   width: 100%;
   border: none;
   font-size: 16px;
-}
-.consultation-form .container .form-container form .input-item input::-moz-placeholder {
-  font-size: 16px;
-  font-weight: 400;
 }
 .consultation-form .container .form-container form .input-item input::placeholder {
   font-size: 16px;
@@ -848,4 +873,6 @@
 .cource-teacher .s-container article .cource-teachure-img img {
   width: 100%;
   display: block;
-}/*# sourceMappingURL=main.css.map */
+}
+
+/*# sourceMappingURL=main.css.map */
