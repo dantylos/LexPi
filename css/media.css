@@ -20,17 +20,9 @@
     right: inherit;
     left: -112px;
   }
-}
 
-@media screen and (max-width: 1127px){
-  .how .container .how-block .how-item {
-    gap: 12px;
-    max-width: 348px;
-    padding: 8px;
-  }
-
-  .how .container .how-block .how-item .how-item-img img {
-    width: 36px;
+  .why{
+    padding: 0 24px 0 12px;
   }
 }
 
@@ -42,20 +34,6 @@
   .goals .container .goal-info .goal-item .goal-text img {
     left: -64px;
     bottom: -78px;
-  }
-
-  .how .container .how-block .how-item h5 {
-    font-size: 24px;
-  }
-
-  .how .container .how-block .how-item p {
-    color: #fff;
-    font-size: 14.5px;
-    font-weight: 400;
-  }
-
-  .how .container .how-block .how-item {
-    max-width: 330px;
   }
 }
 
@@ -165,46 +143,6 @@
   .cource-main-banner .container .cource-main-img {
     max-width: 420px;
   }
-
-  .how .container {
-    gap: 8px;
-  }
-
-  .how .container .how-block .how-item {
-    max-width: 292px;
-    gap: 6px;
-    padding: 6px;
-  }
-
-  .how .container .how-block .how-item h5 {
-    font-size: 22px;
-  }
-
-  .how .container .how-block .how-item p {
-    color: #fff;
-    font-size: 13px;
-    font-weight: 400;
-  }
-
-  .why .container {
-    max-width: 1127px;
-    justify-content: center;
-    align-items: center;
-    gap: 36px;
-    flex-wrap: wrap;
-  }
-
-  .why .container .why-item {
-    text-align: center;
-  }
-
-  .why .container .why-item .why-img img {
-    margin: auto;
-  }
-
-  .cource-learn .container ul li {
-    font-size: 26px;
-  }
 }
 
 @media screen and (max-width:950px){
@@ -264,18 +202,6 @@
   .cource-main-banner .container .cource-main-info article a {
     font-size: 22px;
   }
-
-  .how .container .how-block .how-item {
-    max-width: 268px;
-  }
-
-  .cource-learn .container ul li {
-    font-size: 25px;
-  }
-
-  .cource-learn .container .tech-images ul li {
-    max-width: 120px;
-  }
 }
 
 @media screen and (max-width: 880px){
@@ -309,18 +235,6 @@
     max-width: 110px;
   }
 
-  .how .container .how-block .how-item {
-    max-width: 235px;
-  }
-
-  .how .container .how-block .how-item h5 {
-    font-size: 20px;
-  }
-
-  .how .container .how-block .how-item p {
-    font-size: 12px;
-  }
-
   .cource-teacher .s-container article .cource-teachure-img .cource-kent {
     max-width: 212px;
   }
@@ -335,6 +249,13 @@
 
   .cource-teacher .s-container article p {
     max-width: 342px;
+  }
+
+  .why .container .why-banner {
+    justify-content: space-evenly;
+    gap: 24px;
+    flex-wrap: wrap;
+    align-items: center;
   }
 }
 
@@ -376,20 +297,6 @@
   .teachures .teachers-block {
     flex-direction: column;
     gap: 48px;
-  }
-
-  .how .container .how-img {
-    max-width: 310px;
-  }
-
-  .how .container .how-block .how-item {
-    max-width: 208px;
-    gap: 0;
-    padding: 2px;
-  }
-
-  .how .container .how-block .how-item h5 {
-    font-size: 18px;
   }
 
   .cource-teacher .s-container article .cource-teachure-img {
@@ -554,7 +461,7 @@
     display: none;
   }
 
-  .cource-main-banner .main-cource-smallImg img{
+  .cource-main-banner .main-cource-smallImg{
     display: block;
   }
 
@@ -617,110 +524,12 @@
     max-width: -webkit-fill-available;
   }
 
-  .how .container {
-    flex-direction: column;
-    align-items: center;
-    max-width: 420px;
-  }
-
-  .how .container .how-block .how-item {
-    max-width: inherit;
-    gap: 12px;
-    padding: 16px;
-  }
-
-  .how .container .how-block .how-item .how-item-img img {
-    width: 48px;
-  }
-
-  .how .container .how-block .how-item h5 {
-    font-size: 26px;
-  }
-
-  .how .container .how-block .how-item p {
-    font-size: 16px;
-  }
-
-  .how .container .how-img {
-    width: 100%;
-    max-width: inherit;
-  }
-
-  .how .container .how-img {
-    width: 100%;
-    max-width: inherit;
-    margin: 6px 0;
-  }
-
-  .how .container .how-img img {
-    display: none;
-    width: 100%;
-  }
-
-  .how .container .how-img-small{
-    width: 100%;
-  }
-
-  .how .container .how-img-small img {
-    display: block;
-  }
-
-  .why .container {
-    justify-content: flex-start;
-    justify-content: center;
-  }
-
-  .why .container .why-item {
-    text-align: inherit;
-    max-width: 442px;
-  }
-
-  .why h2 {
-    padding: 0 42px;
-  }
-
-  .why .container .why-item .why-img img {
-    margin: inherit;
-  }
-
-  .why .container .why-item:nth-child(2) {
-    text-align: end;
-  }
-
-  .why .container .why-item:nth-child(2) .why-img {
-    display: flex;
-    justify-content: end;
-  }
-
   .cource-teacher .s-container article {
     flex-direction: column-reverse;
   }
 
   .cource-teacher .s-container .teacher-info{
     text-align: center;
-  }
-
-  .cource-learn .container {
-    justify-content: inherit;
-    align-items: center;
-    flex-direction: column;
-    gap: 42px;
-  }
-
-  .cource-learn .container .tech-images {
-    max-width: inherit;
-  }
-
-  .cource-learn .container .tech-images ul li {
-    max-width: 131px;
-    margin-bottom: 0;
-  }
-
-  .cource-learn .container .tech-images ul {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 28px;
   }
 
   .cources {
@@ -762,31 +571,6 @@
 
   .faq {
     padding: 72px 0 92px;
-  }
-
-  .how{
-    margin-top: 72px;
-  }
-
-  .how .container{
-    gap: 12px;
-  }
-
-  .how .container .how-img {
-    margin-top: -18px;
-  }
-
-  .how .container .how-block {
-    gap: 12px;
-  }
-
-  .why {
-    margin-top: 36px;
-    padding: 56px 0;
-  }
-
-  .why h2 {
-    margin-bottom: 62px;
   }
 
   .cource-teacher {
@@ -890,6 +674,29 @@
 @media screen and (max-width: 620px){
   .advantages .S-container h3::after {
     left: 122px;
+  }
+  
+  .why .container .why-banner {
+    justify-content: flex-start;
+  }
+
+  .why .container .why-banner .why-item {
+    max-width: inherit;
+  }
+
+  .why .container .why-option{
+    margin-top: 40px;
+    text-align: center;
+  }
+
+  .why .container {
+    padding: 48px 20px 32px;
+  }
+}
+
+@media screen and (max-width: 580px){
+  .why .container .why-banner {
+    gap: 32px;
   }
 }
 
@@ -1085,12 +892,34 @@
     margin-top: 42px;
   }
 
-  .cource-learn {
-    padding-top: 82px;
-  }
-
   .bigLogo img{
     display: block !important;
+  }
+
+  .cource-interest .s-container h3 {
+    font-size: 28px;
+  }
+
+  .cource-interest .s-container h3::before {
+    max-width: 20px;
+    top: -24px;
+    left: -6px;
+  }
+
+  .cource-interest .s-container .cource-interest-item h4 {
+    font-size: 24px;
+  }
+
+  .cource-interest .s-container .cource-interest-item p {
+    font-size: 17px;
+  }
+
+  .learn .S-container h3 {
+    font-size: 29px;
+  }
+
+  .learn .S-container .tech-block .tech-item .tech-info h5 {
+    font-size: 26px;
   }
 }
 
@@ -1230,10 +1059,56 @@
   .advantages .S-container h3::after {
     left: 38px;
   }
+
+  .cource-interest .s-container h3::before {
+    content: url(../images/cource-page/layer-small.svg);
+    position: relative;
+    top: -15px;
+    left: -16px;
+    max-width: 0;
+  }
+
+  .cource-interest .s-container h3::after {
+    transform: translateX(20px);
+  }
+
+  .learn .S-container h3::before {
+    content: url(../images/cource-page/layer-small.svg);
+    position: relative;
+    bottom: 14px;
+    left: 6px;
+  }
+
+  .learn .S-container h3 {
+    font-size: 28px;
+  }
+
+  .learn .S-container h3::after {
+    top: 26px;
+  }
+}
+
+@media screen and (max-width:394px){
+  .learn .S-container h3::after {
+    top: 56px;
+    transform: translateX(-124px);
+  }
+
+  .learn .S-container .tech-block .tech-item .tech-info h5 {
+    font-size: 24px;
+  }
 }
 
 @media screen and (max-width:380px){
   .consultation-form .container .form-info h3 {
+    font-size: 26px;
+  }
+
+  .cource-interest .s-container h3::after {
+    content: url(../images/cource-page/blu-underline-small.svg);
+  }
+
+  .cource-interest .s-container h3 {
     font-size: 26px;
   }
 }
@@ -1310,7 +1185,7 @@
   }
 }
 
-@media screen and (max-width:343px){
+@media screen and (max-width:345px){
   .main-banner .container {
     padding: 116px 0;
   }
@@ -1398,6 +1273,18 @@
     top: -32px;
     left: -24px;
   }
+
+  .cource-interest .s-container h3 {
+    font-size: 24px;
+  }
+
+  .cource-interest .s-container .cource-interest-item h4 {
+    font-size: 22px;
+  }
+
+  .cource-interest .s-container .cource-interest-item p {
+    font-size: 16px;
+  }
 }
 
 @media screen and (max-width:320px){
@@ -1473,6 +1360,24 @@
   }
 
   .main-banner .container article .main-info h1::before {
+    display: none;
+  }
+
+  .cource-interest .s-container h3::before {
+    content: url(../images/cource-page/layer-small.svg);
+    position: relative;
+    top: -13px;
+    left: -14px;
+    max-width: 0;
+  }
+}
+
+@media screen and (max-width:319px){
+  .cource-interest .s-container h3::before {
+    display: none;
+  }
+
+  .cource-interest .s-container h3::after {
     display: none;
   }
 }

@@ -132,7 +132,12 @@ $green3: #E1FFF9;
 .bg-pr3{
   background-color: $purple3 !important
 }
-
+.bg-grn2{
+  background-color: #87E3D1 !important
+}
+.bg-pink3{
+  background-color: #FEF5FE !important
+}
 
 .coPrpl{
   color: $purple !important
@@ -177,6 +182,10 @@ $green3: #E1FFF9;
   ul,ol{
     list-style: none;
   }
+}
+
+html{
+  touch-action: none;
 }
 
 body{
