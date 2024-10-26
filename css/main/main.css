@@ -508,6 +508,13 @@
 
 .cource-main-banner {
   background-color: #FEF5FE;
+  position: relative;
+}
+.cource-main-banner::after {
+  content: url(../../images/svgs/vector-blu-down.svg);
+  position: absolute;
+  bottom: -138px;
+  right: 0;
 }
 .cource-main-banner .main-cource-smallImg {
   position: relative;
@@ -592,7 +599,24 @@
 
 .cource-interest {
   background-image: url(../../images/cource-page/jail-back.svg);
-  padding: 94px 0 80px;
+  padding: 94px 0 100px;
+  margin-bottom: 40px;
+  position: relative;
+}
+.cource-interest .s-container .c-int-wrap {
+  position: relative;
+}
+.cource-interest .s-container .c-int-wrap::after {
+  content: url(../../images/svgs/pink-vector-interest.svg);
+  position: absolute;
+  right: 0;
+  top: -16px;
+}
+.cource-interest .s-container .c-int-wrap::before {
+  content: url(../../images/svgs/splash.svg);
+  position: absolute;
+  left: -40px;
+  bottom: 111px;
 }
 .cource-interest .s-container h3 {
   margin-bottom: 46px;
@@ -619,6 +643,9 @@
 .cource-interest .s-container .cource-interest-item {
   margin-bottom: 32px;
   gap: 6px;
+}
+.cource-interest .s-container .cource-interest-item:first-of-type h4 {
+  white-space: nowrap;
 }
 .cource-interest .s-container .cource-interest-item .interest-item-img {
   position: relative;
@@ -727,12 +754,22 @@
   display: block;
 }
 
+.why {
+  padding: 0 50px;
+}
 .why .container {
   max-width: 1140px;
   padding: 48px 32px 32px;
   border: 2px solid #F99AF9;
   box-shadow: #FDD7FD 12px -12px;
   margin-top: 11px;
+  position: relative;
+}
+.why .container::before {
+  content: url(../../images/svgs/why-chevron.svg);
+  position: absolute;
+  top: -65px;
+  left: -86px;
 }
 .why .container h2 {
   color: #000;
@@ -775,18 +812,41 @@
 }
 
 .cource-teacher {
-  padding: 120px 0 102px;
+  padding: 56px 0;
+  background-color: #FEF5FE;
+  margin-top: 40px;
 }
 .cource-teacher .s-container article {
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
+.cource-teacher .s-container article .specialist {
+  color: #fd17FD;
+  font-size: 16px;
+  font-weight: 700;
+  margin-bottom: 8px;
+}
+.cource-teacher .s-container article .expert-block {
+  margin-top: 16px;
+}
+.cource-teacher .s-container article .expert-block h6 {
+  color: #000;
+  font-size: 16px;
+  font-weight: 700;
+}
 .cource-teacher .s-container article h5 {
   color: #000;
   font-size: 40px;
   font-weight: 700;
-  margin-bottom: 72px;
+  margin-bottom: 34px;
+  position: relative;
+}
+.cource-teacher .s-container article h5::before {
+  content: url(../../images/mainBanner-svgs/Layer_1.svg);
+  position: absolute;
+  bottom: 22px;
+  left: -24px;
 }
 .cource-teacher .s-container article h6 {
   color: #000;
@@ -801,7 +861,7 @@
 }
 .cource-teacher .s-container article p:last-of-type {
   font-size: 16px;
-  margin-top: 16px;
+  line-height: 150%;
 }
 .cource-teacher .s-container article .teachure-img-block h5 {
   display: none;

@@ -20,10 +20,6 @@
     right: inherit;
     left: -112px;
   }
-
-  .why{
-    padding: 0 24px 0 12px;
-  }
 }
 
 @media screen and (max-width: 1060px){
@@ -34,6 +30,11 @@
   .goals .container .goal-info .goal-item .goal-text img {
     left: -64px;
     bottom: -78px;
+  }
+
+  .cource-interest .c-int-wrap{
+    padding-right: 102px;
+    margin-left: 34px;
   }
 }
 
@@ -202,6 +203,13 @@
   .cource-main-banner .container .cource-main-info article a {
     font-size: 22px;
   }
+
+  .why .container .why-banner {
+    justify-content: space-evenly;
+    gap: 24px;
+    flex-wrap: wrap;
+    align-items: center;
+  }
 }
 
 @media screen and (max-width: 880px){
@@ -249,13 +257,6 @@
 
   .cource-teacher .s-container article p {
     max-width: 342px;
-  }
-
-  .why .container .why-banner {
-    justify-content: space-evenly;
-    gap: 24px;
-    flex-wrap: wrap;
-    align-items: center;
   }
 }
 
@@ -573,6 +574,13 @@
     padding: 72px 0 92px;
   }
 
+  .cource-main-banner::after{
+    content: url(../images/svgs/vector-blu-smal.svg);
+    position: absolute;
+    bottom: -104px;
+    right: 0;
+  }
+
   .cource-teacher {
     padding: 82px 0 86px;
   }
@@ -623,6 +631,29 @@
     text-align: start;
     max-height: 120px;
     line-height: 125%;
+  }
+
+  .cource-teacher .s-container article h6, p, h5 {
+    text-align: start;
+  }
+
+  .cource-interest::before{
+    content: url(../images/svgs/jail-small.svg);
+    position: absolute;
+    right: 0;
+    bottom: 0;
+  }
+  .cource-interest{
+    background-image: none;
+  }
+
+  .cource-interest {
+    padding: 94px 0 60px;
+  }
+
+  .cource-interest .s-container .c-int-wrap::before {
+    left: -24px;
+    bottom: -36px;
   }
 
   footer {
@@ -689,7 +720,7 @@
     text-align: center;
   }
 
-  .why .container {
+  .why .container { 
     padding: 48px 20px 32px;
   }
 }
@@ -731,6 +762,21 @@
   .main-banner .container article .main-info h1::before {
     top: -36px;
     left: -30px;
+  }
+
+  .cource-interest .s-container .c-int-wrap::after {
+    display: none;
+  }
+
+  .cource-interest::after{
+    content: url(../images/svgs/pink-vector-down-interest.svg);
+    position: absolute;
+    right: 0;
+    top: 320px;
+  }
+
+  .cource-interest .c-int-wrap {
+    padding-right: 64px;
   }
 }
 
@@ -1088,7 +1134,7 @@
   }
 }
 
-@media screen and (max-width:394px){
+@media screen and (max-width: 394px){
   .learn .S-container h3::after {
     top: 56px;
     transform: translateX(-124px);
@@ -1096,6 +1142,10 @@
 
   .learn .S-container .tech-block .tech-item .tech-info h5 {
     font-size: 24px;
+  }
+
+  .cource-interest .c-int-wrap {
+    margin-left: 20px;
   }
 }
 
@@ -1110,6 +1160,14 @@
 
   .cource-interest .s-container h3 {
     font-size: 26px;
+  }
+
+  .cource-interest .c-int-wrap {
+    margin-left: 16px;
+  }
+
+  .cource-interest .c-int-wrap {
+    padding-right: 58px;
   }
 }
 
@@ -1183,6 +1241,19 @@
   .advantages .S-container h3 {
     font-size: 30px;
   }
+
+  .cource-interest .s-container .c-int-wrap::before {
+    left: -10px;
+    bottom: -48px;
+  }
+
+  .cource-interest .c-int-wrap {
+    margin-left: 4px;
+  }
+
+  .cource-interest .c-int-wrap {
+    padding-right: 48px;
+  }
 }
 
 @media screen and (max-width:345px){
@@ -1232,9 +1303,9 @@
     font-size: 16px;
     }
 
-    .cource-main-banner .container .cource-main-info article h1 {
-      font-size: 35px;
-    }
+  .cource-main-banner .container .cource-main-info article h1 {
+    font-size: 35px;
+  }
 
   .cource-main-banner .container .cource-main-info article .cource-content p {
     max-width: 84px;
@@ -1252,8 +1323,8 @@
     box-shadow: #FAD1FA 12px -12px;
     }
 
-    .cource-teacher .s-container article .cource-teachure-img:hover {
-      box-shadow: #f697f6 10px -10px;
+  .cource-teacher .s-container article .cource-teachure-img:hover {
+    box-shadow: #f697f6 10px -10px;
   }
 
   .main-banner .container article .main-info .svgblock_main img {
@@ -1284,6 +1355,10 @@
 
   .cource-interest .s-container .cource-interest-item p {
     font-size: 16px;
+  }
+
+  .cource-interest::after {
+    top: 280px;
   }
 }
 

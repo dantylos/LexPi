@@ -647,6 +647,14 @@ $green3: #E1FFF9;
 
 .cource-main-banner{
   background-color: $pink3;
+  position: relative;
+
+  &::after{
+    content: url(../../images/svgs/vector-blu-down.svg);
+    position: absolute;
+    bottom: -138px;
+    right: 0;
+  }
 
   .main-cource-smallImg{
     position: relative;
@@ -750,9 +758,29 @@ $green3: #E1FFF9;
 
 .cource-interest{
   background-image: url(../../images/cource-page/jail-back.svg);
-  padding: 94px 0 80px;
+  padding: 94px 0 100px;
+  margin-bottom: 40px;
+  position: relative;
 
   .s-container{
+
+    .c-int-wrap{
+      position: relative;
+
+      &::after{
+        content: url(../../images/svgs/pink-vector-interest.svg);
+        position: absolute;
+        right: 0;
+        top: -16px;
+      }
+
+      &::before{
+        content: url(../../images/svgs/splash.svg);
+        position: absolute;
+        left: -40px;
+        bottom: 111px;
+      }
+    }
 
     h3{
       margin-bottom: 46px;
@@ -782,6 +810,12 @@ $green3: #E1FFF9;
     .cource-interest-item{
       margin-bottom: 32px;
       gap: 6px;
+
+      &:first-of-type{
+        h4{
+          white-space: nowrap;
+        }
+      }
 
       .interest-item-img{
         position: relative;
@@ -912,12 +946,22 @@ $green3: #E1FFF9;
 }
 
 .why{
+  padding: 0 50px;
+
   .container{
     max-width: 1140px;
     padding: 48px 32px 32px;
     border: 2px solid #F99AF9;
     box-shadow: #FDD7FD 12px -12px;
     margin-top: 11px;
+    position: relative;
+
+    &::before{
+      content: url(../../images/svgs/why-chevron.svg);
+      position: absolute;
+      top: -65px;
+      left: -86px;
+    }
 
     h2{
       color: $black;
@@ -970,7 +1014,9 @@ $green3: #E1FFF9;
 }
 
 .cource-teacher{
-  padding: 120px 0 102px;
+  padding: 56px 0;
+  background-color: #FEF5FE;
+  margin-top: 40px;
 
   .s-container{
     
@@ -978,12 +1024,37 @@ $green3: #E1FFF9;
       display: flex;
       align-items: center;
       justify-content: space-between;
-      
+
+      .specialist{
+        color: $pink;
+        font-size: 16px;
+        font-weight: 700;
+        margin-bottom: 8px;
+      }
+
+      .expert-block{
+        margin-top: 16px;
+
+        h6{
+          color: $black;
+          font-size: 16px;
+          font-weight: 700;
+        }
+      }
+
       h5{
         color: $black;
         font-size: 40px;
         font-weight: 700;
-        margin-bottom: 72px;
+        margin-bottom: 34px;
+        position: relative;
+
+        &::before{
+          content: url(../../images/mainBanner-svgs/Layer_1.svg);
+          position: absolute;
+          bottom: 22px;
+          left: -24px;
+        }
       }
 
       h6{
@@ -1000,7 +1071,7 @@ $green3: #E1FFF9;
 
         &:last-of-type{
           font-size: 16px;
-          margin-top: 16px;
+          line-height: 150%;
         }
       }
 
