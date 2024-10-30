@@ -899,14 +899,23 @@ $green3: #E1FFF9;
           border: 1px solid #3586FF;
         }
         &:nth-child(4){
+          border: 1px solid #3586FF;
+          display: none;
+
+          img{
+            display: block;
+            width: 100%;
+          }
+        }
+        &:nth-child(5){
           background-color: #FFF0EF;
           border: 1px solid #FE6A5D;
         }
-        &:nth-child(5){
+        &:nth-child(6){
           background-color: #E1FFF9;
           border: 1px solid #00B894;
         }
-        &:nth-child(6){
+        &:nth-child(7){
           background-color: #FEF5FE;
           border: 1px solid #F99AF9;
         }
@@ -1018,6 +1027,14 @@ $green3: #E1FFF9;
   padding: 56px 0;
   background-color: #FEF5FE;
   margin-top: 40px;
+  position: relative;
+
+  &::after{
+    content: url(../../images/svgs/teacher-vector.svg);
+    position: absolute;
+    top: 38px;
+    right: 0;
+  }
 
   .s-container{
     

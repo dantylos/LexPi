@@ -311,6 +311,23 @@
   .cource-teacher .s-container article p {
     max-width: 302px;
   }
+
+  .why {
+    padding: 0 24px 0 12px;
+  }
+
+  .why .container::before {
+    content: url(../images/svgs/why-chevron-small.svg);
+    top: -16px;
+    left: -16px;
+  }
+
+  .why .container::after{
+    content: url(../images/cource-page/kvadran-why.png);
+    position: absolute;
+    top: 48px;
+    right: -25px;
+  }
 }
 
 
@@ -656,6 +673,26 @@
     bottom: -36px;
   }
 
+  .why .container h2 {
+    max-width: 556px;
+  }
+
+  .learn .S-container .com-block img {
+    display: none;
+  }
+
+  .learn .S-container .tech-block .tech-item:nth-child(4) {
+    display: block;
+    padding: 28px 10px 0 12px;
+    min-height: auto;
+  }
+
+  .learn .S-container .tech-block .tech-item {
+    padding: 8px 12px 0px;
+    min-height: 202px;
+    margin-bottom: 14px;
+  }
+
   footer {
     padding: 48px 0;
   }
@@ -722,6 +759,10 @@
 
   .why .container { 
     padding: 48px 20px 32px;
+  }
+
+  .why .container h2 {
+    max-width: 342px;
   }
 }
 
@@ -856,6 +897,12 @@
   }
 }
 
+@media screen and (max-width:490px){
+    .why .container::after {
+      content: url(../images/cource-page/kvadran-why-small.png);
+  }
+}
+
 @media screen and (max-width:460px){
   header .container nav ul li a {
     font-size: 24px;
@@ -966,6 +1013,16 @@
 
   .learn .S-container .tech-block .tech-item .tech-info h5 {
     font-size: 26px;
+  }
+
+  .why .container {
+    padding: 48px 12px 32px;
+  }
+
+  .why h2 {
+    padding: 0;
+    font-size: 32px;
+    max-width: 240px;
   }
 }
 
@@ -1147,6 +1204,10 @@
   .cource-interest .c-int-wrap {
     margin-left: 20px;
   }
+
+  .why .container h2 {
+    max-width: 274px;
+  }
 }
 
 @media screen and (max-width:380px){
@@ -1168,6 +1229,10 @@
 
   .cource-interest .c-int-wrap {
     padding-right: 58px;
+  }
+
+  .why .container h2 {
+    max-width: 250px;
   }
 }
 
@@ -1253,6 +1318,10 @@
 
   .cource-interest .c-int-wrap {
     padding-right: 48px;
+  }
+
+  .why .container h2 {
+    max-width: 218px;
   }
 }
 
@@ -1360,6 +1429,10 @@
   .cource-interest::after {
     top: 280px;
   }
+}
+
+@media screen and (max-width:332px){
+
 }
 
 @media screen and (max-width:320px){
