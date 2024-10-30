@@ -809,6 +809,7 @@
   font-weight: 700;
   color: #000;
   margin-top: 32px;
+  line-height: 140%;
 }
 
 .cource-teacher {
@@ -822,7 +823,7 @@
   justify-content: space-between;
 }
 .cource-teacher .s-container article .specialist {
-  color: #fd17FD;
+  color: #F99AF9;
   font-size: 16px;
   font-weight: 700;
   margin-bottom: 8px;
@@ -834,6 +835,7 @@
   color: #000;
   font-size: 16px;
   font-weight: 700;
+  line-height: 130%;
 }
 .cource-teacher .s-container article h5 {
   color: #000;

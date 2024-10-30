@@ -210,6 +210,10 @@ body {
   background-color: #87E3D1;
 }
 
+.highlight-text {
+  color: #F99AF9 !important;
+}
+
 .owl-stage {
   display: flex;
   align-items: center;

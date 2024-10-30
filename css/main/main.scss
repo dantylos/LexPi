@@ -1009,6 +1009,7 @@ $green3: #E1FFF9;
       font-weight: 700;
       color: $black;
       margin-top: 32px;
+      line-height: 140%;
     }
   }
 }
@@ -1026,7 +1027,7 @@ $green3: #E1FFF9;
       justify-content: space-between;
 
       .specialist{
-        color: $pink;
+        color: $purple;
         font-size: 16px;
         font-weight: 700;
         margin-bottom: 8px;
@@ -1039,6 +1040,7 @@ $green3: #E1FFF9;
           color: $black;
           font-size: 16px;
           font-weight: 700;
+          line-height: 130%;
         }
       }
 
