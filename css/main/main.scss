@@ -756,9 +756,91 @@ $green3: #E1FFF9;
   }
 }
 
-.lesson-formP{
+.lesson-form{
   background-color: $pink3;
-  padding: 26px 0 42px;
+  padding: 68px 0 42px;
+
+  .container{
+    align-items: center;
+    justify-content: space-between;
+    border: 2px solid $purple;
+    padding: 60px 24px 60px 68px;
+    box-shadow: $purple2 10px -10px;
+    background-color: $white;
+    position: relative;
+
+    &::after{
+      content: url(../../images/cource-page/pointer.svg);
+      position: absolute;
+      right: -1px;
+      bottom: -8px;
+    }
+
+    h3{
+      color: $black;
+      font-weight: 700;
+      font-size: 32px;
+      max-width: 416px;
+      position: relative;
+
+      span{
+        color: $purple;
+      }
+
+      &::before{
+        content: url(../../images/mainBanner-svgs/Layer_1.svg);
+        position: absolute;
+        top: -21px;
+        left: -26px;
+      }
+
+      &:after{
+        content: url(../../images/cource-page/lesson-form-under.svg);
+        position: relative;
+        right: -100px;
+      }
+    }
+
+    .lesson-form-wrap{
+      width: 552px;
+
+      .input-item-l{
+        input{
+          background-color: #F5F5F5;
+          padding: 16px;
+          width: -webkit-fill-available;
+          margin-bottom: 8px;
+          border: none;
+          font-size: 20px;
+
+          &:focus{
+            border-radius: 0px;
+            background-color: $white;
+          }
+        }
+      }
+
+      .lesson-link{
+        margin-top: 24px;
+        
+        .lesson-button{
+          width: 540px;
+          background-color: $blue;
+          padding: 17px 0;
+          color: $white;
+          font-size: 24px;
+          font-weight: 700;
+          border: none;
+          box-shadow: $blue3 12px -8px;
+          transition: 0.1s;
+
+          &:hover{
+            box-shadow: $blue2 8px -6px;
+          }
+        }
+      }
+    }
+  }
 }
 
 .cource-interest{
