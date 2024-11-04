@@ -597,6 +597,11 @@
   width: 100%;
 }
 
+.lesson-formP {
+  background-color: #FEF5FE;
+  padding: 26px 0 42px;
+}
+
 .cource-interest {
   background-image: url(../../images/cource-page/jail-back.svg);
   padding: 94px 0 100px;
