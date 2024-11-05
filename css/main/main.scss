@@ -654,6 +654,7 @@ $green3: #E1FFF9;
     position: absolute;
     bottom: -138px;
     right: 0;
+    z-index: 3;
   }
 
   .main-cource-smallImg{
@@ -759,6 +760,7 @@ $green3: #E1FFF9;
 .lesson-form{
   background-color: $pink3;
   padding: 68px 0 42px;
+  position: relative;
 
   .container{
     align-items: center;
@@ -769,6 +771,7 @@ $green3: #E1FFF9;
     box-shadow: $purple2 10px -10px;
     background-color: $white;
     position: relative;
+    z-index: 2;
 
     &::after{
       content: url(../../images/cource-page/pointer.svg);

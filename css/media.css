@@ -506,10 +506,6 @@
     margin-top: 36px !important;
   }
 
-  .cource-main-banner .container {
-    padding-bottom: 54px;
-  }
-
   .cource-main-banner {
     margin-top: 0;
   }
@@ -759,6 +755,10 @@
     font-size: 20px;
   }
 
+  .cource-main-banner::after {
+      bottom: -60px;
+    }
+
   footer {
     padding: 48px 0;
   }
@@ -885,6 +885,8 @@
   .cource-interest .c-int-wrap {
     padding-right: 64px;
   }
+
+  
 }
 
 @media screen and (max-width: 554px){
@@ -1092,11 +1094,12 @@
   }
 
   .lesson-form {
-    padding: 68px 22px 42px 12px;
+    padding: 28px 34px 121px 24px;
+    z-index: 1;
   }
 
   .lesson-form .container {
-    padding: 68px 24px;
+    padding: 48px 24px 22px;
   }
 
   .lesson-form .container h3::before {
@@ -1112,6 +1115,28 @@
 
   .lesson-form .container h3 {
     font-size: 20px;
+  }
+
+  .lesson-form::after{
+    content: url(../images/back-small-blu.svg);
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    z-index: 1;
+  }
+
+  .lesson-form .container::after {
+    bottom: -36px;
+  }
+
+  .lesson-form .container h3:after {
+    content: url(../images/cource-page/yello-under.svg);
+    position: relative;
+    right: -155px;
+  }
+
+  .lesson-form .container .lesson-form-wrap .input-item-l input {
+    font-size: 15px;
   }
 }
 

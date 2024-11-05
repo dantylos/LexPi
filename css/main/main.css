@@ -519,6 +519,7 @@
   position: absolute;
   bottom: -138px;
   right: 0;
+  z-index: 3;
 }
 .cource-main-banner .main-cource-smallImg {
   position: relative;
@@ -604,6 +605,7 @@
 .lesson-form {
   background-color: #FEF5FE;
   padding: 68px 0 42px;
+  position: relative;
 }
 .lesson-form .container {
   align-items: center;
@@ -614,6 +616,7 @@
   box-shadow: #FAD1FA 10px -10px;
   background-color: #fff;
   position: relative;
+  z-index: 2;
 }
 .lesson-form .container::after {
   content: url(../../images/cource-page/pointer.svg);
