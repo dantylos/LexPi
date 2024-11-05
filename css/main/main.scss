@@ -763,6 +763,7 @@ $green3: #E1FFF9;
   .container{
     align-items: center;
     justify-content: space-between;
+    gap: 24px;
     border: 2px solid $purple;
     padding: 60px 24px 60px 68px;
     box-shadow: $purple2 10px -10px;
@@ -811,7 +812,7 @@ $green3: #E1FFF9;
           width: -webkit-fill-available;
           margin-bottom: 8px;
           border: none;
-          font-size: 20px;
+          font-size: 16px;
 
           &:focus{
             border-radius: 0px;
@@ -845,7 +846,7 @@ $green3: #E1FFF9;
 
 .cource-interest{
   background-image: url(../../images/cource-page/jail-back.svg);
-  padding: 94px 0 100px;
+  padding: 94px 0 80px;
   margin-bottom: 40px;
   position: relative;
 

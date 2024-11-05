@@ -20,9 +20,13 @@
     right: inherit;
     left: -112px;
   }
+
+  .lesson-form {
+    padding: 68px 22px 42px 12px;
+  }
 }
 
-@media screen and (max-width: 1060px){
+@media screen and (max-width: 1070px){
   .goals .container .goal-info {
     gap: 12px;
   }
@@ -144,6 +148,15 @@
   .cource-main-banner .container .cource-main-img {
     max-width: 420px;
   }
+
+  .lesson-form .container .lesson-form-wrap {
+    width: 420px;
+  }
+
+  .lesson-form .container .lesson-form-wrap .lesson-link .lesson-button {
+    max-width: 408px;
+    font-size: 20px;
+  }
 }
 
 @media screen and (max-width:950px){
@@ -175,6 +188,28 @@
 
   .whatis-cource .container .cource-page-infoblock .right-whatis-wrapper {
     max-width: 342px;
+  }
+
+  .lesson-form .container .lesson-form-wrap {
+    width: 360px;
+  }
+
+  .lesson-form .container .lesson-form-wrap .lesson-link .lesson-button {
+    width: -webkit-fill-available;
+    font-size: 18px;
+    box-shadow: #BDD7FF 8px -6px;
+  }
+
+  .lesson-form .container h3 {
+    max-width: 360px;
+  }
+
+  .lesson-form .container h3:after {
+    right: -30px;
+  }
+
+  .lesson-form .container {
+    padding: 60px 24px 60px 36px;
   }
 }
 
@@ -327,6 +362,10 @@
     position: absolute;
     top: 48px;
     right: -25px;
+  }
+
+  .lesson-form .container h3 {
+    max-width: 310px;
   }
 }
 
@@ -693,6 +732,33 @@
     margin-bottom: 14px;
   }
 
+  .lesson-form .container {
+    padding: 68px 36px;
+    flex-direction: column;
+  }
+
+  .lesson-form .container h3:after {
+    right: -255px;
+  }
+
+  .lesson-form {
+    padding: 68px 72px 42px 62px;
+  }
+
+  .lesson-form .container h3 {
+    max-width: inherit;
+    font-size: 24px;
+  }
+
+  .lesson-form .container .lesson-form-wrap {
+    width: -webkit-fill-available;
+  }
+
+  .lesson-form .container .lesson-form-wrap .lesson-link .lesson-button {
+    max-width: inherit;
+    font-size: 20px;
+  }
+
   footer {
     padding: 48px 0;
   }
@@ -1023,6 +1089,29 @@
     padding: 0;
     font-size: 32px;
     max-width: 240px;
+  }
+
+  .lesson-form {
+    padding: 68px 22px 42px 12px;
+  }
+
+  .lesson-form .container {
+    padding: 68px 24px;
+  }
+
+  .lesson-form .container h3::before {
+    content: url(../images/cource-page/layer-small.svg);
+    position: absolute;
+    top: -16px;
+    left: -17px;
+  }
+
+  .lesson-form .container h3:after {
+    right: -176px;
+  }
+
+  .lesson-form .container h3 {
+    font-size: 20px;
   }
 }
 
