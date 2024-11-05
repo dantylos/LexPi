@@ -759,6 +759,10 @@
       bottom: -60px;
     }
 
+  nav #nav-check:checked~.nav-list {
+    z-index: 4;
+  }
+
   footer {
     padding: 48px 0;
   }
@@ -886,7 +890,7 @@
     padding-right: 64px;
   }
 
-  
+
 }
 
 @media screen and (max-width: 554px){

@@ -227,7 +227,7 @@ $green3: #E1FFF9;
         }
 
         h3{
-          color: $white;
+          color: $black;
           font-size: 32px;
           font-weight: 700;
           text-align: start;
@@ -235,7 +235,7 @@ $green3: #E1FFF9;
         }
 
         p{
-          color: $white;
+          color: $black;
           font-size: 16px;
           font-weight: 400;
           margin-top: 14px;
@@ -260,7 +260,7 @@ $green3: #E1FFF9;
           gap: 6px;
 
           &:after{
-            content: url(../../images/svgs/cource-chevron.svg);
+            content: url(../../images/svgs/chevron-black-right.svg);
           }
         }
       }
