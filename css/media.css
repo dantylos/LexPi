@@ -1312,6 +1312,10 @@
   .learn .S-container h3::after {
     top: 26px;
   }
+
+  .consultation-form .container .form-container form .input-item input::placeholder {
+    font-size: 14px;
+  }
 }
 
 @media screen and (max-width: 394px){
@@ -1474,7 +1478,7 @@
   }
 
   .advantages .S-container h4 {
-    font-size: 20px;
+    font-size: 18px;
   }
 
   .advantages .S-container p {
@@ -1552,10 +1556,10 @@
   .cource-interest::after {
     top: 280px;
   }
-}
 
-@media screen and (max-width:332px){
-
+  .consultation-form .container .form-container form button {
+    font-size: 18px;
+  }
 }
 
 @media screen and (max-width:320px){

@@ -411,6 +411,7 @@
 
 .consultation-form {
   background-color: #3586FF;
+  background-image: url(../../images/svgs/form-back.svg);
   padding: 105px 0;
   position: relative;
 }
@@ -449,6 +450,12 @@
 }
 .consultation-form .container .form-container form button {
   border: none;
+  background-color: #FE6A5D;
+  color: #fff;
+  padding: 20px 12px;
+  width: -webkit-fill-available;
+  font-size: 20px;
+  font-weight: 700;
 }
 .consultation-form .container .form-container form .input-item {
   margin-bottom: 24px;

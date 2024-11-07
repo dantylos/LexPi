@@ -528,6 +528,7 @@ $green3: #E1FFF9;
 
 .consultation-form{
   background-color: $blue;
+  background-image: url(../../images/svgs/form-back.svg);
   padding: 105px 0;
   position: relative;
 
@@ -572,6 +573,12 @@ $green3: #E1FFF9;
       form{
         button{
           border: none;
+          background-color: $red;
+          color: $white;
+          padding: 20px 12px;
+          width: -webkit-fill-available;
+          font-size: 20px;
+          font-weight: 700;
         }
 
         .input-item{
