@@ -27,7 +27,9 @@ $('.owl-carousel').owlCarousel({
   }
 });
 
+
 // Accordion Action
+
 const accordionItem = document.querySelectorAll(".accordion-item");
 
 accordionItem.forEach((el) =>
@@ -54,11 +56,9 @@ menuBtn.addEventListener('click', function(){
 	menu.classList.toggle('active');
 })
 
-
 menuItem.forEach (function(menuItem) {
   menuItem.addEventListener('click',function(){
           menuBtn.classList.toggle('active');
           menu.classList.toggle('active');
   })
 })
-

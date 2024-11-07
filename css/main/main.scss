@@ -84,9 +84,21 @@ $green3: #E1FFF9;
       align-items: center;
 
       .main-info {
-        max-width: 510px;
+        max-width: 521px;
         position: relative;
         text-align: center;
+
+        span{
+          color: #fff;
+          font-size: 48px;
+          font-weight: 700;
+          position: relative;
+          display: inline-block;
+          line-height: 120%;
+          background-color: #FE6A5D;
+          box-shadow: #FEACA4 4px -6px;
+          padding: 4px 10px;
+        }
 
         .main-text{
           display: flex;
@@ -100,21 +112,16 @@ $green3: #E1FFF9;
         }
 
         h1{
-          color: $white;
-          font-size: 48px;
-          font-weight: 700;
-          position: relative;
-          line-height: 152%;
-          display: inline;
-          background-color: $red;
-          box-shadow: $red2 6px -6px;
-          padding: 4px 6px;
+          display: flex;
+          flex-direction: column;
+          gap: 10px;
+          align-items: center;
 
           &::before{
             content: url(../../images/mainBanner-svgs/Layer_1.svg);
             position: absolute;
-            top: -52px;
-            left: -32px;
+            top: -32px;
+            left: 14px;
           }
         }
 

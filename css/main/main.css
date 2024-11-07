@@ -46,9 +46,20 @@
   align-items: center;
 }
 .main-banner .container article .main-info {
-  max-width: 510px;
+  max-width: 521px;
   position: relative;
   text-align: center;
+}
+.main-banner .container article .main-info span {
+  color: #fff;
+  font-size: 48px;
+  font-weight: 700;
+  position: relative;
+  display: inline-block;
+  line-height: 120%;
+  background-color: #FE6A5D;
+  box-shadow: #FEACA4 4px -6px;
+  padding: 4px 10px;
 }
 .main-banner .container article .main-info .main-text {
   display: flex;
@@ -60,21 +71,16 @@
   left: -26px;
 }
 .main-banner .container article .main-info h1 {
-  color: #fff;
-  font-size: 48px;
-  font-weight: 700;
-  position: relative;
-  line-height: 152%;
-  display: inline;
-  background-color: #FE6A5D;
-  box-shadow: #FEACA4 6px -6px;
-  padding: 4px 6px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
 }
 .main-banner .container article .main-info h1::before {
   content: url(../../images/mainBanner-svgs/Layer_1.svg);
   position: absolute;
-  top: -52px;
-  left: -32px;
+  top: -32px;
+  left: 14px;
 }
 .main-banner .container article .main-info .svgblock_main {
   position: relative;
@@ -455,10 +461,6 @@
   width: 100%;
   border: none;
   font-size: 16px;
-}
-.consultation-form .container .form-container form .input-item input::-moz-placeholder {
-  font-size: 16px;
-  font-weight: 400;
 }
 .consultation-form .container .form-container form .input-item input::placeholder {
   font-size: 16px;
@@ -986,4 +988,6 @@
 .cource-teacher .s-container article .cource-teachure-img img {
   width: 100%;
   display: block;
-}/*# sourceMappingURL=main.css.map */
+}
+
+/*# sourceMappingURL=main.css.map */

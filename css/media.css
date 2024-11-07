@@ -607,15 +607,14 @@
   }
 
   .main-banner .container article .main-info h1 {
-    color: #fff;
-    font-size: 48px;
-    font-weight: 700;
-    position: relative;
-    line-height: 150%;
+    line-height: 120%;
     display: inline;
-    background-color: #FE6A5D;
     box-shadow: #FEACA4 6px -4px;
     padding: 0 6px;
+  }
+
+  .main-banner .container article .main-info span {
+    margin-top: 10px;
   }
 
   .consultation-form {
@@ -763,6 +762,11 @@
     z-index: 4;
   }
 
+  .main-banner .container article .main-info h1::before {
+    top: -27px;
+    left: 24px;
+  }
+
   footer {
     padding: 48px 0;
   }
@@ -843,6 +847,9 @@
 }
 
 @media screen and (max-width: 560px){
+  .main-banner .container article .main-info span {
+    font-size: 42px;
+  }
   .advantages .S-container h4 {
     font-size: 22px;
   }
@@ -852,8 +859,6 @@
     margin-top: 10px;
     font-size: 16px;
   }
-
-
 
   .consultation-form .container .form-container {
     width: -webkit-fill-available;
