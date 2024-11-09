@@ -2,7 +2,7 @@ header {
   border-bottom: 2px solid #F9CD37;
 }
 
-.cource-main-banner .container {
+.cource-main-banner {
   background-color: #FEF9E6;
 }
 .cource-main-banner .container .cource-main-info .main-cource-age {
@@ -23,13 +23,34 @@ header {
   box-shadow: #fff248 4px -4px;
 }
 
-.why {
+.lesson-form {
   background-color: #FEF9E6;
 }
+.lesson-form .container {
+  border: 2px solid #F9CD37;
+  box-shadow: #FCE69B 10px -10px;
+}
+.lesson-form .container h3 span {
+  color: #F9CD37;
+}
 
+.why .container {
+  border: 2px solid #F9CD37;
+  box-shadow: #FCE69B 12px -12px;
+}
+.why .container .highlight-text {
+  color: #F9CD37 !important;
+}
+
+.cource-teacher {
+  background-color: #FEF9E6;
+}
 .cource-teacher .s-container article .cource-teachure-img {
   box-shadow: #FCE69B 16px -16px;
 }
 .cource-teacher .s-container article .cource-teachure-img:hover {
   box-shadow: #fff248 12px -12px;
+}
+.cource-teacher .s-container article .specialist {
+  color: #F9CD37;
 }/*# sourceMappingURL=scratch.css.map */

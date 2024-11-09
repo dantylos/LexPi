@@ -1,4 +1,4 @@
-.cource-main-banner .container {
+.cource-main-banner {
   background-color: #ffe3df;
 }
 .cource-main-banner .container .cource-main-info .main-cource-age {
@@ -19,13 +19,34 @@
   box-shadow: #FEACA4 4px -4px;
 }
 
-.why {
+.lesson-form {
   background-color: #ffe3df;
 }
+.lesson-form .container {
+  border: 2px solid #FE6A5D;
+  box-shadow: #FED2CD 10px -10px;
+}
+.lesson-form .container h3 span {
+  color: #FE6A5D;
+}
 
+.why .container {
+  border: 2px solid #FE6A5D;
+  box-shadow: #FED2CD 12px -12px;
+}
+.why .container .highlight-text {
+  color: #FE6A5D !important;
+}
+
+.cource-teacher {
+  background-color: #ffe3df;
+}
 .cource-teacher .s-container article .cource-teachure-img {
   box-shadow: #FED2CD 16px -16px;
 }
 .cource-teacher .s-container article .cource-teachure-img:hover {
   box-shadow: #FEACA4 12px -12px;
+}
+.cource-teacher .s-container article .specialist {
+  color: #FE6A5D;
 }/*# sourceMappingURL=design.css.map */

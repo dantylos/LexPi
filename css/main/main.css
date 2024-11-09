@@ -88,7 +88,7 @@
 .main-banner .container article .main-info .svgblock_main img {
   position: absolute;
   left: 336px;
-  top: -15px;
+  top: -11px;
 }
 .main-banner .container article .main-info p {
   color: #000;
@@ -468,6 +468,10 @@
   width: 100%;
   border: none;
   font-size: 16px;
+}
+.consultation-form .container .form-container form .input-item input::-moz-placeholder {
+  font-size: 16px;
+  font-weight: 400;
 }
 .consultation-form .container .form-container form .input-item input::placeholder {
   font-size: 16px;
@@ -995,6 +999,4 @@
 .cource-teacher .s-container article .cource-teachure-img img {
   width: 100%;
   display: block;
-}
-
-/*# sourceMappingURL=main.css.map */
+}/*# sourceMappingURL=main.css.map */

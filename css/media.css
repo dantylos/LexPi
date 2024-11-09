@@ -24,6 +24,11 @@
   .lesson-form {
     padding: 68px 22px 42px 12px;
   }
+
+  .main-banner .main-tipok {
+    max-width: 260px;
+    right: 24px;
+  }
 }
 
 @media screen and (max-width: 1070px){
@@ -64,11 +69,6 @@
     left: 30px;
   }
 
-  .main-banner .container article .main-info .svgblock_main img {
-    left: 334px;
-    top: -16px;
-  }
-
   .main-banner .left-main-img img {
     display: none;
   }
@@ -77,11 +77,6 @@
     max-width: 260px;
     position: absolute;
     bottom: 0;
-    right: 24px;
-  }
-
-  .main-banner .main-tipok {
-    max-width: 260px;
     right: 24px;
   }
 
@@ -157,14 +152,14 @@
     max-width: 408px;
     font-size: 20px;
   }
-}
 
-@media screen and (max-width:950px){
   .main-banner .main-tipok {
     max-width: 232px;
     right: 12px;
   }
+}
 
+@media screen and (max-width:950px){
   .whatis-cource .container .cource-page-infoblock .left-whatis-wrapper h4 {
     font-size: 22px;
   }
@@ -210,6 +205,11 @@
 
   .lesson-form .container {
     padding: 60px 24px 60px 36px;
+  }
+
+  .main-banner .main-tipok {
+    max-width: 186px;
+    right: 12px;
   }
 }
 
@@ -838,6 +838,10 @@
   .why .container h2 {
     max-width: 342px;
   }
+
+  .main-banner .container article .main-info span {
+    font-size: 42px;
+  }
 }
 
 @media screen and (max-width: 580px){
@@ -847,9 +851,6 @@
 }
 
 @media screen and (max-width: 560px){
-  .main-banner .container article .main-info span {
-    font-size: 42px;
-  }
   .advantages .S-container h4 {
     font-size: 22px;
   }
@@ -894,8 +895,6 @@
   .cource-interest .c-int-wrap {
     padding-right: 64px;
   }
-
-
 }
 
 @media screen and (max-width: 554px){

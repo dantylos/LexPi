@@ -7,9 +7,9 @@ $red4: #ffe3df;
 
 
 .cource-main-banner{
-  .container{
-    background-color: $red4;
+  background-color: $red4;
 
+  .container{
     .cource-main-info{
       .main-cource-age{
         background-color: $red2;
@@ -40,11 +40,36 @@ $red4: #ffe3df;
   }
 }
 
-.why{
+
+.lesson-form{
   background-color: $red4;
+
+  .container {
+    border: 2px solid $red;
+    box-shadow: $red3 10px -10px;
+
+    h3{
+      span{
+        color: $red;
+      }
+    }
+  }
+}
+
+.why {
+.container {
+  border: 2px solid $red;
+  box-shadow: $red3 12px -12px;
+
+  .highlight-text {
+    color: $red !important;
+    }
+  }
 }
 
 .cource-teacher{
+  background-color: $red4;
+
   .s-container{
     
     article{
@@ -54,6 +79,10 @@ $red4: #ffe3df;
         &:hover{
           box-shadow: $red2 12px -12px;
         }
+      }
+
+      .specialist{
+        color: $red;
       }
     }
   }
