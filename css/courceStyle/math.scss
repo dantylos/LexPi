@@ -58,6 +58,11 @@ header {
   }
 }
 
+.cource-interest .s-container h3::after{
+  transform: translateX(82px);
+  top: 20px;
+}
+
 .why {
 .container {
   border: 2px solid $green;

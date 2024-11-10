@@ -34,6 +34,11 @@ header {
   color: #00B894;
 }
 
+.cource-interest .s-container h3::after {
+  transform: translateX(82px);
+  top: 20px;
+}
+
 .why .container {
   border: 2px solid #00B894;
   box-shadow: #E1FFF9 12px -12px;
