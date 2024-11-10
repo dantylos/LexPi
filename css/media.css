@@ -885,6 +885,10 @@
     display: none;
   }
 
+  .cource-interest .S-container .c-int-wrap::after {
+    display: none;
+  }
+
   .cource-interest::after{
     content: url(../images/svgs/pink-vector-down-interest.svg);
     position: absolute;
@@ -1553,7 +1557,7 @@
   }
 
   .cource-interest::after {
-    top: 280px;
+    top: 200px;
   }
 
   .consultation-form .container .form-container form button {

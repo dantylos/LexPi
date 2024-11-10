@@ -355,6 +355,7 @@
   text-align: center;
   line-height: 125%;
   position: relative;
+  margin-bottom: 12px;
 }
 .advantages .S-container h3::after {
   content: url(../../images/svgs/purp-underline.svg);
@@ -383,7 +384,7 @@
   margin-top: 16px;
 }
 .advantages .S-container .advantage-item {
-  margin-top: 64px;
+  margin-top: 48px;
   display: flex;
   gap: 24px;
 }
