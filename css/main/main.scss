@@ -209,16 +209,27 @@ $green3: #E1FFF9;
     article{
       max-width: 360px;
 
+      .wrapper-cource{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding-top: 48px;
+      }
+
       .cource-img{
-        width: 100%;
+        max-width: 360px;
+        height: 125.5px;
 
         img{
           display: block;
+          width: 100%;
+          height: 100%;
         }
       }
 
       .cource-info{
         padding: 0 24px 12px;
+        min-height: 308px;
 
         .age{
           justify-content: end;
@@ -229,7 +240,7 @@ $green3: #E1FFF9;
             font-size: 17px;
             font-weight: 700;
             padding: 6px 12px;
-            margin: 24px 0 4px;
+            margin: 0;
           }
         }
 
@@ -247,7 +258,7 @@ $green3: #E1FFF9;
           font-weight: 400;
           margin-top: 14px;
           letter-spacing: 1px;
-          margin: 24px 0 108px;
+          margin: 24px 0 0;
           text-align: start;
           max-height: 120px;
           line-height: 130%;
@@ -265,6 +276,8 @@ $green3: #E1FFF9;
         .more{
           align-items: center;
           gap: 6px;
+          position: absolute;
+          bottom: 18px;
 
           &:after{
             content: url(../../images/svgs/chevron-black-right.svg);

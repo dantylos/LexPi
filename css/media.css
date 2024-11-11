@@ -437,10 +437,6 @@
     left: 220px;
   }
 
-  .cources .container article .cource-info {
-    padding: 0 12px;
-  }
-
   .owl-stage {
     display: inherit !important;
     margin: auto !important;
@@ -585,16 +581,16 @@
     text-align: center;
   }
 
-  .cources {
-    padding: 108px 0 80px;
-  }
-
   .education .S-container .education-item {
     margin-bottom: 60px;
   }
 
+  .cources .container{
+    padding-bottom: 78px;
+  }
+
   .education{
-    padding-top: 28px;
+    padding-top: 37px;
   }
 
   .education .S-container .education-item .education-info p {
@@ -663,18 +659,6 @@
 
   .cource-teacher .s-container .teacher-info {
     margin-top: 24px;
-  }
-
-  .cources .container article .cource-info p {
-    color: #fff;
-    font-size: 16px;
-    font-weight: 400;
-    margin-top: 14px;
-    letter-spacing: 1px;
-    margin: 24px 0 108px;
-    text-align: start;
-    max-height: 120px;
-    line-height: 125%;
   }
 
   .cource-teacher .s-container article h6, p, h5 {
@@ -1002,14 +986,6 @@
     min-height: 313px;
   }
 
-  .wrapper-cource {
-    display: flex;
-    align-items: center;
-    flex-direction: row-reverse;
-    justify-content: space-between;
-    margin-top: 17px;
-  }
-
   .cources .container article .cource-info .age p {
     margin: 0;
     white-space: nowrap;
@@ -1017,7 +993,7 @@
   }
 
   .cources .container article .cource-info h3 {
-    font-size: 30px;
+    font-size: 26px;
   }
 
   .cources .container article .cource-info p {
@@ -1173,6 +1149,10 @@
 
   .cources .container h2 {
     font-size: 27px;
+  }
+
+  .cources .container article .wrapper-cource {
+    padding-top: 20px;
   }
 
   .education .S-container h3 {
@@ -1360,6 +1340,10 @@
   .main-banner .container article .main-info p {
     font-size: 18.5px;
   }
+
+  .cources .container article .cource-info {
+    padding: 0 12px;
+  }
 }
 
 @media screen and (max-width:380px){
@@ -1462,6 +1446,10 @@
   .cource-interest .s-container .c-int-wrap::before {
     left: -10px;
     bottom: -48px;
+  }
+
+  .cources .container article .cource-info h3 {
+    font-size: 24px;
   }
 
   .cource-interest .c-int-wrap {
@@ -1589,13 +1577,18 @@
   .main-banner .container article .main-info span {
     font-size: 27px;
   }
+
+  .cources .container article .cource-info h3 {
+    font-size: 22px;
+  }
+
+  .cources .container article .cource-info .age p {
+    font-size: 16px;
+    padding: 5px 6px 4px;
+  }
 }
 
 @media screen and (max-width:320px){
-  .cources .container article .cource-info h3 {
-    font-size: 30px;
-  }
-
   .cources .container article .cource-info .age p {
     padding: 5px 10px 4px;
   }
