@@ -186,6 +186,9 @@ $green3: #E1FFF9;
 
 body{
   touch-action: manipulation;
+  -webkit-text-size-adjust: 100%;
+  width: 100vw;
+  overflow-x: hidden;
 }
 
 .container{
