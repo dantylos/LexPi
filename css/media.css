@@ -29,6 +29,10 @@
     max-width: 260px;
     right: 24px;
   }
+
+  .cource-teacher::after {
+    top: -35px;
+  }
 }
 
 @media screen and (max-width: 1070px){
@@ -156,6 +160,10 @@
   .main-banner .main-tipok {
     max-width: 232px;
     right: 12px;
+  }
+
+  .cource-teacher .s-container {
+    padding: 0 32px;
   }
 }
 
@@ -544,10 +552,11 @@
   .cource-main-banner .container .cource-main-info article .cource-content {
     margin-bottom: 22px;
     padding-right: 4px;
+    gap: 12px;
   }
 
   .cource-main-banner .container .cource-main-info article .cource-content p {
-    max-width: 130px;
+    max-width: fit-content;
     padding: 6px;
   }
 
@@ -710,7 +719,7 @@
   }
 
   .lesson-form .container h3:after {
-    right: -255px;
+    right: -46px;
   }
 
   .lesson-form {
@@ -741,8 +750,12 @@
 
   .main-banner .container article .main-info h1::before {
     top: -27px;
-    left: 24px;
+    left: 18px;
   }
+
+  .cource-teacher::after {
+    top: 15px;
+   }
 
   footer {
     padding: 48px 0;
@@ -790,6 +803,12 @@
   }
 }
 
+@media screen and (max-width: 631px){
+  .lesson-form .container h3:after {
+    right: -164px;
+  }
+}
+
 @media screen and (max-width: 620px){
   .advantages .S-container h3::after {
     left: 122px;
@@ -818,6 +837,14 @@
 
   .main-banner .container article .main-info span {
     font-size: 42px;
+  }
+
+  .main-banner .container article .main-info h1::before {
+    left: 12px;
+  }
+
+  .main-banner .container article .main-info .svgblock_main img {
+    left: 284px;
   }
 }
 
@@ -854,8 +881,7 @@
   }
 
   .main-banner .container article .main-info h1::before {
-    top: -36px;
-    left: -30px;
+    left: 4px;
   }
 
   .cource-interest .s-container .c-int-wrap::after {
@@ -875,6 +901,10 @@
 
   .cource-interest .c-int-wrap {
     padding-right: 64px;
+  }
+
+  .lesson-form .container h3:after {
+    right: -60px;
   }
 }
 
@@ -913,9 +943,15 @@
   }
 }
 
+@media screen and (max-width: 541px){
+  .lesson-form .container h3:after {
+    right: 0;
+  }
+}
+
 @media screen and (max-width: 519px){
   .main-banner .container article .main-info .svgblock_main img {
-    left: 218px;
+    left: 200px;
     display: block;
   }
 
@@ -965,11 +1001,25 @@
   .advantages .S-container h3::after {
     left: 80px;
   }
+
+  .lesson-form .container h3:after {
+    right: -44px;
+  }
 }
 
-@media screen and (max-width:490px){
-    .why .container::after {
-      content: url(../images/cource-page/kvadran-why-small.png);
+@media screen and (max-width:491px){
+  .why .container::after {
+    content: url(../images/cource-page/kvadran-why-small.png);
+  }
+
+  .cource-interest .S-container h3 {
+    font-size: 28px !important;
+  }
+}
+
+@media screen and (max-width:481px){
+  .lesson-form .container h3:after {
+    right: 0px;
   }
 }
 
@@ -1020,10 +1070,6 @@
   .cource-main-banner .container .cource-main-info article .cource-content {
     margin-bottom: 16px;
     padding-right: 4px;
-  }
-
-  .cource-main-banner .container .cource-main-info article .cource-content p {
-    max-width: 116px;
   }
 
   .cource-main-banner .container .cource-main-info article h1 {
@@ -1136,6 +1182,31 @@
   .main-banner .container article .main-info span {
     font-size: 32px;
   }
+
+  .lesson-form .container .lesson-form-wrap .lesson-link .lesson-button {
+    font-size: 18px;
+  }
+
+  .why .container h2 {
+    font-size: 28px;
+    max-width: 308px;
+  }
+
+  .why .container .why-banner .why-item h5 {
+    font-size: 26px;
+  }
+
+  .cource-teacher .s-container article h5::before {
+    bottom: 60px;
+  }
+
+  .cource-interest .S-container h3 {
+    font-size: 26px !important;
+  }
+
+  .cource-interest .S-container h3::after {
+    top: 50px !important;
+  }
 }
 
 @media screen and (max-width: 429px){
@@ -1144,7 +1215,7 @@
   }
 
   .main-banner .container article .main-info .svgblock_main img {
-    left: 178px;
+    left: 192px;
   }
 
   .cources .container h2 {
@@ -1215,10 +1286,6 @@
     font-size: 20px;
   }
 
-  .cource-main-banner .container .cource-main-info article .cource-content p {
-    max-width: 98px;
-  }
-
   .cource-main-banner .container .cource-main-info article h1 {
     font-size: 40px;
   }
@@ -1286,18 +1353,18 @@
     left: -16px;
     max-width: 0;
   }
-
+  
   .cource-interest .s-container h3::after {
     transform: translateX(20px);
   }
-
+  
   .learn .S-container h3::before {
     content: url(../images/cource-page/layer-small.svg);
     position: relative;
     bottom: 14px;
     left: 6px;
   }
-
+  
   .learn .S-container h3 {
     font-size: 28px;
   }
@@ -1305,9 +1372,29 @@
   .learn .S-container h3::after {
     top: 26px;
   }
-
+  
   .consultation-form .container .form-container form .input-item input::placeholder {
     font-size: 14px;
+  }
+  
+  .cource-interest .S-container h3 {
+    font-size: 24px !important;
+  }
+
+  .cource-interest .S-container .c-int-wrap::before{
+    left: -22px !important;
+    bottom: -40px !important;
+  }
+}
+
+@media screen and (max-width: 399px){
+  .lesson-form .container h3:after {
+    right: -60px;
+  }
+
+  .why .container h2 {
+    font-size: 27px;
+    max-width: 296px;
   }
 }
 
@@ -1326,7 +1413,12 @@
   }
 
   .why .container h2 {
-    max-width: 274px;
+    max-width: 246px;
+    font-size: 25px;
+  }
+
+  .why .container::after {
+    top: 70px;
   }
 
   .main-banner {
@@ -1343,6 +1435,21 @@
 
   .cources .container article .cource-info {
     padding: 0 12px;
+  }
+
+  .cource-interest .S-container h3::before {
+    top: -22px !important;
+    left: -23px !important;
+    width: 0 !important;
+  }
+
+  .cource-interest .S-container h3::after {
+    transform: translateX(8px) !important;
+  }
+
+  .cource-interest .S-container h3 {
+    padding-left: 16px;
+    font-size: 22px !important;
   }
 }
 
@@ -1370,6 +1477,11 @@
   .why .container h2 {
     max-width: 250px;
   }
+
+  .cource-interest .S-container .c-int-wrap::before {
+    left: -12px !important;
+    bottom: -46px !important;
+}
 }
 
 @media screen and (max-width:360px){
@@ -1409,7 +1521,6 @@
   }
 
   .cource-main-banner .container .cource-main-info article .cource-content p {
-    max-width: 90px;
     font-size: 14px;
   }
 
@@ -1517,7 +1628,6 @@
   }
 
   .cource-main-banner .container .cource-main-info article .cource-content p {
-    max-width: 84px;
     font-size: 13px;
     padding: 4px 4px 0 2px;
   }
@@ -1537,7 +1647,8 @@
   }
 
   .main-banner .container article .main-info .svgblock_main img {
-    left: 130px;
+    left: 160px;
+    top: -8px;
   }
 
   .consultation-form .container .form-info h3 {
@@ -1551,8 +1662,8 @@
 
   .main-banner .container article .main-info h1::before {
     top: -32px;
-    left: -24px;
-  }
+    left: 8px;
+}
 
   .cource-interest .s-container h3 {
     font-size: 24px;
@@ -1567,7 +1678,7 @@
   }
 
   .cource-interest::after {
-    top: 200px;
+    top: 256px;
   }
 
   .consultation-form .container .form-container form button {
@@ -1585,6 +1696,38 @@
   .cources .container article .cource-info .age p {
     font-size: 16px;
     padding: 5px 6px 4px;
+  }
+
+  .cource-teacher .s-container article h5 {
+    font-size: 32px;
+  }
+
+  .cource-teacher .s-container article h5::before {
+    bottom: 50px;
+  }
+
+  .cource-interest .S-container .cource-interest-item h4 {
+    font-size: 24px !important;
+  }
+}
+
+@media screen and (max-width:342px){
+  .lesson-form .container h3:after {
+    right: 0;
+  }
+
+  .cource-interest .S-container h3 {
+    padding-left: 8px;
+  }
+
+  .cource-interest .S-container h3::after {
+    transform: translateX(0) !important;
+  }
+}
+
+@media screen and (max-width:320px){
+  .cource-interest .S-container h3 {
+    font-size: 21px !important;
   }
 }
 
@@ -1641,7 +1784,6 @@
   }
 
   .cource-main-banner .container .cource-main-info article .cource-content p {
-    max-width: 76px;
     font-size: 12.5px;
     padding: 3px 3px 0 1px;
   }

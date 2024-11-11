@@ -34,22 +34,22 @@ header {
   color: #3586FF;
 }
 
-.S-container .c-int-wrap {
+.cource-interest .S-container .c-int-wrap {
   position: relative;
 }
-.S-container .c-int-wrap::after {
+.cource-interest .S-container .c-int-wrap::after {
   content: url(../../images/svgs/pink-vector-interest.svg);
   position: absolute;
   right: 0;
   top: -50px;
 }
-.S-container .c-int-wrap::before {
+.cource-interest .S-container .c-int-wrap::before {
   content: url(../../images/svgs/splash.svg);
   position: absolute;
   left: -40px;
   bottom: 111px;
 }
-.S-container h3 {
+.cource-interest .S-container h3 {
   margin-bottom: 46px;
   font-size: 32px;
   font-weight: 700;
@@ -59,40 +59,40 @@ header {
   display: flex;
   justify-content: center;
 }
-.S-container h3::before {
+.cource-interest .S-container h3::before {
   content: url(../../images/mainBanner-svgs/Layer_1.svg);
   position: relative;
   top: -20px;
   left: 8px;
 }
-.S-container h3::after {
+.cource-interest .S-container h3::after {
   content: url(../../images/cource-page/blu-under.svg);
   position: absolute;
   transform: translateX(44px);
   top: 56px;
 }
-.S-container .cource-interest-item {
+.cource-interest .S-container .cource-interest-item {
   margin-bottom: 32px;
   gap: 6px;
 }
-.S-container .cource-interest-item:first-of-type h4 {
+.cource-interest .S-container .cource-interest-item:first-of-type h4 {
   white-space: nowrap;
 }
-.S-container .cource-interest-item .interest-item-img {
+.cource-interest .S-container .cource-interest-item .interest-item-img {
   position: relative;
   top: 8px;
   width: 18.5px;
 }
-.S-container .cource-interest-item .interest-item-img img {
+.cource-interest .S-container .cource-interest-item .interest-item-img img {
   display: block;
 }
-.S-container .cource-interest-item h4 {
+.cource-interest .S-container .cource-interest-item h4 {
   font-size: 28px;
   font-weight: 700;
   line-height: 130%;
   color: #000;
 }
-.S-container .cource-interest-item p {
+.cource-interest .S-container .cource-interest-item p {
   font-size: 18px;
   font-weight: 400;
   line-height: 140%;
