@@ -606,13 +606,6 @@
     display: inline;
   }
 
-  .main-banner .container article .main-info h1 {
-    line-height: 120%;
-    display: inline;
-    box-shadow: #FEACA4 6px -4px;
-    padding: 0 6px;
-  }
-
   .main-banner .container article .main-info span {
     margin-top: 10px;
   }
@@ -921,6 +914,19 @@
   .education .S-container h3::after {
     bottom: 16px;
   }
+
+  .main-banner .container article .main-info span {
+    font-size: 36px;
+  }
+
+  .main-banner .container article .main-info span {
+    margin-top: 2px;
+    white-space: nowrap;
+  }
+
+  .main-banner {
+    padding: 0 12px;
+  }
 }
 
 @media screen and (max-width: 519px){
@@ -1150,6 +1156,10 @@
   .lesson-form .container .lesson-form-wrap .input-item-l input {
     font-size: 15px;
   }
+
+  .main-banner .container article .main-info span {
+    font-size: 32px;
+  }
 }
 
 @media screen and (max-width: 429px){
@@ -1338,6 +1348,18 @@
   .why .container h2 {
     max-width: 274px;
   }
+
+  .main-banner {
+    padding: 0;
+  }
+
+  .main-banner .container article .main-info span {
+    font-size: 30px;
+  }
+
+  .main-banner .container article .main-info p {
+    font-size: 18.5px;
+  }
 }
 
 @media screen and (max-width:380px){
@@ -1453,13 +1475,13 @@
   .why .container h2 {
     max-width: 218px;
   }
+
+  .main-banner .container article .main-info span {
+    font-size: 28px;
+  }
 }
 
 @media screen and (max-width:345px){
-  .main-banner .container {
-    padding: 116px 0;
-  }
-
   .education .S-container .education-item img{
     max-width: 102px;
   }
@@ -1562,6 +1584,10 @@
 
   .consultation-form .container .form-container form button {
     font-size: 18px;
+  }
+
+  .main-banner .container article .main-info span {
+    font-size: 27px;
   }
 }
 
