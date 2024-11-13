@@ -1,3 +1,14 @@
+@media screen and (max-width: 1300px){
+  .goals .container .kvadratan-velky {
+    top: 92px;
+    right: 0;
+  }
+
+  .goals .container {
+    position: initial;
+  }
+}
+
 @media screen and (max-width: 1276px){
   .main-banner .container article .main-img .absKent {
     width: 230px;
@@ -312,7 +323,6 @@
     display: none;
   }
 
-  
   .education .S-container .education-item {
     justify-content: space-evenly;
     flex-direction: row-reverse;
@@ -851,6 +861,10 @@
   .why .container .why-banner {
     gap: 32px;
   }
+
+  .goals .container .kvadratan-velky {
+    max-width: 144px;
+  }
 }
 
 @media screen and (max-width: 560px){
@@ -1253,10 +1267,6 @@
     word-spacing: inherit;
   }
 
-  .goals .container .kvadratan-velky img {
-    width: 88%;
-  }
-
   .advantages .S-container h4 {
     font-size: 21px;
   }
@@ -1600,8 +1610,8 @@
     bottom: 11px;
   }
 
-  .goals .container .kvadratan-velky img {
-    width: 80%;
+  .goals .container .kvadratan-velky {
+    max-width: 112px;
   }
 
   .advantages .S-container h4 {
@@ -1726,6 +1736,10 @@
   .cource-interest .S-container h3::after {
     transform: translateX(0) !important;
   }
+
+  .cource-interest .S-container h3 {
+    font-size: 20px !important;
+  }
 }
 
 @media screen and (max-width:320px){
@@ -1749,12 +1763,6 @@
 
   .education .S-container h3::after {
     left: 0;
-  }
-
-  .goals .container .kvadratan-velky img {
-    width: 60%;
-    position: relative;
-    right: -34px;
   }
 
   .education .S-container .education-item img{

@@ -68,7 +68,7 @@ header {
 .cource-interest .S-container h3::after {
   content: url(../../images/cource-page/blu-under.svg);
   position: absolute;
-  transform: translateX(44px);
+  transform: translateX(18px);
   top: 56px;
 }
 .cource-interest .S-container .cource-interest-item {
