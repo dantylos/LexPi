@@ -107,10 +107,11 @@ nav #nav-check {
   }
 
   nav #nav-check:checked~.nav-list {
-    height: 100vh;
+    height: 100%;
     padding: 28px 12px 0;
     position: fixed;
     overflow: hidden;
+    z-index: 2;
   }
 
   nav #nav-check:checked~.nav-btn span {

@@ -404,7 +404,6 @@
   
   .main-banner{
     position: relative;
-    height: calc(100vh - 75.53px);
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -905,6 +904,10 @@
 
   .lesson-form .container h3:after {
     right: -60px;
+  }
+
+  .main-banner .container article .main-info p {
+    text-align: center;
   }
 }
 
