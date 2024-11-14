@@ -923,6 +923,12 @@
   .main-banner .container article .main-info p {
     text-align: center;
   }
+
+  .advantages .S-container .advantage-item {
+    margin-top: 48px;
+    display: flex;
+    gap: 12px;
+  }
 }
 
 @media screen and (max-width: 554px){

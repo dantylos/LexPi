@@ -102,7 +102,7 @@
       </div>
 
     </section>
-    <section class="lesson-form">
+    <section class="lesson-form" id="lesson-form">
       <div class="container d-flex">
 
         <h3>Запишитесь на <span>бесплатный пробный урок</span> и начните создавать свой первый сайт!</h3>
@@ -114,22 +114,22 @@
 
             <div class="input-item-l">
               <label for="name"></label>
-              <input type="text" name="name" id="name" placeholder="Ваше имя">
+              <input type="text" name="name" id="name" placeholder="Ваше имя" required>
             </div>
 
             <div class="input-item-l">
               <label for="email"></label>
-              <input type="email" name="email" id="email" placeholder="Ваша електронная почта">
+              <input type="email" name="email" id="email" placeholder="Ваша електронная почта" required>
             </div>
 
             <div class="input-item-l">
               <label for="num"></label>
-              <input type="tel" name="num" id="num" placeholder="+380 777 666 95 44">
+              <input type="tel" name="num" id="num" placeholder="+380 777 666 95 44" required>
             </div>
 
             <div class="input-item-l">
               <label for="age"></label>
-              <input type="text" name="age" id="age" placeholder="Возраст ребенка">
+              <input type="text" name="age" id="age" placeholder="Возраст ребенка" required>
             </div>
 
             <div class="lesson-link">
@@ -141,7 +141,7 @@
 
       </div>
     </section>
-    <section class="cource-interest">
+    <section class="cource-interest" id="cource-interest">
       <div class="s-container">
 
         <h3>Ваш ребенок увлекается <br> IT? Начните с Frontend!</h3>
@@ -337,7 +337,7 @@
 
       </div>
     </section>
-    <section class="advantages">
+    <section class="advantages" id="advantages">
       <div class="S-container">
 
         <h3>Преимущеcтва <br /> обучения в LxPi</h3>
@@ -416,29 +416,31 @@
 
         <div class="form-container">
 
-          <form method="post" action="#" name="consultation">
+          <form method="post" action="https://api.web3forms.com/submit" name="consultation">
+
+            <input type="hidden" name="access_key" value="44acc67c-1cfd-434d-9067-eb69e3c92c64">
 
             <div class="input-item">
               <label for="Name"></label>
-              <input type="text" name="Name" id="Name" placeholder="Ваше имя">
+              <input type="text" name="Name" id="Name" placeholder="Ваше имя" required>
             </div>
 
             <div class="input-item">
               <label for="Email"></label>
-              <input type="email" name="Email" id="Email" placeholder="Ваша електронная почта">
+              <input type="email" name="Email" id="Email" placeholder="Ваша електронная почта" required>
             </div>
 
             <div class="input-item">
               <label for="Phone"></label>
-              <input type="tel" name="Phone_number" id="Phone" placeholder="Ваш номер телефона">
+              <input type="tel" name="Phone_number" id="Phone" placeholder="Ваш номер телефона" required>
             </div>
 
             <div class="input-item">
               <label for="Age"></label>
-              <input type="text" name="Age" id="Age" placeholder="Возраст ребенка">
+              <input type="text" name="Age" id="Age" placeholder="Возраст ребенка" required>
             </div>
 
-            <div class="cons-block" ><a href="#" class="cons-link" >Записатся на консультацию</a></div>
+            <div class="cons-block cons-link"><button type="submit" role="button">Записатся на консультацию</button></div>
 
           </form>
 
@@ -455,7 +457,9 @@
 
         <div class="foot-logo"><a href="front.html"><img src="../../images/svgs/logo-white.svg" alt="Logo"></a></div>
         <ul class="ls-none">
-          <li><a href="#">Об обучении</a></li>
+          <li><a href="#cource-interest">Об обучении</a></li>
+          <li><a href="#advantages">Преимущества</a></li>
+          <li><a href="#lesson-form">Бесплатный урок</a></li>
         </ul>
 
       </div>
@@ -466,7 +470,7 @@
         <ul>
           <li>+38 097 777 90 97</li>
           <li>+38 097 777 90 97</li>
-          <li>lxpi.itschool@gmail.com</li>
+          <li>lxpischool@gmail.com</li>
         </ul>
 
       </div>
