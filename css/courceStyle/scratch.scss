@@ -87,3 +87,104 @@ header {
     }
   }
 }
+
+
+@media screen and (max-width: 2300px){
+  .lesson-form-scr-media .container h3:after {
+    right: -130px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .lesson-form-scr-media .container h3:after {
+      right: -292px;
+  }
+}
+
+@media screen and (max-width: 724px) {
+  .lesson-form-scr-media .container h3:after {
+      right: 234px;
+      top: 30px;
+  }
+}
+
+@media screen and (max-width: 644px) {
+  .lesson-form-scr-media .container h3:after {
+      right: 0px;
+      top: 2px;
+  }
+}
+
+.cource-interest-scr-media .s-container h3::after {
+  transform: translateX(16px);
+}
+
+@media screen and (max-width: 677px){
+  .cource-interest-scr-media .s-container h3::after {
+    top: 100px;
+  }
+
+  .cource-interest-scr-media .s-container h3::before {
+    left: 165px;
+  }
+}
+
+@media screen and (max-width: 652px) {
+  .cource-interest-scr-media .s-container h3::before {
+      left: 149px;
+  }
+}
+
+@media screen and (max-width: 628px) {
+  .cource-interest-scr-media .s-container h3::before {
+      left: 136px;
+  }
+}
+
+@media screen and (max-width: 597px) {
+  .cource-interest-scr-media .s-container h3::before {
+      left: 118px;
+  }
+}
+
+@media screen and (max-width: 565px) {
+  .cource-interest-scr-media .s-container h3::before {
+      left: 106px;
+  }
+}
+
+@media screen and (max-width: 530px) {
+  .cource-interest-scr-media .s-container h3::before {
+      left: 90px;
+  }
+}
+
+@media screen and (max-width: 505px) {
+  .cource-interest-scr-media .s-container h3::before {
+      left: 74px;
+  }
+}
+
+@media screen and (max-width: 477px) {
+  .cource-interest-scr-media .s-container h3::before {
+      left: 58px;
+  }
+}
+
+@media screen and (max-width: 428px) {
+  .cource-interest-scr-media .s-container h3::before {
+      left: 48px;
+  }
+}
+
+@media screen and (max-width: 406px) {
+  .cource-interest-scr-media .s-container h3::before {
+      left: 34px;
+  }
+}
+
+@media screen and (max-width: 382px) {
+  .cource-interest-scr-media .s-container h3::before {
+      left: 24px;
+  }
+}

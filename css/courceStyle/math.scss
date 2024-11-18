@@ -94,3 +94,111 @@ header {
     }
   }
 }
+
+
+@media screen and (max-width: 767px) {
+  .lesson-form-ma-media .container h3:after {
+      right: -172px;
+  }
+}
+
+@media screen and (max-width: 701px){
+  .lesson-form-ma-media .container h3:after {
+    right: -74px;
+  }
+
+  .cource-interest-ma-media .s-container h3::after {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 653px){
+  .cource-interest-ma-media .s-container h3::before {
+    left: 50px;
+  }
+}
+
+@media screen and (max-width: 625px){
+  .lesson-form-ma-media .container h3:after {
+    right: 27px;
+  }
+
+  .cource-interest-ma-media .s-container .cource-interest-item:first-of-type h4 {
+    white-space: inherit;
+  }
+
+  .cource-interest-ma-media .s-container h3::before {
+    left: 36px;
+  }
+}
+
+@media screen and (max-width: 590px) {
+  .cource-interest-ma-media .s-container h3::before {
+      left: 24px;
+  }
+}
+
+@media screen and (max-width: 566px) {
+  .cource-interest-ma-media .s-container h3::before {
+      left: 8px;
+  }
+}
+
+@media screen and (max-width: 549px){
+  .cource-interest-ma-media .s-container h3::after {
+    display: block;
+    transform: translateX(26px);
+    top: 57px;
+  }
+
+  .cource-interest-ma-media .s-container h3::before {
+    left: 54px;
+  }
+}
+
+@media screen and (max-width: 521px) {
+  .cource-interest-ma-media .s-container h3::before {
+      left: 40px;
+  }
+}
+
+@media screen and (max-width: 492px) {
+  .cource-interest-ma-media .s-container h3::before {
+      left: 24px;
+  }
+}
+
+@media screen and (max-width: 472px){
+  .lesson-form-ma-media .container h3:after {
+    right: 0;
+  }
+}
+
+@media screen and (max-width: 460px){
+  .lesson-form-ma-media .container h3:after {
+    right: 18px;
+    top: -4px;
+  }
+
+  .cource-interest-ma-media .s-container h3::after {
+    transform: translateX(12px);
+  }
+}
+
+@media screen and (max-width: 492px) {
+  .cource-interest-ma-media .s-container h3::before {
+      left: 16px;
+  }
+}
+
+@media screen and (max-width: 417px) {
+  .cource-interest-ma-media .s-container h3::before {
+      left: 4px;
+  }
+}
+
+@media screen and (max-width: 392px) {
+  .cource-interest-ma-media .s-container h3::before {
+      left: -6px;
+  }
+}

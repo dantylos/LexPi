@@ -727,10 +727,6 @@
     flex-direction: column;
   }
 
-  .lesson-form .container h3:after {
-    right: -46px;
-  }
-
   .lesson-form {
     padding: 68px 72px 42px 62px;
   }

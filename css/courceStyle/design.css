@@ -49,4 +49,126 @@
 }
 .cource-teacher .s-container article .specialist {
   color: #FE6A5D;
+}
+
+@media screen and (max-width: 767px) {
+  .lesson-form-de-media .container h3:after {
+    right: -284px;
+  }
+}
+@media screen and (max-width: 717px) {
+  .lesson-form-de-media .container h3:after {
+    right: -214px;
+  }
+}
+@media screen and (max-width: 701px) {
+  .lesson-form-de-media .container h3:after {
+    right: -31px;
+  }
+}
+@media screen and (max-width: 625px) {
+  .cource-interest-de-media .s-container h3::before {
+    left: -22px;
+    width: 0;
+  }
+  .cource-interest-de-media .s-container h3 {
+    font-size: 30px;
+  }
+}
+@media screen and (max-width: 611px) {
+  .lesson-form-de-media .container h3:after {
+    right: -140px;
+  }
+  .cource-interest-de-media .s-container h3::after {
+    transform: translateX(3px);
+  }
+}
+@media screen and (max-width: 580px) {
+  .cource-interest-de-media .s-container h3 {
+    font-size: 28px;
+  }
+}
+@media screen and (max-width: 563px) {
+  .lesson-form-de-media .container h3:after {
+    right: -40px;
+  }
+  .cource-interest-de-media .s-container .cource-interest-item h4 {
+    font-size: 24px;
+  }
+  .cource-interest-de-media .s-container .cource-interest-item p {
+    font-size: 17px;
+  }
+  .cource-interest-de-media .s-container h3 {
+    font-size: 26px;
+  }
+}
+@media screen and (max-width: 510px) {
+  .cource-interest-de-media .s-container h3 {
+    padding-left: 16px;
+  }
+  .cource-interest-de-media .s-container h3 {
+    font-size: 25px;
+  }
+}
+@media screen and (max-width: 501px) {
+  .lesson-form-de-media .container h3:after {
+    right: 0;
+  }
+}
+@media screen and (max-width: 483px) {
+  .cource-interest-de-media .s-container h3 {
+    padding-left: 0;
+    font-size: 26px;
+  }
+  .cource-interest-de-media .s-container h3::before {
+    left: inherit;
+    transform: translateX(36px);
+  }
+  .cource-interest-de-media .s-container h3::after {
+    top: 82px;
+  }
+}
+@media screen and (max-width: 460px) {
+  .lesson-form-de-media .container h3:after {
+    right: -33px;
+  }
+  .cource-interest-de-media .s-container .cource-interest-item:first-of-type h4 {
+    white-space: inherit;
+  }
+  .cource-interest-de-media .s-container h3::before {
+    left: inherit;
+    transform: translateX(28px);
+  }
+}
+@media screen and (max-width: 444px) {
+  .lesson-form-de-media .container h3:after {
+    right: -132px;
+  }
+  .cource-interest-de-media .s-container h3::before {
+    left: inherit;
+    transform: translateX(22px);
+  }
+}
+@media screen and (max-width: 432px) {
+  .cource-interest-de-media .s-container h3::before {
+    transform: translateX(16px);
+  }
+}
+@media screen and (max-width: 404px) {
+  .lesson-form-de-media .container h3:after {
+    right: -54px;
+  }
+  .cource-interest-de-media .s-container h3::before {
+    transform: translateX(6px);
+  }
+}
+@media screen and (max-width: 353px) {
+  .lesson-form-de-media .container h3:after {
+    right: 25px;
+  }
+}
+@media screen and (max-width: 337px) {
+  .lesson-form-de-media .container h3:after {
+    right: 5px;
+  }
 }/*# sourceMappingURL=design.css.map */

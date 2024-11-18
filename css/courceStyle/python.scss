@@ -171,3 +171,35 @@ header {
     }
   }
 }
+
+
+@media screen and (max-width: 767px){
+  .lesson-form-py-media .container h3:after {
+    right: 42px;
+  }
+}
+
+@media screen and (max-width: 653px){
+  .lesson-form-py-media .container h3:after {
+    right: -118px;
+  }
+}
+
+@media screen and (max-width: 631px){
+  .lesson-form-py-media .container h3:after {
+    right: 28px;
+  }
+}
+
+@media screen and (max-width: 555px){
+  .lesson-form-py-media .container h3:after {
+    right: 4px;
+  }
+}
+
+
+@media screen and (max-width: 429px) {
+  .advantages-py-media .S-container h3::after {
+      left: 72px;
+  }
+}
