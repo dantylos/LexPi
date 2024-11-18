@@ -42,6 +42,7 @@ header .container nav ul li a {
   font-size: 17px;
   font-weight: 600;
   transition: 0.2s;
+  text-align: center;
 }
 header .container nav ul li a:hover {
   color: rgb(145, 145, 145);
