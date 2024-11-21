@@ -1041,6 +1041,15 @@ $green3: #E1FFF9;
 
         .tech-img-block{
           gap: 8px;
+
+          .tech-image{
+            max-width: 60px;
+
+            img{
+              width: 100%;
+              display: block;
+            }
+          }
         }
 
         .tech-info{

@@ -848,6 +848,13 @@
 .learn .S-container .tech-block .tech-item .tech-img-block {
   gap: 8px;
 }
+.learn .S-container .tech-block .tech-item .tech-img-block .tech-image {
+  max-width: 60px;
+}
+.learn .S-container .tech-block .tech-item .tech-img-block .tech-image img {
+  width: 100%;
+  display: block;
+}
 .learn .S-container .tech-block .tech-item .tech-info h5 {
   font-size: 28px;
   font-weight: 700;
