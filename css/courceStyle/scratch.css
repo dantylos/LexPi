@@ -124,6 +124,11 @@ header {
     left: 58px;
   }
 }
+@media screen and (max-width: 460px) {
+  .advantages .S-container h3::after {
+    left: 60px;
+  }
+}
 @media screen and (max-width: 428px) {
   .cource-interest-scr-media .s-container h3::before {
     left: 48px;
