@@ -177,6 +177,24 @@ header {
   }
 }
 
+@media screen and (max-width: 429px) {
+  .advantages-scr-media .S-container h3::after {
+    left: 62px;
+    top: 76px;
+  }
+
+  .advantages .S-container h3::after {
+    content: url(../../images/svgs/pink_under_small.svg);
+    position: absolute;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .advantages-scr-media .S-container h3::after {
+      left: 36px;
+  }
+}
+
 @media screen and (max-width: 428px) {
   .cource-interest-scr-media .s-container h3::before {
       left: 48px;

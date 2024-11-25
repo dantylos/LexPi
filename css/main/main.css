@@ -566,6 +566,7 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
+  gap: 12px;
 }
 .cource-main-banner .container .cource-main-info {
   max-width: 512px;

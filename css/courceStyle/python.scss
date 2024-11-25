@@ -200,6 +200,35 @@ header {
 
 @media screen and (max-width: 429px) {
   .advantages-py-media .S-container h3::after {
-      left: 72px;
+    left: 92px;
+    top: 82px;
+  }
+
+  .advantages .S-container h3::after {
+    content: url(../../images/svgs/pink_under_small.svg);
+    position: absolute;
+  }
+}
+
+@media screen and (max-width: 361px) {
+  .advantages-py-media .S-container h3::after {
+      left: 76px;
+      top: inherit;
+      bottom: -36px;
+  }
+
+  .advantages-py-media .S-container h3::before {
+    content: url(../../images/mainBanner-svgs/Layer_1.svg);
+    position: relative;
+    bottom: -32px;
+    left: -156px;
+  }
+  
+  @media screen and (max-width: 343px) {
+    .advantages-py-media .S-container h3::after {
+        left: 54px;
+        top: inherit;
+        bottom: -36px;
+    }
   }
 }
