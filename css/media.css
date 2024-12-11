@@ -411,6 +411,10 @@
   .nav-container .hamburger-lines .line {
     display: block;
   }
+
+  header .container nav ul .consultation {
+      display: none;
+  }
   
   .main-banner{
     position: relative;

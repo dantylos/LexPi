@@ -62,3 +62,15 @@ menuItem.forEach (function(menuItem) {
           menu.classList.toggle('active');
   })
 })
+
+
+// const link = document.querySelector('.link');
+// const  = document.querySelector('.menu');
+
+// link.addEventListener('click', e => {
+//     if (menu.classList.contains('active')) {
+//         menu.classList.remove('active');
+//     } else {
+//         menu.classList.add('active');
+//     }
+// });
