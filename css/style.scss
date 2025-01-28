@@ -10,7 +10,6 @@
 @import url(../css/media.css);
 @import url(../css/burger.css);
 
-
 // Font:
 
 @font-face {
@@ -186,7 +185,6 @@ $green3: #E1FFF9;
 
 body{
   touch-action: manipulation;
-  overflow: hidden;
 }
 
 .container{
@@ -299,6 +297,172 @@ body{
       top: -84px;
       right: 88px;
       border: 0;
+    }
+  }
+}
+
+
+// Payment page
+
+.main-pay {
+  z-index: 4;
+  position: relative;
+  background-color: $pink3;
+  background-image: url(../images/pink-square-back.svg);
+
+  .container {
+
+    article {
+      height: calc(100vh - 20px);
+      justify-content: center;
+      align-items: center;
+
+      .main-info {
+        max-width: 528px;
+        position: relative;
+        text-align: center;
+
+        span{
+          color: #fff;
+          font-size: 48px;
+          font-weight: 700;
+          position: relative;
+          display: inline-block;
+          line-height: 120%;
+          background-color: $purple;
+          box-shadow: $pink2 6px -5px;
+          padding: 2px 20px;
+        }
+
+        h1{
+          display: flex;
+          flex-direction: column;
+          gap: 10px;
+          align-items: center;
+
+          &::before{
+            content: url(../../images/mainBanner-svgs/Layer_1.svg);
+            position: absolute;
+            top: -32px;
+            left: 14px;
+          }
+        }
+
+        a{
+          font-size: 24px;
+          font-weight: 700;
+          color: $white;
+          background-color: $blue;
+          padding: 12px 20px;
+          transition: 0.2s;
+          margin-top: 32px;
+          line-height: 130%;
+          box-shadow: $blue3 8px -8px;
+          width: 328px;
+
+          &:hover {
+            padding: 12px 24px;
+            letter-spacing: 1px;
+            padding: 12px 24px;
+            box-shadow: $blue2 5px -5px;
+          }
+        }
+      }
+    }
+  }
+}
+
+
+.pay2{
+  padding: 0 0 64px;
+  position: relative;
+  top: -46px;
+  z-index: 4;
+
+  .container{
+    align-items: center;
+    justify-content: space-between;
+
+    article{
+      max-width: 580px;
+
+      h2{
+        color: $black;
+        font-size: 40px;
+        line-height: 125%;
+        font-weight: 700;
+        margin-bottom: 16px;
+      }
+
+      p{
+        color: $black;
+        font-size: 16px;
+        line-height: 150%;
+        font-weight: 400;
+        margin-bottom: 32px;
+      }
+
+      .pay2-infoblocks{
+        p{
+          color: $black;
+          font-size: 17px;
+          font-weight: 900;
+          background-color: $pink2;
+          padding: 6px 12px;
+
+          &:first-of-type{
+            margin-right: 8px;
+          }
+        }
+      }
+    }
+
+    .pay2-img{
+      max-width: 406px;
+      box-shadow: $pink2 16px -16px;
+
+      img{
+        display: block;
+        width: 100%;
+      }
+    }
+  }
+}
+
+
+.pay4{
+  padding: 90px 0 120px;
+
+  .s-container{
+    align-items: center;
+    justify-content: space-between;
+
+    .certificate-img{
+      max-width: 456.6px;
+
+      img{
+        width: 100%;
+        display: block;
+      }
+    }
+
+    .certificate-info{
+      max-width: 470px;
+
+      h2{
+        color: $black;
+        font-size: 40px;
+        line-height: 125%;
+        font-weight: 700;
+        margin-bottom: 16px;
+      }
+
+      p{
+        color: $black;
+        font-size: 16px;
+        line-height: 150%;
+        font-weight: 400;
+      }
     }
   }
 }

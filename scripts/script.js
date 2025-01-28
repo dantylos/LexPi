@@ -63,7 +63,6 @@ menuItem.forEach (function(menuItem) {
   })
 })
 
-
 // const link = document.querySelector('.link');
 // const  = document.querySelector('.menu');
 
