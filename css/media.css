@@ -1075,6 +1075,15 @@
   .lesson-form .container h3:after {
     right: 0;
   }
+
+  .pay4 .s-container {
+    padding: 0 12px 0 28px !important;
+  }
+
+  .pay4 .s-container .certificate-img::before {
+    left: -22px !important;
+    top: 10px !important;
+  }
 }
 
 @media screen and (max-width: 519px){

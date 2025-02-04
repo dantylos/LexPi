@@ -131,6 +131,9 @@
 :root p, :root h1, :root h2, :root h3, :root h4, :root h5, :root h6, :root label, :root a, :root li, :root span {
   font-family: "GT Walsheim Pro";
 }
+:root p::-moz-selection, :root h1::-moz-selection, :root h2::-moz-selection, :root h3::-moz-selection, :root h4::-moz-selection, :root h5::-moz-selection, :root h6::-moz-selection, :root label::-moz-selection, :root a::-moz-selection, :root li::-moz-selection, :root span::-moz-selection {
+  background-color: #87E3D1;
+}
 :root p::selection, :root h1::selection, :root h2::selection, :root h3::selection, :root h4::selection, :root h5::selection, :root h6::selection, :root label::selection, :root a::selection, :root li::selection, :root span::selection {
   background-color: #87E3D1;
 }
@@ -184,6 +187,9 @@ body {
 .consultation a {
   color: #fff !important;
 }
+.consultation a::-moz-selection {
+  background-color: #00B894;
+}
 .consultation a::selection {
   background-color: #00B894;
 }
@@ -205,6 +211,9 @@ body {
 .cons-block .cons-link:hover {
   letter-spacing: 1px;
   width: 95%;
+}
+.cons-block .cons-link::-moz-selection {
+  background-color: #87E3D1;
 }
 .cons-block .cons-link::selection {
   background-color: #87E3D1;
@@ -350,6 +359,93 @@ body {
   width: 100%;
 }
 
+.pay3 {
+  padding: 56px 0;
+  background-color: #E6F0FF;
+}
+.pay3 .container h2 {
+  text-align: center;
+  margin-bottom: 8px;
+  color: #000;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 125%;
+}
+.pay3 .container .pay3-text {
+  max-width: 568px;
+  margin: auto;
+}
+.pay3 .container .pay3-text p {
+  text-align: center;
+  color: #000;
+  font-size: 18px;
+  line-height: 140%;
+  font-weight: 400;
+}
+.pay3 .container p {
+  text-align: center;
+  margin-top: 40px;
+  color: #000;
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 130%;
+}
+.pay3 .container .module-wrap {
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 24px;
+  margin-top: 64px;
+}
+.pay3 .container .module-wrap .module-item {
+  border: 2px solid #F99AF9;
+  box-shadow: #FAD1FA 8px -7px;
+  background-color: #fff;
+  padding: 18px 24px 20px;
+}
+.pay3 .container .module-wrap .module-item .module-type {
+  background-color: #F99AF9;
+  position: relative;
+  left: -36px;
+  padding: 8px 0;
+}
+.pay3 .container .module-wrap .module-item .module-type p {
+  color: #fff;
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 130%;
+  margin-top: inherit;
+}
+.pay3 .container .module-wrap .module-item p {
+  color: #F99AF9;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 130%;
+  margin-top: 8px;
+}
+.pay3 .container .module-wrap .module-item .price {
+  color: #000;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 130%;
+  margin-top: 6px;
+}
+.pay3 .container .module-wrap .module-item .connect-link {
+  margin-top: 36px;
+  background-color: #3586FF;
+  border-radius: 6px;
+  padding: 7px 24px;
+  display: flex;
+  justify-content: center;
+}
+.pay3 .container .module-wrap .module-item .connect-link a {
+  color: #fff;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 130%;
+  white-space: nowrap;
+}
+
 .pay4 {
   padding: 90px 0 120px;
 }
@@ -359,6 +455,12 @@ body {
 }
 .pay4 .s-container .certificate-img {
   max-width: 456.6px;
+}
+.pay4 .s-container .certificate-img::before {
+  content: url(../images/mainBanner-svgs/Layer_1.svg);
+  position: relative;
+  left: -36px;
+  top: 20px;
 }
 .pay4 .s-container .certificate-img img {
   width: 100%;
@@ -379,6 +481,4 @@ body {
   font-size: 16px;
   line-height: 150%;
   font-weight: 400;
-}
-
-/*# sourceMappingURL=style.css.map */
+}/*# sourceMappingURL=style.css.map */
