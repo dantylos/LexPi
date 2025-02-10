@@ -3,6 +3,16 @@
   width: 100%;
 }
 
+.menu-media li:last-of-type{
+  margin-bottom: 20px;
+}
+
+.pay_more{
+  font-size: 22px;
+  position: relative;
+  top: -12px;
+}
+
 .bigLogo {
   width: 100%;
   position: absolute;
@@ -42,6 +52,7 @@ nav #nav-check {
   header .container nav ul {
     align-items: center;
     gap: 16px;
+    border-bottom: 2px solid #3586FF;
   }
 
   nav .nav-btn {

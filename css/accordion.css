@@ -10,6 +10,9 @@
   text-rendering: optimizeLegibility;
 }
 
+main .accordion .payment_link_faq {
+  color: #fd17FD;
+}
 main .accordion-item {
   padding: 0 22px;
   overflow: hidden;
