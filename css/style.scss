@@ -310,8 +310,19 @@ body{
   background-color: $pink3;
   background-image: url(../images/pink-square-back.svg);
 
-  .container {
+  .pay-left_img{
+    position: absolute;
+    left: 0;
+    bottom: 56px;
+  }
 
+  .pay-right_img{
+    position: absolute;
+    right: 0;
+    bottom: 56px;
+  }
+
+  .container {
     article {
       height: calc(100vh - 20px);
       justify-content: center;
@@ -341,10 +352,11 @@ body{
           align-items: center;
 
           &::before{
-            content: url(../../images/mainBanner-svgs/Layer_1.svg);
+            content: url(../images/pay_star.svg);
             position: absolute;
-            top: -32px;
-            left: 14px;
+            left: -32px;
+            top: -48px;
+            z-index: 1;
           }
         }
 
@@ -359,6 +371,14 @@ body{
           line-height: 130%;
           box-shadow: $blue3 8px -8px;
           width: 328px;
+          position: relative;
+
+          &::after{
+            content: url(../images/cursor.svg);
+            position: absolute;
+            right: -22px;
+            bottom: -56px;
+          }
 
           &:hover {
             padding: 12px 24px;

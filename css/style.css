@@ -261,6 +261,16 @@ body {
   background-color: #FEF5FE;
   background-image: url(../images/pink-square-back.svg);
 }
+.main-pay .pay-left_img {
+  position: absolute;
+  left: 0;
+  bottom: 56px;
+}
+.main-pay .pay-right_img {
+  position: absolute;
+  right: 0;
+  bottom: 56px;
+}
 .main-pay .container article {
   height: calc(100vh - 20px);
   justify-content: center;
@@ -289,10 +299,11 @@ body {
   align-items: center;
 }
 .main-pay .container article .main-info h1::before {
-  content: url(../../images/mainBanner-svgs/Layer_1.svg);
+  content: url(../images/pay_star.svg);
   position: absolute;
-  top: -32px;
-  left: 14px;
+  left: -32px;
+  top: -48px;
+  z-index: 1;
 }
 .main-pay .container article .main-info a {
   font-size: 24px;
@@ -305,6 +316,13 @@ body {
   line-height: 130%;
   box-shadow: #BDD7FF 8px -8px;
   width: 328px;
+  position: relative;
+}
+.main-pay .container article .main-info a::after {
+  content: url(../images/cursor.svg);
+  position: absolute;
+  right: -22px;
+  bottom: -56px;
 }
 .main-pay .container article .main-info a:hover {
   padding: 12px 24px;

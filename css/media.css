@@ -50,6 +50,26 @@
   }
 }
 
+@media screen and (max-width: 1200px){
+  .main-pay .pay-left_img {
+    width: 320px !important;
+  }
+
+  .main-pay .pay-left_img img{
+    width: 100%;
+    display: block;
+  }
+
+  .main-pay .pay-right_img {
+    width: 230px !important;
+  }
+
+  .main-pay .pay-left_img img{
+    width: 100%;
+    display: block;
+  }
+}
+
 @media screen and (max-width: 1070px){
   .goals .container .goal-info {
     gap: 12px;
@@ -63,6 +83,10 @@
   .cource-interest .c-int-wrap{
     padding-right: 102px;
     margin-left: 34px;
+  }
+
+  .main-pay .pay-left_img {
+    width: 300px !important;
   }
 }
 
@@ -207,6 +231,14 @@
     font-size: 32px !important;
     line-height: 120% !important;
     margin-bottom: 12px !important;
+  }
+
+  .main-pay .pay-left_img {
+    display: none;
+  }
+
+  .main-pay .pay-right_img {
+    display: none;
   }
 }
 
@@ -960,6 +992,11 @@
   .main-banner .container article .main-info .svgblock_main img {
     left: 284px;
   }
+
+  .main-pay .container article .main-info h1::before {
+    left: -20px !important;
+    top: -56px !important;
+  }
 }
 
 @media screen and (max-width: 580px){
@@ -1033,6 +1070,12 @@
     margin-top: 48px;
     display: flex;
     gap: 12px;
+  }
+
+  .main-pay .container article .main-info span {
+    font-size: 42px !important;
+    box-shadow: #FDD7FD 4px -5px !important;
+    padding: 2px 12px !important;
   }
 }
 
@@ -1157,6 +1200,12 @@
 @media screen and (max-width:481px){
   .lesson-form .container h3:after {
     right: 0px;
+  }
+
+  .main-pay .container article .main-info span {
+    font-size: 36px !important;
+    box-shadow: #FDD7FD 3px -4px !important;
+    padding: 2px 8px !important;
   }
 }
 
@@ -1528,6 +1577,19 @@
     font-weight: 700 !important;
     padding: 4px 8px !important;
   }
+
+  .main-pay .container article .main-info span {
+    font-size: 32px !important;
+    padding: 2px 6px !important;
+  }
+
+  .main-pay .container article .main-info a {
+    font-size: 22px !important;
+    padding: 10px 16px !important;
+    margin-top: 28px !important;
+    box-shadow: #BDD7FF 7px -7px !important;
+    width: 280px !important;
+  }
 }
 
 @media screen and (max-width: 399px){
@@ -1629,7 +1691,12 @@
   .cource-interest .S-container .c-int-wrap::before {
     left: -12px !important;
     bottom: -46px !important;
-}
+  }
+
+  .main-pay .container article .main-info span {
+    font-size: 28px !important;
+    padding: 2px 4px !important;
+  }
 }
 
 @media screen and (max-width:360px){

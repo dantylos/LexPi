@@ -47,7 +47,7 @@ nav #nav-check {
   nav .nav-btn {
     display: inline-block;
     padding-top: 0.2rem;
-    z-index: 5;
+    z-index: 6;
     position: relative;
   }
 
@@ -110,7 +110,7 @@ nav #nav-check {
     padding: 28px 12px 0;
     position: fixed;
     overflow: hidden;
-    z-index: 4;
+    z-index: 5;
   }
 
   nav #nav-check:checked~.nav-btn span {
