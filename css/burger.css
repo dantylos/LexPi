@@ -11,6 +11,7 @@
   font-size: 22px;
   position: relative;
   top: -12px;
+  display: none !important;
 }
 
 .bigLogo {
@@ -156,5 +157,10 @@ nav #nav-check {
   header .container nav ul li span {
     color: #fff;
     font-size: 28px;
+  }
+
+  .pay_more{
+    font-size: 19px;
+    display: inherit !important;
   }
 }
