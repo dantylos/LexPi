@@ -83,7 +83,7 @@ nav #nav-check {
 
   .consultation {
     box-shadow: inherit !important;
-    width: -webkit-fill-available;
+    width: 100%;
   }
 
   nav .nav-list {
